@@ -10,6 +10,10 @@
 	ul, ol, blockquote {
 		padding-left: em($m-indent);
 	}
+	pre {
+		margin-right: em(-$m-gut/2);
+		margin-left: em(-$m-gut/2);
+	}
 	ul {
 		li {
 			&:before {
@@ -63,6 +67,10 @@
 	@include min-screen(col(12)) {
 		ul, ol, blockquote {
 			padding-left: em($d-indent);
+		}
+		pre {
+			margin-right: em(-$d-gut/2);
+			margin-left: em(-$d-gut/2);
 		}
 		hr {
 			width: em($column-width*4 - $d-indent);
