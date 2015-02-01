@@ -1,0 +1,49 @@
+/* (c) 2013 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Colors
+** 0 1 | 2 3 | 4 5 | 6 7 | 8 9 | a b | c d | e f
+*/
+
+$st-color: #fff;
+$emphasis: #9999ff;
+$error: lighten(desaturate(red, 8%), 16%);
+$canvas: #222;
+
+/*
+** Typography
+*/
+
+$strong-type-color: rgba($st-color, 0.9);
+$type-color: rgba($st-color, 0.6);
+$light-type-color: rgba($st-color, 0.5);
+
+$em-type-color: rgba($emphasis, 0.9);
+
+$placeholder-type-color: rgba($st-color, 0.15);
+
+$selected-type-color: $strong-type-color;
+
+/*
+** Backgrounds
+*/
+
+$background-color: $canvas;
+$selected-background-color: darken($background-color, 4%);
+$code-background-color: lighten($canvas, 4%);
+
+/*
+** Buttons
+*/
+
+$border-color: rgba($st-color, 0.2);
+$field-border-color: $border-color;
+$strong-field-border-color: $strong-type-color;
+
+/*
+** Pictures
+*/
+
+$picture-background-color: darken($background-color, 4%);
+
+$picture-shadow-color: darken($background-color, 4%);
