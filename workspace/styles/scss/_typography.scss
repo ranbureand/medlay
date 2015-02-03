@@ -18,8 +18,9 @@
 		li {
 			&:before {
 				float: left;
-
-				content: "\003E";
+				color: $strong-type-color;
+				content: "•";
+				//content: "\003E";
 			}
 		}
 	}
@@ -29,7 +30,7 @@
 			counter-increment: ordered-list;
 			&:before {
 				float: left;
-
+				color: $strong-type-color;
 				content: counter(ordered-list) ".";
 			}
 		}
@@ -54,7 +55,8 @@
 		margin-left: auto;
 	}
 	hr {
-		width: em($column-width*4 - $m-indent);
+		width: 50%;
+		//width: em($column-width*4 - $m-indent);
 
 		@include align();
 	}
@@ -67,10 +69,6 @@
 	@include min-screen(col(12)) {
 		ul, ol, blockquote {
 			padding-left: em($d-indent);
-		}
-		pre {
-			margin-right: em(-$d-gut/2);
-			margin-left: em(-$d-gut/2);
 		}
 		hr {
 			width: em($column-width*4 - $d-indent);
@@ -134,11 +132,13 @@
 		}
 	}
 	pre {
+		margin-right: em(-$m-gut/2, $m-medium-size);
+		margin-left: em(-$m-gut/2, $m-medium-size);
 		padding-right: em($m-gut/2, $m-medium-size);
-		padding-left: em($m-indent, $m-medium-size);
+		padding-left: em($m-gut/2, $m-medium-size);
 
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
-		@include rhythm($m-medium-line/2, $m-medium-line/2, $m-medium-line/2, $m-medium-line/2, $d-medium-size);
+		@include rhythm($m-medium-line, $m-medium-line/2, $m-medium-line/2, $m-medium-line, $d-medium-size);
 	}
 	img {
 		margin-top: rhythm($m-medium-line, $m-small-size);
@@ -186,12 +186,15 @@
 			}
 		}
 		pre {
+			margin-right: em(-$d-gut/2, $d-medium-size);
+			margin-left: em(-$d-gut/2, $d-medium-size);
 			padding-right: em($d-gut/2, $d-medium-size);
-			padding-left: em($d-indent, $d-medium-size);
+			padding-left: em($d-gut/2, $d-medium-size);
 
 			@include adjust-font-size-to($d-medium-size, $d-medium-line);
-			@include rhythm($d-medium-line/2, $d-medium-line/2, $d-medium-line/2, $d-medium-line/2, $d-medium-size);
+			@include rhythm($d-medium-line, $d-medium-line/2, $d-medium-line/2, $d-medium-line, $d-medium-size);
 		}
+
 		img {
 			margin-top: rhythm($d-medium-line, $d-small-size);
 			margin-bottom: rhythm($d-medium-line, $d-small-size);
@@ -237,11 +240,13 @@
 		}
 	}
 	pre {
+		margin-right: em(-$m-gut/2, $m-small-size);
+		margin-left: em(-$m-gut/2, $m-small-size);
 		padding-right: em($m-gut/2, $m-small-size);
-		padding-left: em($m-indent, $m-small-size);
+		padding-left: em($m-gut/2, $m-small-size);
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
-		@include rhythm($m-small-line/2, $m-small-line/2, $m-small-line/2, $m-small-line/2, $d-small-size);
+		@include rhythm($m-small-line, $m-small-line/2, $m-small-line/2, $m-small-line, $d-small-size);
 	}
 	img {
 		margin-bottom: rhythm($m-small-line/2, $m-small-size);
@@ -284,11 +289,13 @@
 			}
 		}
 		pre {
+			margin-right: em(-$d-gut/2, $d-small-size);
+			margin-left: em(-$d-gut/2, $d-small-size);
 			padding-right: em($d-gut/2, $d-small-size);
-			padding-left: em($d-indent, $d-small-size);
+			padding-left: em($d-gut/2, $d-small-size);
 
 			@include adjust-font-size-to($d-small-size, $d-small-line);
-			@include rhythm($d-small-line/2, $d-small-line/2, $d-small-line/2, $d-small-line/2, $d-small-size);
+			@include rhythm($d-small-line, $d-small-line/2, $d-small-line/2, $d-small-line, $d-small-size);
 		}
 		img {
 			margin-bottom: rhythm($d-small-line/2, $d-small-size);
@@ -334,11 +341,13 @@
 		}
 	}
 	pre {
+		margin-right: em(-$m-gut/2, $m-extra-small-size);
+		margin-left: em(-$m-gut/2, $m-extra-small-size);
 		padding-right: em($m-gut/2, $m-extra-small-size);
-		padding-left: em($m-indent, $m-extra-small-size);
+		padding-left: em($m-gut/2, $m-extra-small-size);
 
 		@include adjust-font-size-to($m-extra-small-size, $m-extra-small-line);
-		@include rhythm($m-extra-small-line/2, $m-extra-small-line/2, $m-extra-small-line/2, $m-extra-small-line/2, $d-extra-small-size);
+		@include rhythm($m-extra-small-line, $m-extra-small-line/2, $m-extra-small-line/2, $m-extra-small-line, $d-extra-small-size);
 	}
 	img {
 		margin-bottom: rhythm($m-extra-small-line/2, $m-extra-small-size);
@@ -381,11 +390,13 @@
 			}
 		}
 		pre {
+			margin-right: em(-$d-gut/2, $d-extra-small-size);
+			margin-left: em(-$d-gut/2, $d-extra-small-size);
 			padding-right: em($d-gut/2, $d-extra-small-size);
-			padding-left: em($d-indent, $d-extra-small-size);
+			padding-left: em($d-gut/2, $d-extra-small-size);
 
 			@include adjust-font-size-to($d-extra-small-size, $d-extra-small-line);
-			@include rhythm($d-extra-small-line/2, $d-extra-small-line/2, $d-extra-small-line/2, $d-extra-small-line/2, $d-extra-small-size);
+			@include rhythm($d-extra-small-line, $d-extra-small-line/2, $d-extra-small-line/2, $d-extra-small-line, $d-extra-small-size);
 		}
 		img {
 			margin-bottom: rhythm($d-extra-small-line/2, $d-extra-small-size);

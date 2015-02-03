@@ -1,0 +1,17 @@
+# Site settings
+title: Medlay
+subtitle: A New Hybrid Media Form
+description: Bibbidi Bobbidi Bu.
+author: Andrea Buran
+exclude: ['README.md']
+
+timezone: Europe/Rome
+encoding: utf8
+
+collections:
+	chapters:
+		output: true
+		title: Chapters
+
+# Build settings
+markdown: kramdown

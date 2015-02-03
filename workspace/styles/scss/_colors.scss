@@ -29,8 +29,8 @@ $selected-type-color: $strong-type-color;
 */
 
 $background-color: $canvas;
-$selected-background-color: darken($background-color, 4%);
-$code-background-color: lighten($canvas, 4%);
+$selected-background-color: darken($canvas, 3%);
+$code-background-color: lighten($canvas, 3%);
 
 /*
 ** Buttons

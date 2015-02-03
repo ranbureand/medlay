@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+{% include head.html %}
+
+<body id="start">
+
+	{% include browser-upgrade.html %}
+
+	<header class="header">
+		<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+		<div>A new hybrid media form. &#8353;</div>
+	</header>
+	<article class="content">
+		<div class="body typo-m">
+			<h1>{{ page.title }}</h1>
+			<!--<aside class="toc typo-s">
+				<ul>
+					<li><a href="#">This is a title</a></li>
+					<li>cdscds</li>
+					<ul>
+						<li>cdscds</li>
+						<li>cdscdscdscds</li>
+					</ul>
+				</ul>
+			</aside>-->
+			{{ content }}
+		</div>
+	</article>
+
+{% include footer.html %}
+
+{% include scripts.html %}
+
+</body>
+
+</html>

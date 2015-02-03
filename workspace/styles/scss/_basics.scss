@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	@include face(condensed);
 	font-size: 1em; // normalize.css
-
+	letter-spacing: 0.02em;
 	margin: 0;
 
 	color: $strong-type-color;
@@ -199,12 +199,11 @@ strong {
 q {
 	font-style: italic;
 
-	color: $strong-type-color;
 	&:before {
-		content: "“";
+		content: "«";
 	}
 	&:after {
-		content: "”";
+		content: "»";
 	}
 }
 
