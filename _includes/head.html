@@ -1,7 +1,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+	<title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.title }}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 

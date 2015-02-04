@@ -5,6 +5,8 @@ description: Bibbidi Bobbidi Bu.
 author: Andrea Buran
 exclude: ['README.md']
 
+baseurl: /medlay
+
 timezone: Europe/Rome
 encoding: utf8
 
