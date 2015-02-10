@@ -1,4 +1,4 @@
-/* (c) 2013 Andrea Buran [www.andreaburan.com] All rights reserved */
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
 ** Font sizes and line heights
@@ -163,7 +163,8 @@ $button-small-border-width: 1px;
 
 @mixin link($status: link) {
 	@if $status == "link" {
-		text-decoration: underline;
+		border-bottom: 1px solid rgba($emphasis, 0.4);
+		box-shadow: 0 -8px 0 rgba($emphasis, 0.4) inset;
 	} @else if $status == "none" {
 		text-decoration: none;
 	}

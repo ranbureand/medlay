@@ -6,7 +6,8 @@ date: 2015-02-03 11:16:00
 categories: hello world
 ---
 
-# Heading Level #1
++ Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 ## Heading Level #2
 
@@ -14,9 +15,13 @@ categories: hello world
 
 #### Heading Level #4
 
+## Heading Level #2 sacdsds
+
 ##### Heading Level #5
 
 ###### Heading Level #6
+
+
 
 A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea.
 

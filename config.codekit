@@ -2,6 +2,226 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18270",
 "files": {
+	"\/_includes\/browser-upgrade.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/browser-upgrade.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/footer.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/footer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/head.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/head.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/scripts.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/scripts.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_layouts\/chapter.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/chapter.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/chapters\/hello-world.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/chapters\/hello-world.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/scripts\/js\/jquery-2.1.3.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/jquery-2.1.3.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/jquery-2.1.3-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/jquery.easing.1.3.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/jquery.easing.1.3.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/jquery.easing.1.3-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/jquery.localScroll.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/jquery.localScroll.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/jquery.localScroll-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/jquery.localScroll.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/jquery.localScroll.min.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/jquery.localScroll.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/jquery.scrollTo.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/jquery.scrollTo.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/jquery.scrollTo-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/jquery.scrollTo.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/jquery.scrollTo.min.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/jquery.scrollTo.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/jquery.sidenotes.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/jquery.sidenotes.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/jquery.sidenotes-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/jquery.sidenotes.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/jquery.sidenotes.min.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/jquery.sidenotes.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/main.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/response.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/response.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/response-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/response.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/response.min.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/response.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/styles\/scss\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/styles\/scss\/main.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/config.rb": {
+		"fileType": 131072,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/config.rb",
+		"outputAbbreviatedPath": "\/config.rb",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -23,156 +243,156 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/workspace\/scripts\/js\/jquery-2.1.3.js": {
+	"\/scripts\/js\/jquery-2.1.3.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/jquery-2.1.3.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/jquery-2.1.3-min.js",
+		"inputAbbreviatedPath": "\/scripts\/js\/jquery-2.1.3.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/jquery-2.1.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/workspace\/scripts\/js\/jquery.easing.1.3.js": {
+	"\/scripts\/js\/jquery.easing.1.3.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/jquery.easing.1.3.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/jquery.easing.1.3-min.js",
+		"inputAbbreviatedPath": "\/scripts\/js\/jquery.easing.1.3.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/jquery.easing.1.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/workspace\/scripts\/js\/jquery.localScroll.js": {
+	"\/scripts\/js\/jquery.localScroll.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/scripts\/js\/jquery.localScroll.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/jquery.localScroll-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/scripts\/js\/jquery.localScroll.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/js\/jquery.localScroll.min.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/jquery.localScroll.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/scripts\/js\/jquery.scrollTo.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/scripts\/js\/jquery.scrollTo.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/jquery.scrollTo-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/scripts\/js\/jquery.scrollTo.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/js\/jquery.scrollTo.min.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/jquery.scrollTo.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/scripts\/js\/jquery.sidenotes.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/js\/jquery.sidenotes.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/jquery.sidenotes-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/scripts\/js\/jquery.sidenotes.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/scripts\/js\/jquery.sidenotes.min.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/jquery.sidenotes.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/scripts\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/jquery.localScroll.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/jquery.localScroll-min.js",
+		"inputAbbreviatedPath": "\/scripts\/js\/main.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/workspace\/scripts\/js\/jquery.localScroll.min.js": {
+	"\/scripts\/js\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/jquery.localScroll.min.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/jquery.localScroll.min-min.js",
+		"inputAbbreviatedPath": "\/scripts\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/workspace\/scripts\/js\/jquery.scrollTo.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/jquery.scrollTo.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/jquery.scrollTo-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/workspace\/scripts\/js\/jquery.scrollTo.min.js": {
+	"\/scripts\/js\/response.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/jquery.scrollTo.min.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/jquery.scrollTo.min-min.js",
+		"inputAbbreviatedPath": "\/scripts\/js\/response.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/response-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/workspace\/scripts\/js\/jquery.sidenotes.js": {
+	"\/scripts\/js\/response.min.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/jquery.sidenotes.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/jquery.sidenotes-min.js",
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/scripts\/js\/response.min.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/response.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/workspace\/scripts\/js\/jquery.sidenotes.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/jquery.sidenotes.min.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/jquery.sidenotes.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/workspace\/scripts\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/main.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/workspace\/scripts\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/min\/main-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/workspace\/scripts\/js\/response.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/response.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/response-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/workspace\/scripts\/js\/response.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/scripts\/js\/response.min.js",
-		"outputAbbreviatedPath": "\/workspace\/scripts\/js\/min\/response.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/workspace\/styles\/css\/main.css": {
+	"\/styles\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/styles\/css\/main.css",
+		"inputAbbreviatedPath": "\/styles\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/workspace\/styles\/scss\/_basics.scss": {
+	"\/styles\/scss\/_basics.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/styles\/scss\/_basics.scss",
-		"outputAbbreviatedPath": "\/workspace\/styles\/css\/_basics.css",
+		"inputAbbreviatedPath": "\/styles\/scss\/_basics.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_basics.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -180,15 +400,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/workspace\/styles\/scss\/_colors.scss": {
+	"\/styles\/scss\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/styles\/scss\/_colors.scss",
-		"outputAbbreviatedPath": "\/workspace\/styles\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/styles\/scss\/_colors.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -196,15 +416,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/workspace\/styles\/scss\/_layout.scss": {
+	"\/styles\/scss\/_layout.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/styles\/scss\/_layout.scss",
-		"outputAbbreviatedPath": "\/workspace\/styles\/css\/_layout.css",
+		"inputAbbreviatedPath": "\/styles\/scss\/_layout.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -212,15 +432,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/workspace\/styles\/scss\/_media-queries.scss": {
+	"\/styles\/scss\/_media-queries.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/styles\/scss\/_media-queries.scss",
-		"outputAbbreviatedPath": "\/workspace\/styles\/css\/_media-queries.css",
+		"inputAbbreviatedPath": "\/styles\/scss\/_media-queries.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_media-queries.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -228,15 +448,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/workspace\/styles\/scss\/_print.scss": {
+	"\/styles\/scss\/_print.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/styles\/scss\/_print.scss",
-		"outputAbbreviatedPath": "\/workspace\/styles\/css\/_print.css",
+		"inputAbbreviatedPath": "\/styles\/scss\/_print.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_print.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -244,15 +464,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/workspace\/styles\/scss\/_typography.scss": {
+	"\/styles\/scss\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/styles\/scss\/_typography.scss",
-		"outputAbbreviatedPath": "\/workspace\/styles\/css\/_typography.css",
+		"inputAbbreviatedPath": "\/styles\/scss\/_typography.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -260,15 +480,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/workspace\/styles\/scss\/_utilities.scss": {
+	"\/styles\/scss\/_utilities.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/styles\/scss\/_utilities.scss",
-		"outputAbbreviatedPath": "\/workspace\/styles\/css\/_utilities.css",
+		"inputAbbreviatedPath": "\/styles\/scss\/_utilities.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_utilities.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -276,15 +496,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/workspace\/styles\/scss\/main.scss": {
+	"\/styles\/scss\/main.scss": {
 		"createSourceMap": 0,
-		"debugStyle": 0,
+		"debugStyle": 2,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/workspace\/styles\/scss\/main.scss",
-		"outputAbbreviatedPath": "\/workspace\/styles\/css\/main.css",
+		"inputAbbreviatedPath": "\/styles\/scss\/main.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -301,8 +521,8 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "medlay",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "harddrive_darkGray"
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "globe_darkGray"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

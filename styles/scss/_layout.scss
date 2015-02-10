@@ -1,4 +1,4 @@
-/* (c) 2013 Andrea Buran [www.andreaburan.com] All rights reserved */
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
  * Placeholders
@@ -158,6 +158,8 @@
 	width: 100%;
 	margin-bottom: rhythm($m-medium-line*4);
 
+	overflow: auto;
+
 	@include align();
 	@include clearfix();
 	@include min-screen(col(8)) {
@@ -229,10 +231,41 @@
 			text-align: left;
 		}
 	}
+	@include min-screen(col(16)) {
+		float: left;
+		margin-left: 0;
+		margin-right: -100%;
+	}
 }
 
 .toc {
+	width: 100%;
+	@include min-screen(col(16)) {
+		width: col(4);
+		float: left;
+		margin-left: col(8);
+		margin-right: -100%;
+	}
+}
+
+#markdown-toc {
+	padding-left: 0;
+	list-style-type: none;
+	text-align: center;
+	ul {
+		padding-left: 0;
+	}
+	li {
+		@include adjust-font-size-to($m-small-size, $m-small-line);
+		&:before {
+			content: none;
+		}
+		li {
+			font-size: 1em;
+		}
+	}
 	@include min-screen(col(12)) {
+		
 		margin-bottom: rhythm($d-small-line/2);
 		padding-top: rhythm($d-small-line/4);
 		padding-right: em($d-gut/2);
@@ -242,6 +275,20 @@
 		clear: left;
 		width: col(4);
 		text-align: right;
+		ul {
+			padding-left: em($d-gut/2);
+		}
+		li {
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+			li {
+				font-size: 1em;
+				&:before {
+					width: em($d-gut/2, $d-small-size);
+					margin-left: em(-$d-gut/2, $d-small-size);
+					content: "_";
+				}
+			}
+		}
 	}
 	@include min-screen(col(16)) {
 		float: right;

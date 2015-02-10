@@ -9,7 +9,7 @@
 
 	<header class="header">
 		<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-		<div>A new hybrid media form</div>
+		<div>{{ site.banana }} A new hybrid media form</div>
 	</header>
 	<article class="content">
 		<div class="body typo-m">
@@ -26,6 +26,15 @@
 			</aside>-->
 			{{ content }}
 		</div>
+		<aside class="toc">
+			<ul>
+				{% for item in site.chapters | sort: 'date' %}
+					<li>
+						<a href="{{ item.url }}">{{ item.title }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</aside>
 	</article>
 
 {% include footer.html %}
