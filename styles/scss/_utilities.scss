@@ -62,7 +62,7 @@ $d-indent: $d-gut;
 ** Border widths
 */
 
-$border-width: 2px;
+$border-width: 1px;
 $field-border-width: 2px;
 $button-medium-border-width: 2px;
 $button-small-border-width: 1px;
@@ -163,8 +163,9 @@ $button-small-border-width: 1px;
 
 @mixin link($status: link) {
 	@if $status == "link" {
-		border-bottom: 1px solid rgba($emphasis, 0.4);
-		box-shadow: 0 -8px 0 rgba($emphasis, 0.4) inset;
+		/*border-bottom: 1px solid rgba($emphasis, 0.4);
+		box-shadow: 0 -8px 0 rgba($emphasis, 0.4) inset;*/
+		text-decoration: underline;
 	} @else if $status == "none" {
 		text-decoration: none;
 	}

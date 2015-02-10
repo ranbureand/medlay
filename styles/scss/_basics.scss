@@ -71,6 +71,7 @@ html {
 }
 
 body {
+	border-top: 5px solid $em-type-color;
 	counter-reset: figures;
 
 	font-weight: $normal;
@@ -173,9 +174,10 @@ ul, ol {
 dl {
 	margin: 0;
 	dt {
+		float: left;
+		margin-right: 0.8em;
 		font-weight: $bold;
 		color: $strong-type-color;
-		font-style: italic;
 	}
 	dd {
 		margin: 0;

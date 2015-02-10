@@ -9,6 +9,8 @@ categories: hello world
 + Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
+A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea.
+
 ## Heading Level #2
 
 ### Heading Level #3
