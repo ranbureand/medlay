@@ -97,7 +97,12 @@
 }
 
 .typo-m {
-	h1, h2 {
+	h1 {
+		margin-bottom: rhythm($m-extra-large-line/2, $m-extra-large-size);
+
+		@include adjust-font-size-to($m-extra-large-size, $m-extra-large-line);
+	}
+	h2 {
 		margin-bottom: rhythm($m-large-line/2, $m-large-size);
 
 		@include adjust-font-size-to($m-large-size, $m-large-line);
@@ -107,7 +112,7 @@
 
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
 	}
-	h1, h2 {
+	h2 {
 		margin-top: rhythm($m-large-line*2, $m-large-size);
 	}
 	h3, h4 {
@@ -154,7 +159,12 @@
 		@include leading-border($border-width, $m-medium-line);
 	}
 	@include min-screen(col(8)) {
-		h1, h2 {
+		h1 {
+			margin-bottom: rhythm($d-extra-large-line/2, $d-extra-large-size);
+
+			@include adjust-font-size-to($d-extra-large-size, $d-extra-large-line);
+		}
+		h2 {
 			margin-bottom: rhythm($d-large-line/2, $d-large-size);
 
 			@include adjust-font-size-to($d-large-size, $d-large-line);
@@ -164,7 +174,7 @@
 
 			@include adjust-font-size-to($d-medium-size, $d-medium-line);
 		}
-		h1, h2 {
+		h2 {
 			margin-top: rhythm($d-large-line*2, $d-large-size);
 		}
 		h3, h4 {

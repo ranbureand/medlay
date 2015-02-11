@@ -291,17 +291,34 @@
 	}
 }
 
-.toc {
+.nav {
 	width: 100%;
 	@include min-screen(col(16)) {
 		width: col(4);
 		float: left;
+		margin-top: rhythm($d-extra-large-line*3/2);
 		margin-left: col(8);
 		margin-right: -100%;
 	}
 }
 
-#markdown-toc {
+.toc {
+	padding-left: 0;
+	list-style-type: none;
+	text-align: center;
+	&:before {
+		content: "Contents";
+		color: $light-type-color;
+		display: block;
+		padding-bottom: rhythm($d-small-line/2, $d-small-size);
+		@include adjust-font-size-to($d-small-size, $d-small-line);
+	}
+	@include min-screen(col(8)) {
+
+	}
+}
+
+#mdarkdown-toc {
 	padding-left: 0;
 	list-style-type: none;
 	text-align: center;
