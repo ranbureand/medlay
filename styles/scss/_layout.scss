@@ -207,15 +207,17 @@
 
 .content {
 	width: 100%;
-	margin-bottom: rhythm($m-medium-line*4);
+	padding-top: rhythm($m-medium-line*4);
+	padding-bottom: rhythm($m-medium-line*4);
 
 	overflow: auto;
 
 	@include align();
 	@include clearfix();
 	@include min-screen(col(8)) {
+		padding-top: rhythm($d-medium-line*4);
 		width: col(8);
-		margin-bottom: rhythm($d-medium-line*4);
+		padding-bottom: rhythm($d-medium-line*4);
 	}
 	@include min-screen(col(12)) {
 		width: col(12);

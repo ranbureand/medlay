@@ -44,7 +44,7 @@
 	}
 	a[href *= "#sn:"], a[href *= "#fn:"] {
 		margin-left: 0.1em;
-
+		color: $em-type-color;
 		@include link(none);
 	}
 	sup[id *= "fnref:"] {
@@ -107,6 +107,9 @@
 
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
 	}
+	h1, h2 {
+		margin-top: rhythm($m-large-line*2, $m-large-size);
+	}
 	h3, h4 {
 		margin-top: rhythm($m-medium-line*2, $m-medium-size);
 	}
@@ -160,6 +163,9 @@
 			margin-bottom: rhythm($d-medium-line/2, $d-medium-size);
 
 			@include adjust-font-size-to($d-medium-size, $d-medium-line);
+		}
+		h1, h2 {
+			margin-top: rhythm($d-large-line*2, $d-large-size);
 		}
 		h3, h4 {
 			margin-top: rhythm($d-medium-line*2, $d-medium-size);

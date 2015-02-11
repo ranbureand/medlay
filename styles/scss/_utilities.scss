@@ -62,7 +62,7 @@ $d-indent: $d-gut;
 ** Border widths
 */
 
-$border-width: 1px;
+$border-width: 4px;
 $field-border-width: 2px;
 $button-medium-border-width: 2px;
 $button-small-border-width: 1px;
@@ -163,10 +163,16 @@ $button-small-border-width: 1px;
 
 @mixin link($status: link) {
 	@if $status == "link" {
-		/*border-bottom: 1px solid rgba($emphasis, 0.4);
-		box-shadow: 0 -8px 0 rgba($emphasis, 0.4) inset;*/
-		text-decoration: underline;
+		border-bottom: 1px solid rgba($st-color, 0.6);
+		box-shadow: 0 -1px 0 rgba($st-color, 0.6) inset;
+		//text-decoration: underline;
+		/*&:hover {
+			border-bottom: 2px solid $em-type-color;
+			box-shadow: 0 -1px 0 $em-type-color inset;
+		}*/
 	} @else if $status == "none" {
-		text-decoration: none;
+		//text-decoration: none;
+		border-bottom: none;
+		box-shadow: none;
 	}
 }
