@@ -9,9 +9,13 @@ categories: hello world
 A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea.
 
 + Will be replaced with the ToC, excluding the "Contents" header
-{:toc .toc}
+{:toc #toc}
 
 ## Heading Level #2
+
+A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea.
+
+A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.
 
 ### Heading Level #3
 
@@ -22,8 +26,6 @@ A paragraph (from the Greek paragraphos, "to write beside" or "written beside") 
 ##### Heading Level #5
 
 ###### Heading Level #6
-
-
 
 A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea.
 
@@ -97,7 +99,16 @@ Here is another term.
 : And it gets a definition too, which is this line.
 
 Here is term that shares a definition with the term below.
-: And it gets a definition too, which is this line. 
+: And it gets a definition too, which is this line.
+
+<aside class="footnotes">
+	<hr />
+	<div class="footnote typo-s" id="fn:footnote">
+		<span class="ref-mark">1</span>
+		<p>And that’s the footnote. A very very long one, so long that it spans two lines.</p>
+		<p>That’s the second paragraph. <a href="#fnref:footnote">↩</a></p>
+	</div>
+</aside>
 
 [^footnote]: And that's the footnote.
 

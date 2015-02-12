@@ -20,10 +20,6 @@
  * Istances
  */
 
-.alarm {
-	color: $error;
-}
-
 .warning {
 	padding: rhythm(2) em($m-gut/2) rhythm(2) em($m-gut/2);
 
@@ -138,73 +134,6 @@
 	}
 }
 
-[class*="headr"] {
-	overflow: auto;
-
-	width: 100%;
-	padding-top: rhythm($m-small-line);
-	padding-bottom: rhythm($m-small-line*4);
-
-	@include align(center);
-	.website, .motto {
-		padding-right: em($m-gut/2, $m-small-size);
-		padding-left: em($m-gut/2, $m-small-size);
-
-		@include adjust-font-size-to($m-small-size, $m-small-line);
-		a {
-			@include link;
-		}
-		[class*="button"] {
-			@include link(none);
-		}
-	}
-	.website {
-		float: left;
-	}
-	.motto {
-		float: right;
-	}
-	@include min-screen(col(12)) {
-		width: col(12);
-		padding-top: rhythm($d-small-line);
-		padding-bottom: rhythm($d-small-line*6);
-		.website
-		.motto {
-			padding-right: em($d-gut/2, $d-small-size);
-			padding-left: em($d-gut/2, $d-small-size);
-
-			@include adjust-font-size-to($d-small-size, $d-small-line);
-		}
-	}
-	@include min-screen(col(16)) {
-		width: col(16);
-	}
-	@include min-screen(col(20)) {
-		width: col(20);
-		.website, .motto {
-			width: col(6, $d-small-size);
-		}
-		.website {
-			margin-right: -100%;
-			margin-left: 0;
-		}
-		.motto {
-			float: right;
-
-			margin-right: 0;
-			margin-left: -100%;
-
-			text-align: right;
-		}
-	}
-	@include min-screen(col(24)) {
-		width: col(24);
-		.website, .motto {
-			width: col(8, $d-small-size);
-		}
-	}
-}
-
 .content {
 	width: 100%;
 	padding-top: rhythm($m-medium-line*4);
@@ -226,48 +155,6 @@
 	}
 	@include min-screen(col(16)) {
 		width: col(16);
-	}
-}
-
-[class*="heading"] {
-	margin-bottom: rhythm($m-large-line/2, $m-large-size);
-	padding-right: em($m-gut/2, $m-large-size);
-	padding-left: em($m-gut/2, $m-large-size);
-
-	text-align: center;
-
-	@include adjust-font-size-to($m-large-size, $m-large-line);
-	@include min-screen(col(12)) {
-		margin-bottom: rhythm($d-large-line/2, $d-large-size);
-		padding-right: em($d-gut/2, $d-large-size);
-		padding-left: em($d-gut/2, $d-large-size);
-
-		@include adjust-font-size-to($d-large-size, $d-large-line);
-	}
-	@include min-screen(col(16)) {
-		width: col(14, $d-large-size);
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
-.heading-left {
-	@include min-screen(col(20)) {
-		margin-left: col(6, $d-large-size);
-
-		text-align: left;
-	}
-	@include min-screen(col(24)) {
-		margin-left: col(8, $d-large-size);
-	}
-}
-.heading-center {
-	@include min-screen(col(20)) {
-		margin-left: col(3, $d-large-size);
-
-		text-align: center;
-	}
-	@include min-screen(col(24)) {
-		margin-left: col(5, $d-large-size);
 	}
 }
 
@@ -302,21 +189,57 @@
 	}
 }
 
-.toc {
+#toc {
+	margin-top: rhythm($m-medium-line);
 	padding-left: 0;
 	list-style-type: none;
 	text-align: center;
+
+	list-style-type: none;
+	li {
+		margin-top: rhythm($m-medium-line/4, $m-medium-size);
+		&:before {
+			content: "";
+		}
+	}
 	&:before {
 		content: "Contents";
 		color: $light-type-color;
 		display: block;
-		padding-bottom: rhythm($d-small-line/2, $d-small-size);
-		@include adjust-font-size-to($d-small-size, $d-small-line);
+		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
 	@include min-screen(col(8)) {
-
+		margin-top: rhythm($d-medium-line);
+		li {
+			margin-top: rhythm($d-medium-line/4, $d-medium-size);
+		}
+		&:before {
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+		}
+	}
+	@include min-screen(col(12)) {
+		padding-left: em($d-indent);
+		text-align: left;
+		border-left-color: $border-color;
+		border-left-width: $border-width;
+		border-left-style: solid;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #mdarkdown-toc {
 	padding-left: 0;
