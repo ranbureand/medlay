@@ -17,6 +17,8 @@ A paragraph (from the Greek paragraphos, "to write beside" or "written beside") 
 
 A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.
 
+{% include figure.html src="the_last_dispatch_2_browser_620_00.jpg" caption="Caption to **image**." %}
+
 ### Heading Level #3
 
 #### Heading Level #4
@@ -89,6 +91,13 @@ This is a code block:
         beep
     end tell
 
+    {% highlight html %}
+    <a>foo</a>
+      puts 'foo'
+    end
+    {% endhighlight %}
+
+
 Definition List
 : A number of connected items or names written or printed consecutively, typically one below the other.
 
@@ -105,11 +114,12 @@ Here is term that shares a definition with the term below.
 	<hr />
 	<div class="footnote typo-s" id="fn:footnote">
 		<span class="ref-mark">1</span>
-		<p>And that’s the footnote. A very very long one, so long that it spans two lines.</p>
-		<p>That’s the second paragraph. <a href="#fnref:footnote">↩</a></p>
+		<p>And that's the footnote. A very very long one, so long that it spans two lines.</p>
+		<p>That's the second paragraph. <a href="#fnref:footnote">td</a></p>
 	</div>
 </aside>
 
 [^footnote]: And that's the footnote.
 
     That's the second paragraph.
+{:title="The blockquote title"}

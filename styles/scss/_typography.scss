@@ -44,7 +44,6 @@
 	}
 	a[href *= "#sn:"], a[href *= "#fn:"] {
 		margin-left: 0.1em;
-		color: $em-type-color;
 		@include link(none);
 	}
 	sup[id *= "fnref:"] {

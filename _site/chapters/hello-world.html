@@ -55,6 +55,18 @@
 
 <p>A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
 
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure class="figure">
+	<a href="../images/the_last_dispatch_2_browser_620_00.jpg">
+		<img src="../images/the_last_dispatch_2_browser_620_00.jpg" alt="Caption to **image**." />
+	</a>
+	<figcaption class="caption typo-s">
+		<p>Caption to <strong>image</strong>.</p>
+
+	</figcaption>
+</figure>
+
 <h3 id="heading-level-3">Heading Level #3</h3>
 
 <h4 id="heading-level-4">Heading Level #4</h4>
@@ -140,6 +152,10 @@
 end tell
 </code></pre>
 
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a&gt;</span>foo<span class="nt">&lt;/a&gt;</span>
+      puts &#39;foo&#39;
+    end</code></pre></div>
+
 <dl>
   <dt>Definition List</dt>
   <dd>A number of connected items or names written or printed consecutively, typically one below the other.</dd>
@@ -148,8 +164,17 @@ end tell
   <dt>Here is another term.</dt>
   <dd>And it gets a definition too, which is this line.</dd>
   <dt>Here is term that shares a definition with the term below.</dt>
-  <dd>And it gets a definition too, which is this line. </dd>
+  <dd>And it gets a definition too, which is this line.</dd>
 </dl>
+
+<aside class="footnotes">
+	<hr />
+	<div class="footnote typo-s" id="fn:footnote">
+		<span class="ref-mark">1</span>
+		<p>And that's the footnote. A very very long one, so long that it spans two lines.</p>
+		<p>That's the second paragraph. <a href="#fnref:footnote">td</a></p>
+	</div>
+</aside>
 
 <div class="footnotes">
   <ol>
