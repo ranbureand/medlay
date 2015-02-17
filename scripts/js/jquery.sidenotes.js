@@ -42,9 +42,9 @@
           }).html(footnoteHtml).attr('id', id);
           if (ref != null) {
             $sidenote.attr('data-ref', ref);
-            /*$sidenote.prepend($('<span/>', {
+            $sidenote.prepend($('<span/>', {
               "class": this.refMarkClass
-            }).html(ref));*/
+            }).html(ref));
           }
           return $sidenote;
         },

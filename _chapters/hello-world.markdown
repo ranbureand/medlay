@@ -110,16 +110,6 @@ Here is another term.
 Here is term that shares a definition with the term below.
 : And it gets a definition too, which is this line.
 
-<aside class="footnotes">
-	<hr />
-	<div class="footnote typo-s" id="fn:footnote">
-		<span class="ref-mark">1</span>
-		<p>And that's the footnote. A very very long one, so long that it spans two lines.</p>
-		<p>That's the second paragraph. <a href="#fnref:footnote">td</a></p>
-	</div>
-</aside>
-
 [^footnote]: And that's the footnote.
 
     That's the second paragraph.
-{:title="The blockquote title"}

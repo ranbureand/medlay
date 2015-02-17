@@ -35,14 +35,9 @@ $.localScroll({
 	}*/
 });
 
-/*
- * Form
- */
 
-$('.error input, .error textarea').focus(function() {
-	//alert('banana!');
-	$(this).parents('div').removeClass('error');
-});
+//$( ".footnotes > ol > li" ).replaceWith( "<h2>New heading</h2>" );
+
 
 /*
  * Sidenotes
@@ -59,9 +54,10 @@ $(function() {
 	$postContainer = $('.body');
 	$postContainer.sidenotes({
 		//'removeRefMarkRegex': /^/,
+		'removeRefMarkRegex': /-sn$/,
 		'sidenoteClass': 'sidenote typo-s',
-		'footnoteSelector': 'div',
-		initiallyHidden: Response.band(0, config.breakpoints.large),
+		'footnoteSelector': 'aside',
+		//initiallyHidden: Response.band(0, config.breakpoints.large),
 		//sidenotePlacement: Response.band(config.breakpoints.large) ? 'after' : 'before'
 	});
 
@@ -75,12 +71,12 @@ $(function() {
 		switch (false) {
 			case !Response.band(0, config.breakpoints.large):
 			$postContainer.sidenotes('hide');
-			//return console.log('Small');
+			return console.log('Small');
 			break;
 			default:
 			$postContainer.sidenotes('show');
 			$postContainer.sidenotes('sidenotePlacement', 'before');
-			//return console.log('Medium');
+			return console.log('Medium');
 		}
 	}, 'width');
 });

@@ -142,7 +142,7 @@
 	overflow: auto;
 
 	@include align();
-	@include clearfix();
+	//@include clearfix();
 	@include min-screen(col(8)) {
 		padding-top: rhythm($d-medium-line*4);
 		width: col(8);
@@ -393,6 +393,36 @@
 		}
 	}
 }
+
+/*.footnotes {
+	ol {
+		padding-left: 0;
+		li {
+			counter-increment: ordered-list;
+			&:before {
+				padding-right: em($m-gut/4, $m-small-size);
+				float: left;
+				color: $strong-type-color;
+				content: counter(ordered-list) ")";
+				@include adjust-font-size-to($m-small-size, $m-small-line, $m-medium-size);
+			}
+		}
+	}
+	li {
+		@include adjust-font-size-to($m-medium-size, $m-medium-line, $m-medium-size);
+		@extend .typo-s;
+	}
+	@include min-screen(col(8)) {
+		ol {
+			li {
+				&:before {
+					padding-right: em($d-gut/4, $d-small-size);
+					@include adjust-font-size-to($d-small-size, $d-small-line, $m-medium-size);
+				}
+			}
+		}
+	}
+}*/
 
 .footnote, .sidenote {
 	a[href *= "#fnr"] {
