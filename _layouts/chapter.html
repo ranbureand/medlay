@@ -5,20 +5,20 @@
 
 <body id="start">
 
-	{% include browser-upgrade.html %}
+  {% include browser-upgrade.html %}
 
-	<header class="header">
-		<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-		<div>{{ site.banana }} A new hybrid media form</div>
-	</header>
-	<article class="content">
-		<div class="body typo-m">
-			<h2>{{ page.title }}</h2>
-			{{ content }}
-		</div>
+   <header class="header">
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <div>{{ site.banana }} A new hybrid media form</div>
+  </header>
+  <article class="content">
+    <div class="body typo-m">
+      <h2>{{ page.title }}</h2>
+      {{ content }}
+    </div>
 
-		{% include chapters-contents.html %}
-	</article>
+    {% include chapters-contents.html %}
+  </article>
 
 {% include footer.html %}
 

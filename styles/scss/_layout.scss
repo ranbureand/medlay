@@ -167,15 +167,18 @@
 	}
 	@include min-screen(col(12)) {
 		width: col(8);
+		float: left;
+		margin-left: 0;
+		margin-right: -100%;
 		h1, h2, h3, h4, h5, h6 {
 			text-align: left;
 		}
 	}
-	@include min-screen(col(16)) {
+	/*@include min-screen(col(16)) {
 		float: left;
 		margin-left: 0;
 		margin-right: -100%;
-	}
+	}*/
 }
 
 #toc {
@@ -220,38 +223,75 @@
 		border-left-style: solid;
 	}
 }
+
 .nav {
+	width: 100%;
 	@extend %column-gut;
 	h6 {
+		position: relative;
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
-		&:after {
+		&:before {
 			border-top: $border-width solid $border-color;
 			display: block;
-			margin-bottom: rhythm($m-small-line/2, $m-small-size);
 			width: 20%;
 			content: "";
 			margin-left: auto;
 			margin-right: auto;
 		}
 	}
+	.current {
+		a {
+			color: $em-type-color;
+			cursor: default;
+		}
+	}
 	@include min-screen(col(8)) {
 		h6 {
 			@include adjust-font-size-to($d-small-size, $d-small-line);
-			&:after {
+			&:before {
 				width: em($column-width - $d-gut/2, $d-small-size);
-				margin-left: 0;
-				margin-right: 0;
+				
 				//margin-right: em(-$d-gut/2, $d-small-size);
 			}
 		}
 	}
-	width: 100%;
-	@include min-screen(col(16)) {
+	@include min-screen(col(12)) {
 		width: col(4);
 		float: left;
 		margin-top: rhythm($d-extra-large-line*3/2);
+		margin-left: col(-4);
+		margin-right: -100%;
+		text-align: right;
+		h6 {
+			margin-top: rhythm($d-small-line, $d-small-size);
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+			&:before {
+				position: absolute;
+				top: -$border-width/2;
+				margin-left: em($column-width*3 - $d-gut/2, $d-small-size);
+				margin-right: 0;
+				border-top-width: $border-width/2;
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		ul {
+			margin-top: rhythm($d-small-line/4);
+		}
+		li {
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+		}
+	}
+	@include min-screen(col(16)) {
+		text-align: left;
 		margin-left: col(8);
 		margin-right: -100%;
+		h6 {
+			&:before {
+				margin-left: 0;
+			}
+		}
 	}
 }
 
