@@ -96,28 +96,28 @@
 }
 
 .typo-m {
-	h1 {
+	h1, h2 {
 		margin-bottom: rhythm($m-extra-large-line/2, $m-extra-large-size);
 
 		@include adjust-font-size-to($m-extra-large-size, $m-extra-large-line);
 	}
-	h2 {
+	h3 {
 		margin-bottom: rhythm($m-large-line/2, $m-large-size);
 
 		@include adjust-font-size-to($m-large-size, $m-large-line);
 	}
-	h3, h4, p, dd {
+	h4, h5, p, dd {
 		margin-bottom: rhythm($m-medium-line/2, $m-medium-size);
 
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
 	}
-	h2 {
+	h3 {
 		margin-top: rhythm($m-large-line*2, $m-large-size);
 	}
-	h3, h4 {
+	h4, h5 {
 		margin-top: rhythm($m-medium-line*2, $m-medium-size);
 	}
-	h5, h6 {
+	h6 {
 		margin-top: rhythm($m-small-line*2, $m-small-size);
 		margin-bottom: rhythm($m-small-line/2, $m-small-size);
 
@@ -158,28 +158,28 @@
 		@include leading-border($border-width, $m-medium-line);
 	}
 	@include min-screen(col(8)) {
-		h1 {
+		h1, h2 {
 			margin-bottom: rhythm($d-extra-large-line/2, $d-extra-large-size);
 
 			@include adjust-font-size-to($d-extra-large-size, $d-extra-large-line);
 		}
-		h2 {
+		h3 {
 			margin-bottom: rhythm($d-large-line/2, $d-large-size);
 
 			@include adjust-font-size-to($d-large-size, $d-large-line);
 		}
-		h3, h4, p, dd {
+		h4, h5, p, dd {
 			margin-bottom: rhythm($d-medium-line/2, $d-medium-size);
 
 			@include adjust-font-size-to($d-medium-size, $d-medium-line);
 		}
-		h2 {
+		h3 {
 			margin-top: rhythm($d-large-line*2, $d-large-size);
 		}
-		h3, h4 {
+		h4, h5 {
 			margin-top: rhythm($d-medium-line*2, $d-medium-size);
 		}
-		h5, h6 {
+		h6 {
 			margin-top: rhythm($d-small-line*2, $d-small-size);
 			margin-bottom: rhythm($d-small-line/2, $d-small-size);
 

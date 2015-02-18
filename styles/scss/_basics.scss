@@ -157,11 +157,14 @@ h1, h2, h3, h4, h5, h6 {
 		color: $strong-type-color;
 	}
 }
-h1, h2, h3, h5 {
+h1, h2, h3, h4 {
 	font-weight: $extra-bold;
 }
-h4, h6 {
+h5, h6 {
 	font-weight: $normal;
+}
+h6 {
+	color: $light-type-color;
 }
 
 ul, ol {

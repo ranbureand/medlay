@@ -16,16 +16,8 @@
 			<h2>{{ page.title }}</h2>
 			{{ content }}
 		</div>
-		<nav class="nav">
-			<h6>cdcd{{ site.chapters.name %}}</h6>
-			<ul>
-				{% for item in site.chapters | sort: 'date' %}
-					<li>
-						<a href="{{ item.url }}">{{ item.title }}</a>
-					</li>
-				{% endfor %}
-			</ul>
-		</nav>
+
+		{% include chapters-contents.html %}
 	</article>
 
 {% include footer.html %}

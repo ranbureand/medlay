@@ -1,0 +1,24 @@
+{% assign items = include.items %}
+
+<ul>
+<!--{% for item in items %}
+	<li><a href="{{ site.url }}">{{ item.title }}</a></li>
+{% endfor %}-->
+{% for item in items %}
+  {% assign item_url = item | prepend:"/chapters/" | append:"/" %}
+
+  {% if item_url == page.url %}
+    {% assign class = "current" %}
+  {% else %}
+    {% assign class = "" %}
+  {% endif %}
+
+  {% for p in site.chapters %}
+    {% if p.url == item_url %}
+      <li class="{{ c }}"><a href="{{ site.url }}{{ p.url }}">{{ p.title }}</a></li>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+{% endfor %}
+</ul>

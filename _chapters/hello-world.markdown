@@ -11,7 +11,7 @@ A paragraph (from the Greek paragraphos, "to write beside" or "written beside") 
 + Will be replaced with the ToC, excluding the "Contents" header
 {:toc #toc}
 
-## Heading Level #2
+### Heading Level #3
 
 A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea.
 
@@ -19,11 +19,9 @@ A paragraph consists of one or more sentences. Though not required by the syntax
 
 {% include figure.html src="the_last_dispatch_2_browser_620_00.jpg" caption="Caption to **image**." %}
 
-### Heading Level #3
-
 #### Heading Level #4
 
-## Heading Level #2 sacdsds
+### Another Heading Level #3
 
 ##### Heading Level #5
 
