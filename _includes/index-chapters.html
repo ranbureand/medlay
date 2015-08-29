@@ -7,9 +7,10 @@
   {% for p in site.chapters %}
     {% if p.url == item_url %}
       <li>
-        <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+        <div>
+          <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+        </div>
         {% if p.intro %}
-          <br/>
           <span>{{ p.intro }}</span>
         {% endif %}
       </li>

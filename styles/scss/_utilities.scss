@@ -171,8 +171,8 @@ $button-small-border-width: 1px;
 
 @mixin link($status: link) {
 	@if $status == "link" {
-		border-bottom: 1px solid rgba($st-color, 0.6);
-		box-shadow: 0 -1px 0 rgba($st-color, 0.6) inset;
+		border-bottom: 1px solid $em-type-color;
+		box-shadow: 0 -1px 0 $em-type-color inset;
 		//text-decoration: underline;
 		/*&:hover {
 			border-bottom: 2px solid $em-type-color;

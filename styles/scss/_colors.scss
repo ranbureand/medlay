@@ -6,7 +6,8 @@
 */
 
 $st-color: #fff;
-$emphasis: #9999ff;
+//$emphasis: hsl(240, 100, 80);
+$emphasis: hsl(260, 100, 80);
 $error: lighten(desaturate(red, 8%), 16%);
 $canvas: #222;
 
