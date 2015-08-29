@@ -42,6 +42,8 @@ This text[^footnote] has a footnote. And a second one[^footnote-nd] too.
 
 **This text** is given strong importance.
 
+**[This link](http://www.andreaburan.com/ "Andrea Buran's Sitefolio")** is given strong importance.
+
 *This text* is given emphasis.
 
 <del>This text</del> is deleted while <ins>this text</ins> is inserted.

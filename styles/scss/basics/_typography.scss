@@ -18,7 +18,7 @@
 		li {
 			&:before {
 				float: left;
-				color: $strong-type-color;
+				color: $nd-type-color;
 				content: "•";
 				//content: "\003E";
 			}
@@ -30,14 +30,20 @@
 			counter-increment: ordered-list;
 			&:before {
 				float: left;
-				color: $strong-type-color;
+				color: $nd-type-color;
 				content: counter(ordered-list) ".";
 			}
 		}
 	}
 	blockquote {
+		border-left-color: $nd-type-color;
 		border-left-width: $border-width;
 		border-left-style: solid;
+	}
+	strong {
+		a {
+			@include link-colors($nd-type-color, $st-type-color, $st-type-color);
+		}
 	}
 	a {
 		@include link;
@@ -45,6 +51,7 @@
 	a[href *= "#sn:"], a[href *= "#fn:"] {
 		margin-left: 0.1em;
 		@include link(none);
+		@include link-colors($nd-type-color, $st-type-color, $st-type-color);
 	}
 	sup[id *= "fnref:"] {
 		margin-left: 0.2em; 
@@ -155,7 +162,7 @@
 	}
 	hr {
 		@include rhythm-margins($m-medium-line/2, $m-medium-line/2);
-		@include leading-border($border-width, $m-medium-line);
+		@include leading-border($border-width/2, $m-medium-line);
 	}
 	@include min-screen(col(8)) {
 		h1, h2 {
@@ -218,7 +225,7 @@
 		}
 		hr {
 			@include rhythm-margins($d-medium-line/2, $d-medium-line/2);
-			@include leading-border($border-width, $d-medium-line);
+			@include leading-border($border-width/2, $d-medium-line);
 		}
 	}
 }
@@ -270,7 +277,7 @@
 	}
 	hr {
 		@include rhythm-margins($m-small-line/4, 0);
-		@include leading-border($border-width, $m-small-line);
+		@include leading-border($border-width/2, $m-small-line);
 	}
 	@include min-screen(col(8)) {
 		h1, h2, h3, h4 {
@@ -319,7 +326,7 @@
 		}
 		hr {
 			@include rhythm-margins($d-small-line/4, 0);
-			@include leading-border($border-width, $d-small-line);
+			@include leading-border($border-width/2, $d-small-line);
 		}
 	}
 }
@@ -371,7 +378,7 @@
 	}
 	hr {
 		@include rhythm-margins($m-extra-small-line/2, 0);
-		@include leading-border($border-width, $m-extra-small-line);
+		@include leading-border($border-width/2, $m-extra-small-line);
 	}
 	@include min-screen(col(8)) {
 		h1, h2, h3, h4 {
@@ -420,7 +427,7 @@
 		}
 		hr {
 			@include rhythm-margins($d-extra-small-line/2, 0);
-			@include leading-border($border-width, $d-extra-small-line);
+			@include leading-border($border-width/2, $d-extra-small-line);
 		}
 	}
 }

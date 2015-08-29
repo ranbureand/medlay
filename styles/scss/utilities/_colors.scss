@@ -5,22 +5,27 @@
 ** 0 1 | 2 3 | 4 5 | 6 7 | 8 9 | a b | c d | e f
 */
 
-$st-color: #fff;
-//$emphasis: hsl(240, 100, 80);
-$emphasis: hsl(340, 100, 65);
-$error: lighten(desaturate(red, 8%), 16%);
+$white: #fff;
+
+//$st-color: hsl(240, 100, 80);
+$st-color: hsl(340, 100, 65);
+$nd-color: hsl(165, 100, 60);
+
 $canvas: #222;
 
 /*
 ** Typography
 */
 
-$strong-type-color: rgba($st-color, 0.9);
-$type-color: rgba($st-color, 0.6);
-$light-type-color: rgba($st-color, 0.4);
+$strong-type-color: rgba($white, 0.9);
+$type-color: rgba($white, 0.6);
+$light-type-color: rgba($white, 0.4);
 
-$em-type-color: rgba($emphasis, 0.9);
-$em-light-type-color: rgba($emphasis, 0.3);
+$st-type-color: rgba($st-color, 0.9);
+$st-light-type-color: rgba($st-color, 0.3);
+
+$nd-type-color: rgba($nd-color, 0.9);
+$nd-light-type-color: rgba($nd-color, 0.3);
 
 $placeholder-type-color: rgba($st-color, 0.15);
 
@@ -35,12 +40,10 @@ $selected-background-color: darken($canvas, 3%);
 $code-background-color: lighten($canvas, 3%);
 
 /*
-** Buttons
+** Borders
 */
 
-$border-color: rgba($st-color, 0.2);
-$field-border-color: $border-color;
-$strong-field-border-color: $strong-type-color;
+$border-color: rgba($white, 0.3);
 
 /*
 ** Pictures

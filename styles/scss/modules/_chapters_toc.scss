@@ -1,0 +1,114 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Chapters Toc
+*/
+
+.nav {
+	width: 100%;
+	padding-top: rhythm($m-medium-line*4);
+
+	text-align: center;
+
+	@extend %column-gut;
+
+	h6 {
+		position: relative;
+
+		margin-top: rhythm($m-medium-line, $m-medium-size);
+
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+		&:before {
+			display: block;
+
+			width: 25%;
+			margin-right: auto;
+			margin-left: auto;
+
+			content: "";
+
+			border-top: $border-width/2 solid $border-color;
+		}
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	ul {
+		margin-top: rhythm($m-medium-line/4);
+	}
+	li {
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+	}
+	.current {
+		a {
+			cursor: default;
+
+			color: $st-type-color;
+		}
+	}
+	@include min-screen(col(8)) {
+		padding-top: rhythm($d-medium-line*4);
+		h6 {
+			margin-top: rhythm($d-medium-line, $d-medium-size);
+
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
+			&:before {
+				width: em($column-width*2 - $d-gut/2, $d-medium-size);
+				//margin-right: em(-$d-gut/2, $d-small-size);
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		ul {
+			margin-top: rhythm($d-medium-line/4);
+		}
+		li {
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
+		}
+	}
+	@include min-screen(col(12)) {
+		float: left;
+
+		width: col(4);
+		margin-top: rhythm($d-extra-large-line*3/2);
+		margin-right: -100%;
+		margin-left: col(-4);
+		padding-top: 0;
+
+		text-align: right;
+		h6 {
+			margin-top: rhythm($d-small-line, $d-small-size);
+
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+			&:before {
+				position: absolute;
+				top: -$border-width/2;
+
+				width: em($column-width - $d-gut/2, $d-medium-size);
+				margin-right: 0;
+				margin-left: em($column-width*3 - $d-gut/2, $d-small-size);
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		ul {
+			margin-top: rhythm($d-small-line/4);
+		}
+		li {
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+		}
+	}
+	@include min-screen(col(16)) {
+		margin-right: -100%;
+		margin-left: col(8);
+
+		text-align: left;
+		h6 {
+			&:before {
+				margin-left: 0;
+			}
+		}
+	}
+}

@@ -71,7 +71,7 @@ html {
 }
 
 body {
-	border-top: 5px solid $em-type-color;
+	border-top: 5px solid $nd-type-color;
 	counter-reset: figures;
 
 	font-weight: $normal;
@@ -124,7 +124,7 @@ a {
 	@include transition-duration(0.2s, 0.2s);
 	@include transition-timing-function(ease-in-out, ease-in-out);
 	//@include transition-delay(0s);
-	@include link-colors($strong-type-color, $em-type-color, $em-type-color);
+	@include link-colors($strong-type-color, $st-type-color, $st-type-color);
 	text-decoration: none;
 	&:hover {
 		outline: 0; // normalize.css
@@ -180,7 +180,7 @@ dl {
 		float: left;
 		margin-right: 0.8em;
 		font-weight: $bold;
-		color: $strong-type-color;
+		color: $nd-type-color;
 	}
 	dd {
 		margin: 0;
@@ -198,7 +198,7 @@ abbr[title] {
 strong {
 	font-weight: $bold; // normalize.css
 
-	color: $strong-type-color;
+	color: $nd-type-color;
 }
 
 q {

@@ -1,0 +1,58 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Index Toc
+*/
+
+.toc {
+	h6 {
+		margin-top: rhythm($m-medium-line*2, $m-small-size);
+	}
+	ul {
+		padding-left: 0;
+
+		text-align: center;
+		li {
+			margin-bottom: rhythm($m-medium-line/2, $m-medium-size);
+			&:before {
+				content: "";
+				content: none;
+			}
+		}
+	}
+	div {
+		@include adjust-font-size-to($m-large-size, $m-large-line, $m-medium-size);
+	}
+	span {
+		display: block;
+
+		margin-top: rhythm($m-small-line/2, $m-medium-size);
+
+		color: $type-color;
+
+		@include adjust-font-size-to($m-small-size, $m-small-line, $m-medium-size);
+	}
+	@include min-screen(col(8)) {
+		h6 {
+			margin-top: rhythm($d-medium-line*2, $d-small-size);
+		}
+		ul {
+			li {
+				margin-bottom: rhythm($d-medium-line/2, $d-medium-size);
+			}
+		}
+		div {
+			@include adjust-font-size-to($d-large-size, $d-large-line, $d-medium-size);
+		}
+		span {
+			margin-top: rhythm($d-small-line/2, $d-medium-size);
+
+			@include adjust-font-size-to($d-small-size, $d-small-line, $d-medium-size);
+		}
+	}
+	@include min-screen(col(12)) {
+		ul {
+			text-align: left;
+		}
+	}
+}

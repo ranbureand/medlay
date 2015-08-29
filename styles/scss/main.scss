@@ -2,16 +2,42 @@
 
 /*
 ** Imports
-*/
+**/
 
 @import "compass";
 
-@import "colors.scss";
-@import "utilities.scss";
-@import "media-queries.scss";
+/*
+** Utilities
+**/
 
-@import "basics.scss";
-@import "typography.scss";
-@import "layout.scss";
+@import "utilities/colors.scss";
+@import "utilities/media-queries.scss";
+@import "utilities/utilities.scss";
+@import "utilities/helpers.scss";
+
+/*
+** Basics
+**/
+
+@import "basics/basics.scss";
+@import "basics/typography.scss";
+
+/*
+** Modules
+**/
+
+@import "modules/sundries.scss";
+@import "modules/header.scss";
+@import "modules/footer.scss";
+@import "modules/body.scss";
+@import "modules/notes.scss";
+@import "modules/figure.scss";
+@import "modules/index_toc.scss";
+@import "modules/chapters_toc.scss";
+@import "modules/chapter_toc.scss";
+
+/*
+** Print
+**/
 
 @import "print.scss";

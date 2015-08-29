@@ -6,4 +6,4 @@ date: 2015-02-03 11:16:00
 categories: hello world
 ---
 
-This is a **short introduction**.
+These notes are a work in progress.

@@ -1,0 +1,55 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Chapter Toc
+*/
+
+#toc {
+	margin-top: rhythm($m-medium-line);
+	padding-left: 0;
+
+	list-style-type: none;
+	list-style-type: none;
+
+	text-align: center;
+
+	li {
+		margin-top: rhythm($m-medium-line/4, $m-medium-size);
+		&:before {
+			content: "";
+		}
+	}
+	a {
+		@include link(none);
+	}
+	&:before {
+		display: block;
+
+		content: "Contents";
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+
+		color: $light-type-color;
+
+		@include face(condensed);
+		@include adjust-font-size-to($m-small-size, $m-small-line);
+	}
+	@include min-screen(col(8)) {
+		margin-top: rhythm($d-medium-line);
+		li {
+			margin-top: rhythm($d-medium-line/4, $d-medium-size);
+		}
+		&:before {
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+		}
+	}
+	@include min-screen(col(12)) {
+		padding-left: em($d-indent);
+
+		text-align: left;
+
+		border-left-width: $border-width;
+		border-left-style: solid;
+		border-left-color: $nd-type-color;
+	}
+}

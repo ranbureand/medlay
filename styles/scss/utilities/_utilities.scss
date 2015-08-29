@@ -117,7 +117,7 @@ $button-small-border-width: 1px;
 	} @else if $status == "serif" {
 		font-family: Georgia, serif;
 	} @else if $status == "mono" {
-		font-family: "Andale Mono", "Monaco", monospace;
+		font-family: "Roboto Mono", "Andale Mono", "Monaco", monospace;
 	} @else if $status == "condensed" {
 		font-family: "Roboto Condensed", "Monaco", monospace;
 	}
@@ -138,45 +138,17 @@ $button-small-border-width: 1px;
 }
 
 /*
-** Clearfix
-*/
-
-@mixin clearfix {
-	&:before, &:after {
-		display: table;
-
-		content: " ";
-	}
-	&:after {
-		clear: both;
-	}
-}
-
-/*
-** Clear
-*/
-
-@mixin clear($phase: 0, $increment:0) {
-	&:nth-child(n) {
-		clear: none;
-	}
-	&:nth-child(#{$phase}n+#{$increment}) {
-		clear: left;
-	}
-}
-
-/*
 ** Link
 */
 
 @mixin link($status: link) {
 	@if $status == "link" {
-		border-bottom: 1px solid $em-type-color;
-		box-shadow: 0 -1px 0 $em-type-color inset;
+		border-bottom: 1px solid $st-type-color;
+		box-shadow: 0 -1px 0 $st-type-color inset;
 		//text-decoration: underline;
 		/*&:hover {
-			border-bottom: 2px solid $em-type-color;
-			box-shadow: 0 -1px 0 $em-type-color inset;
+			border-bottom: 2px solid $st-type-color;
+			box-shadow: 0 -1px 0 $st-type-color inset;
 		}*/
 	} @else if $status == "none" {
 		//text-decoration: none;

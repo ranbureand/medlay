@@ -1,0 +1,26 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Body
+*/
+
+.body {
+	position: relative;
+
+	width: 100%;
+
+	@extend %column-gut;
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+	}
+	@include min-screen(col(12)) {
+		float: left;
+
+		width: col(8);
+		margin-right: -100%;
+		margin-left: 0;
+		h1, h2, h3, h4, h5, h6 {
+			text-align: left;
+		}
+	}
+}
