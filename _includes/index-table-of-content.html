@@ -1,0 +1,6 @@
+<nav class="toc">
+	{% for section in site.data.chapters %}
+	<h6>{{ section.title }}</h6>
+	{% include index-chapters.html items=section.chapters %}
+	{% endfor %}
+</nav>

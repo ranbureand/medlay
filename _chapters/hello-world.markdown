@@ -4,6 +4,7 @@ title: "Hello World!"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
 categories: hello world
+intro: "This is an intro"
 ---
 
 A paragraph (from the Greek paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea.

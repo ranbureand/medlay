@@ -92,6 +92,9 @@
 		padding-left: em($m-gut/2, $m-small-size);
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
+	.scroll {
+		margin-top: rhythm($m-small-line*2, $m-small-size);
+	}
 	@include min-screen(col(8)) {
 		padding-top: rhythm($d-small-line);
 		padding-bottom: rhythm($d-small-line);
@@ -100,6 +103,9 @@
 			padding-right: em($d-gut/2, $d-small-size);
 			padding-left: em($d-gut/2, $d-small-size);
 			@include adjust-font-size-to($d-small-size, $d-small-line);
+		}
+		.scroll {
+			margin-top: rhythm($d-small-line*2, $d-small-size);
 		}
 	}
 	@include min-screen(col(12)) {
@@ -120,6 +126,7 @@
 			width: col(4, $d-small-size);
 		}
 		.scroll {
+			margin-top: 0;
 			text-align: right;
 			margin-right: -100%;
 			margin-left: col(8, $d-small-size);
@@ -129,6 +136,7 @@
 	@include min-screen(col(16)) {
 		width: col(16);
 		.scroll {
+			text-align: left;
 			margin-left: col(12, $d-small-size);
 		}
 	}
@@ -227,19 +235,31 @@
 }
 
 .nav {
+	padding-top: rhythm($m-medium-line*4);
 	width: 100%;
 	@extend %column-gut;
+	text-align: center;
 	h6 {
 		position: relative;
+		margin-top: rhythm($m-medium-line, $m-medium-size);
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
 		&:before {
-			border-top: $border-width solid $border-color;
+			border-top: $border-width/2 solid $border-color;
 			display: block;
-			width: 20%;
+			width: 25%;
 			content: "";
 			margin-left: auto;
 			margin-right: auto;
 		}
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	ul {
+		margin-top: rhythm($m-medium-line/4);
+	}
+	li {
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
 	}
 	.current {
 		a {
@@ -248,16 +268,28 @@
 		}
 	}
 	@include min-screen(col(8)) {
+		padding-top: rhythm($d-medium-line*4);
 		h6 {
-			@include adjust-font-size-to($d-small-size, $d-small-line);
+			margin-top: rhythm($d-medium-line, $d-medium-size);
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
 			&:before {
-				width: em($column-width - $d-gut/2, $d-small-size);
+				width: em($column-width*2 - $d-gut/2, $d-medium-size);
 				
 				//margin-right: em(-$d-gut/2, $d-small-size);
 			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		ul {
+			margin-top: rhythm($d-medium-line/4);
+		}
+		li {
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
 		}
 	}
 	@include min-screen(col(12)) {
+		padding-top: 0;
 		width: col(4);
 		float: left;
 		margin-top: rhythm($d-extra-large-line*3/2);
@@ -268,11 +300,11 @@
 			margin-top: rhythm($d-small-line, $d-small-size);
 			@include adjust-font-size-to($d-small-size, $d-small-line);
 			&:before {
+				width: em($column-width - $d-gut/2, $d-medium-size);
 				position: absolute;
 				top: -$border-width/2;
 				margin-left: em($column-width*3 - $d-gut/2, $d-small-size);
 				margin-right: 0;
-				border-top-width: $border-width/2;
 			}
 			&:first-child {
 				margin-top: 0;
@@ -581,6 +613,38 @@
 			&:before {
 				content: "( ";
 			}
+		}
+	}
+}
+
+.toc {
+	ul {
+		padding-left: 0;
+		text-align: center;
+		li {
+			margin-bottom: rhythm($m-medium-line, $m-medium-size);
+			&:before {
+				content: "";
+				content: none;
+			}
+		}
+	}
+	span {
+		@include adjust-font-size-to($m-small-size, $m-small-line, $m-medium-size);
+	}
+	@include min-screen(col(8)) {
+		ul {
+			li {
+				margin-bottom: rhythm($d-medium-line, $d-medium-size);
+			}
+		}
+		span {
+			@include adjust-font-size-to($d-small-size, $d-small-line, $d-medium-size);
+		}
+	}
+	@include min-screen(col(12)) {
+		ul {
+			text-align: left;
 		}
 	}
 }
