@@ -225,22 +225,22 @@
 
 .typo-s {
 	h1, h2, h3, h4 {
-		margin-bottom: rhythm($m-medium-line/2, $m-medium-size);
+		margin-bottom: rhythm($m-medium-line/4, $m-medium-size);
 
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
 	}
 	p, dd {
-		margin-bottom: rhythm($m-small-line/2, $m-small-size);
+		margin-bottom: rhythm($m-small-line/4, $m-small-size);
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
 	h5, h6 {
-		margin-bottom: rhythm($m-small-line/2, $m-small-size);
+		margin-bottom: rhythm($m-small-line/4, $m-small-size);
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
 	ul, ol, blockquote {
-		margin-bottom: rhythm($m-small-line/2);
+		margin-bottom: rhythm($m-small-line/4);
 	}
 	li, dt {
 		@include adjust-font-size-to($m-small-size, $m-small-line);
@@ -261,35 +261,35 @@
 		padding-left: em($m-gut/2, $m-small-size);
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
-		@include rhythm($m-small-line, $m-small-line/2, $m-small-line/2, $m-small-line, $d-small-size);
+		@include rhythm($m-small-line, $m-small-line/4, $m-small-line/4, $m-small-line, $d-small-size);
 	}
 	img {
-		margin-bottom: rhythm($m-small-line/2, $m-small-size);
+		margin-bottom: rhythm($m-small-line/4, $m-small-size);
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
 	hr {
-		@include rhythm-margins($m-small-line/2, 0);
+		@include rhythm-margins($m-small-line/4, 0);
 		@include leading-border($border-width, $m-small-line);
 	}
 	@include min-screen(col(8)) {
 		h1, h2, h3, h4 {
-			margin-bottom: rhythm($d-medium-line/2, $d-medium-size);
+			margin-bottom: rhythm($d-medium-line/4, $d-medium-size);
 
 			@include adjust-font-size-to($d-medium-size, $d-medium-line);
 		}
 		p, dd {
-			margin-bottom: rhythm($d-small-line/2, $d-small-size);
+			margin-bottom: rhythm($d-small-line/4, $d-small-size);
 
 			@include adjust-font-size-to($d-small-size, $d-small-line);
 		}
 		h5, h6 {
-			margin-bottom: rhythm($d-small-line/2, $d-small-size);
+			margin-bottom: rhythm($d-small-line/4, $d-small-size);
 
 			@include adjust-font-size-to($d-small-size, $d-small-line);
 		}
 		ul, ol {
-			margin-bottom: rhythm($d-small-line/2);
+			margin-bottom: rhythm($d-small-line/4);
 		}
 		li, dt {
 			@include adjust-font-size-to($d-small-size, $d-small-line);
@@ -310,15 +310,15 @@
 			padding-left: em($d-gut/2, $d-small-size);
 
 			@include adjust-font-size-to($d-small-size, $d-small-line);
-			@include rhythm($d-small-line, $d-small-line/2, $d-small-line/2, $d-small-line, $d-small-size);
+			@include rhythm($d-small-line, $d-small-line/4, $d-small-line/4, $d-small-line, $d-small-size);
 		}
 		img {
-			margin-bottom: rhythm($d-small-line/2, $d-small-size);
+			margin-bottom: rhythm($d-small-line/4, $d-small-size);
 
 			@include adjust-font-size-to($d-small-size, $d-small-line);
 		}
 		hr {
-			@include rhythm-margins($d-small-line/2, 0);
+			@include rhythm-margins($d-small-line/4, 0);
 			@include leading-border($border-width, $d-small-line);
 		}
 	}

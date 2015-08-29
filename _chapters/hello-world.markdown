@@ -35,7 +35,7 @@ A paragraph consists of one or more sentences. Though not required by the syntax
 >
 > -- <cite>[Video](http://www.youtube.com/watch?v=6r7E-69MIOU "Matt Cutts on YouTube"), Matt Cutts.</cite>
 
-This text[^footnote] has a footnote.
+This text[^footnote] has a footnote. And a second one[^footnote-nd] too.
 
 [This text](http://www.andreaburan.com/ "Andrea Buran's Sitefolio") is a hyperlink.
 
@@ -109,5 +109,9 @@ Here is term that shares a definition with the term below.
 : And it gets a definition too, which is this line.
 
 [^footnote]: And that's the footnote.
+
+    That's the second paragraph.
+
+[^footnote-nd]: And that's the footnote.
 
     That's the second paragraph.

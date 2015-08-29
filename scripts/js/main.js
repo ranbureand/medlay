@@ -1,4 +1,4 @@
-// @codekit-prepend "jquery-2.1.3.js"
+// @codekit-prepend "jquery-2.1.4.js"
 // @codekit-prepend "response.js"
 // @codekit-prepend "jquery.sidenotes.js"
 // @codekit-prepend "jquery.easing.1.3.js"
@@ -47,18 +47,20 @@ $(function() {
 	var $postContainer, config;
 	config = {
 		breakpoints: {
-			large: 864
+			large: 72*12
 		}
 	};
 
 	$postContainer = $('.body');
+
 	$postContainer.sidenotes({
 		//'removeRefMarkRegex': /^/,
 		'removeRefMarkRegex': /-sn$/,
 		'sidenoteClass': 'sidenote typo-s',
-		'footnoteSelector': 'aside',
+		'sidenoteGroupClass': 'sidenotes',
+		//'footnoteSelector': 'aside',
 		//initiallyHidden: Response.band(0, config.breakpoints.large),
-		//sidenotePlacement: Response.band(config.breakpoints.large) ? 'after' : 'before'
+		sidenotePlacement: Response.band(0, config.breakpoints.large) ? 'after' : 'before'
 	});
 
 	Response.create({
@@ -70,7 +72,8 @@ $(function() {
 		//console.log(Response.deviceW());
 		switch (false) {
 			case !Response.band(0, config.breakpoints.large):
-			$postContainer.sidenotes('hide');
+			$postContainer.sidenotes('show');
+			$postContainer.sidenotes('sidenotePlacement', 'after');
 			return console.log('Small');
 			break;
 			default:
