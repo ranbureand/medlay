@@ -1,6 +1,6 @@
 <nav class="nav">
 	{% for section in site.data.chapters %}
 	<h6>{{ section.title }}</h6>
-	{% include chapters-ul.html items=section.chapters %}
+	{% include chapters-chapters.html items=section.chapters %}
 	{% endfor %}
 </nav>

@@ -631,6 +631,7 @@
 	}
 	span {
 		@include adjust-font-size-to($m-small-size, $m-small-line, $m-medium-size);
+		color: $light-type-color;
 	}
 	@include min-screen(col(8)) {
 		ul {
