@@ -55,7 +55,7 @@
 		}
 	}
 	@include min-screen(col(12)) {
-		padding-left: em($d-indent);
+		padding-left: em($d-indent - $border-width);
 
 		border-left-width: $border-width;
 		border-left-style: solid;

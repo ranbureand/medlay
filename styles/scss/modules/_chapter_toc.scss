@@ -44,7 +44,7 @@
 		}
 	}
 	@include min-screen(col(12)) {
-		padding-left: em($d-indent);
+		padding-left: em($d-indent - $border-width);
 
 		text-align: left;
 

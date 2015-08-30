@@ -7,7 +7,7 @@
 [class*="typo"] {
 	position: relative;
 
-	ul, ol, blockquote {
+	ul, ol {
 		padding-left: em($m-indent);
 	}
 	pre {
@@ -36,6 +36,7 @@
 		}
 	}
 	blockquote {
+		padding-left: em($m-indent - $border-width);
 		border-left-color: $nd-type-color;
 		border-left-width: $border-width;
 		border-left-style: solid;
@@ -68,8 +69,11 @@
 		margin-bottom: 0;
 	}
 	@include min-screen(col(12)) {
-		ul, ol, blockquote {
+		ul, ol {
 			padding-left: em($d-indent);
+		}
+		blockquote {
+			padding-left: em($d-indent - $border-width);
 		}
 		hr {
 			width: em($column-width*4 - $d-indent);
