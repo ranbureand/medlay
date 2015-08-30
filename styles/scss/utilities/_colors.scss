@@ -9,7 +9,8 @@ $white: #fff;
 
 //$st-color: hsl(240, 100, 80);
 $st-color: hsl(340, 100, 65);
-$nd-color: hsl(165, 100, 60);
+$nd-color: hsl(340, 100, 65);
+//$nd-color: hsl(165, 100, 60);
 
 $canvas: #222;
 
@@ -22,10 +23,10 @@ $type-color: rgba($white, 0.6);
 $light-type-color: rgba($white, 0.4);
 
 $st-type-color: rgba($st-color, 0.9);
-$st-light-type-color: rgba($st-color, 0.3);
+$st-light-type-color: rgba($st-color, 0.5);
 
 $nd-type-color: rgba($nd-color, 0.9);
-$nd-light-type-color: rgba($nd-color, 0.3);
+$nd-light-type-color: rgba($nd-color, 0.5);
 
 $placeholder-type-color: rgba($st-color, 0.15);
 

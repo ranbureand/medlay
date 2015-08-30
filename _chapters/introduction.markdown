@@ -1,13 +1,14 @@
 ---
 layout: chapter
-title: "Mandarino"
+title: "What is Medlay?"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
 categories: hello world
+intro: "A New Hybrid Media Form"
 ---
 
-This text[^mandarino] has a footnote.
+This text[^kiwi] has a footnote.
 
-[^mandarino]: And that's the footnote.
+[^kiwi]: And that's the footnote.
 
     That's the second paragraph.

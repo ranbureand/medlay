@@ -124,6 +124,21 @@ $button-small-border-width: 1px;
 }
 
 /*
+** Clearfix
+*/
+
+@mixin clearfix {
+	&:before, &:after {
+		display: table;
+
+		content: " ";
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+/*
 ** Align
 */
 
@@ -145,14 +160,16 @@ $button-small-border-width: 1px;
 	@if $status == "link" {
 		border-bottom: 1px solid $st-type-color;
 		box-shadow: 0 -1px 0 $st-type-color inset;
-		//text-decoration: underline;
-		/*&:hover {
-			border-bottom: 2px solid $st-type-color;
+		&:hover, &:active {
+			border-bottom: 1px solid $st-type-color;
 			box-shadow: 0 -1px 0 $st-type-color inset;
-		}*/
+		}
 	} @else if $status == "none" {
-		//text-decoration: none;
 		border-bottom: none;
 		box-shadow: none;
+		&:hover, &:active {
+			border-bottom: none;
+			box-shadow: none;
+		}
 	}
 }

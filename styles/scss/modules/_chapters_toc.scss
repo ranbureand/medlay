@@ -18,17 +18,6 @@
 		margin-top: rhythm($m-medium-line, $m-medium-size);
 
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
-		&:before {
-			display: block;
-
-			width: 25%;
-			margin-right: auto;
-			margin-left: auto;
-
-			content: "";
-
-			border-top: $border-width/2 solid $border-color;
-		}
 		&:first-child {
 			margin-top: 0;
 		}
@@ -39,11 +28,14 @@
 	li {
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
 	}
+	a {
+		font-weight: $bold;
+	}
 	.current {
 		a {
 			cursor: default;
 
-			color: $st-type-color;
+			color: $nd-type-color;
 		}
 	}
 	@include min-screen(col(8)) {
@@ -54,7 +46,6 @@
 			@include adjust-font-size-to($d-medium-size, $d-medium-line);
 			&:before {
 				width: em($column-width*2 - $d-gut/2, $d-medium-size);
-				//margin-right: em(-$d-gut/2, $d-small-size);
 			}
 			&:first-child {
 				margin-top: 0;
@@ -81,14 +72,6 @@
 			margin-top: rhythm($d-small-line, $d-small-size);
 
 			@include adjust-font-size-to($d-small-size, $d-small-line);
-			&:before {
-				position: absolute;
-				top: -$border-width/2;
-
-				width: em($column-width - $d-gut/2, $d-medium-size);
-				margin-right: 0;
-				margin-left: em($column-width*3 - $d-gut/2, $d-small-size);
-			}
 			&:first-child {
 				margin-top: 0;
 			}
@@ -105,10 +88,5 @@
 		margin-left: col(8);
 
 		text-align: left;
-		h6 {
-			&:before {
-				margin-left: 0;
-			}
-		}
 	}
 }

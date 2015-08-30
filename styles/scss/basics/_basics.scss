@@ -116,13 +116,12 @@ audio:not([controls]) {
 
 a {
 	text-decoration: none;
-	font-weight: $bold;
 
 	background-color: transparent; // normalize.css
 
-	@include transition-property(color, border-color);
-	@include transition-duration(0.2s, 0.2s);
-	@include transition-timing-function(ease-in-out, ease-in-out);
+	@include transition-property(color, border-color, box-shadow);
+	@include transition-duration(0.2s, 0.2s, 0.2s);
+	@include transition-timing-function(ease-in-out, ease-in-out, ease-in-out);
 	//@include transition-delay(0s);
 	@include link-colors($strong-type-color, $st-type-color, $st-type-color);
 	text-decoration: none;
@@ -179,8 +178,8 @@ dl {
 	dt {
 		float: left;
 		margin-right: 0.8em;
-		font-weight: $bold;
-		color: $nd-type-color;
+		color: $strong-type-color;
+		font-style: italic;
 	}
 	dd {
 		margin: 0;
@@ -198,7 +197,7 @@ abbr[title] {
 strong {
 	font-weight: $bold; // normalize.css
 
-	color: $nd-type-color;
+	color: $strong-type-color;
 }
 
 q {
@@ -245,8 +244,11 @@ code, kbd, pre, samp {
 	font-family: monospace, monospace; // normalize.css
 	font-size: 1em; // normalize.css
 }
-code, samp, kbd, mark {
+code, samp {
 	color: $type-color;
+}
+kbd, mark {
+	color: $strong-type-color;
 }
 code, samp, kbd {
 	@include face(mono);

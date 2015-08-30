@@ -24,6 +24,9 @@
 	.scroll {
 		margin-top: rhythm($m-small-line*2, $m-small-size);
 	}
+	a {
+		font-weight: $bold;
+	}
 	@include min-screen(col(8)) {
 		width: col(8);
 		padding-top: rhythm($d-small-line);

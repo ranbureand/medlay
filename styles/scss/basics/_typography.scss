@@ -40,11 +40,6 @@
 		border-left-width: $border-width;
 		border-left-style: solid;
 	}
-	strong {
-		a {
-			@include link-colors($nd-type-color, $st-type-color, $st-type-color);
-		}
-	}
 	a {
 		@include link;
 	}

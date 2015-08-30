@@ -1,12 +1,12 @@
-- title: Section 1
+- title: Introduction
   chapters:
-  - kiwi
+  - introduction
 
-- title: Another Section
+- title: Media Form
+  chapters:
+  - pieces
+  - sequences
+
+- title: Conclusion
   chapters:
   - hello-world
-  - mandarino
-
-- title: Even Another Section
-  chapters:
-  - banana
