@@ -18,7 +18,7 @@
 		li {
 			&:before {
 				float: left;
-				color: $nd-type-color;
+				color: $st-type-color;
 				content: "•";
 				//content: "\003E";
 			}
@@ -30,14 +30,14 @@
 			counter-increment: ordered-list;
 			&:before {
 				float: left;
-				color: $nd-type-color;
+				color: $st-type-color;
 				content: counter(ordered-list) ".";
 			}
 		}
 	}
 	blockquote {
 		padding-left: em($m-indent - $border-width);
-		border-left-color: $nd-type-color;
+		border-left-color: $st-type-color;
 		border-left-width: $border-width;
 		border-left-style: solid;
 	}
@@ -47,7 +47,7 @@
 	a[href *= "#sn:"], a[href *= "#fn:"] {
 		margin-left: 0.1em;
 		@include link(none);
-		@include link-colors($nd-type-color, $st-type-color, $st-type-color);
+		@include link-colors($st-type-color, $st-type-color, $st-type-color);
 	}
 	sup[id *= "fnref:"] {
 		margin-left: 0.2em; 

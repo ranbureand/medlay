@@ -19,7 +19,7 @@
 	.ref-mark {
 		display: block;
 
-		color: $nd-type-color;
+		color: $st-type-color;
 
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}

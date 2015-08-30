@@ -11,7 +11,11 @@
 	list-style-type: none;
 	list-style-type: none;
 
-	text-align: center;
+	padding-left: em($m-indent - $border-width);
+
+	border-left-width: $border-width;
+	border-left-style: solid;
+	border-left-color: $st-type-color;
 
 	li {
 		margin-top: rhythm($m-medium-line/4, $m-medium-size);
@@ -47,9 +51,5 @@
 		padding-left: em($d-indent - $border-width);
 
 		text-align: left;
-
-		border-left-width: $border-width;
-		border-left-style: solid;
-		border-left-color: $nd-type-color;
 	}
 }
