@@ -1,0 +1,10 @@
+---
+layout: not-found
+title: "404 Not Found"
+author: "Andrea Buran"
+date: 2015-02-03 11:16:00
+categories: hello world
+permalink: /404.html
+---
+
+I'm really sorry, but I couldn't find the page you were looking for... would you like to go back to the <a href="{{ site.baseurl }}/">Table of Content</a>?
