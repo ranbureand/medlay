@@ -173,6 +173,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/images\/placeholder_00.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17697,
+		"inputAbbreviatedPath": "\/_site\/images\/placeholder_00.png",
+		"outputAbbreviatedPath": "\/_site\/images\/placeholder_00.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/the_last_dispatch_2_browser_620_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -380,6 +391,17 @@
 		"outputAbbreviatedPath": "\/config.rb",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/images\/placeholder_00.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17697,
+		"inputAbbreviatedPath": "\/images\/placeholder_00.png",
+		"outputAbbreviatedPath": "\/images\/placeholder_00.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/the_last_dispatch_2_browser_620_00.jpg": {
 		"fileType": 16384,
