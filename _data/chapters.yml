@@ -1,12 +1,15 @@
-- title: Introduction
+- title: Foreword
   chapters:
   - introduction
+  - proofs-of-concept
 
-- title: Media Form
+- title: How It Works
   chapters:
   - pieces
   - sequences
 
-- title: Conclusion
+- title: Afterword
   chapters:
+  - research
+  - conclusion
   - hello-world

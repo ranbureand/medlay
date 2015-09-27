@@ -61,7 +61,7 @@
 .sidenote {
 	margin-bottom: rhythm($m-small-line/2);
 	padding-top: rhythm($m-small-line/4);
-	padding-left: em($m-gut);
+	//padding-left: em($m-gut);
 
 	a[href *= "#fnr"] {
 		display: none;
@@ -75,7 +75,7 @@
 		}
 	}
 	@include min-screen(col(8)) {
-		padding-left: em($d-gut);
+		//padding-left: em($d-gut);
 		.ref-mark {
 			padding-right: em($d-gut/2, $d-small-size);
 		}

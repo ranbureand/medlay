@@ -4,7 +4,7 @@ title: "Pieces"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
 categories: hello world
-intro: "Juxtaposition in Time of Dynamic Images in Loop, Temporal Montage"
+intro: "Juxtaposition in Time of Series of Images, Temporal Montage"
 ---
 
 A piece is the **basic building block** of a medlay.
@@ -30,11 +30,11 @@ The **splicing** can be either **continuous**[^continuity-editing], by means of 
 
 {% include figure.html src="placeholder_00.png" caption="Continuous piace vs discontinuous piece." %}
 
-In the case in which a piece constitutes of a sequence of a **single series**, at the end of the piece the last and the first images of the series are spliced together, that is the series[^coincidence] is juxtaposed in time with itself.
+In the case in which a piece constitutes of a sequence of a **single series**, at the end of the piece the last and the first images of the series are spliced together: that is the series[^coincidence] is juxtaposed in time with itself.
 
 {% include figure.html src="placeholder_00.png" caption="Single series." %}
 
-In the case in which a piece constitutes of a sequence of **multiple series**, at the end of the piece the last image of the last series and the first one of the first series are spliced together, that is the last series is juxtaposed in time with the first one.
+In the case in which a piece constitutes of a sequence of **multiple series**, at the end of the piece the last image of the last series and the first one of the first series are spliced together: that is the last series is juxtaposed in time with the first one.
 
 {% include figure.html src="placeholder_00.png" caption="Multiple series." %}
 
@@ -60,7 +60,7 @@ For **example**, a piece constituted of a single series changes state and passes
 
 ### Frame
 
-Since a piece is spatially juxtaposed in sequence together with others on a canvas, its frame is directly visible[^cinematographic-frame] to viewers, thus frame **size**, **shape** and **border** become **significant** and can be designed to express or reinforce its meaning.
+Since a piece is spatially juxtaposed on a canvas, its frame is directly visible[^cinematographic-frame] to viewers: frame **size**, **shape** and **borders** become **significant** and can be shaped to express or reinforce the meaning of the piece.
 
 {% include figure.html src="placeholder_00.png" caption="Significant sizes and shapes." %}
 

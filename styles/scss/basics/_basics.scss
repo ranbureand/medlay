@@ -71,8 +71,8 @@ html {
 }
 
 body {
-	border-top: 5px solid $st-type-color;
-	counter-reset: figures;
+	//border-top: 5px solid $st-type-color;
+	counter-reset: footnotes figures ordered-list;
 
 	font-weight: $normal;
 
@@ -298,6 +298,11 @@ blockquote {
 			font-style: italic;
 		}
 	}
+}
+
+quote {
+	font-style: italic;
+	color: $strong-type-color;
 }
 
 hr {
