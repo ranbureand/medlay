@@ -6,4 +6,8 @@ date: 2015-02-03 11:16:00
 categories: hello world
 ---
 
-These notes are a **work in progress**, thus they are potentially filled up with plenty of **unfinished thoughts**, **grammar mistakes** and much more. If you spot something and have few time available, please [submit an issue on GitHub](https://github.com/ranbureand/medlay "Medlay on GitHub"). Many thanks!
+I am writing these notes to introduce and formalize a new way of crafting multimedia artefacts on the Web --- **Medlay** --- in hopes of providing some interesting **food for thought** and pushing the boundaries further.
+
+They are a **work in progress**, thus they are potentially filled up with plenty of **unfinished thoughts**, **grammar mistakes**[^mistakes] and much more. If you spot something worth fixing, please [submit an issue on GitHub](https://github.com/ranbureand/medlay "Medlay on GitHub"): many many **thanks**!
+
+[^mistakes]: And I bet there are plenty, since English it's not my cup of tea... ^_^

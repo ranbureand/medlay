@@ -20,7 +20,7 @@ Two proof of concept **prototypes** have been created to explore and test the po
 
 ### *Ubik Chap. 6*
 
-*Ubik Chap. 6* is the second substantial prototype designed following the principles of Medlay and it is based on the very first lines of chapter 6th of ***Ubik*** --- a novel by Philp K. Dick:
+*Ubik Chap. 6* is the second substantial prototype designed following the principles of Medlay and it is based on the very first lines of chapter 6<sup>th</sup> of ***Ubik*** --- a novel by Philp K. Dick:
 
 {% include figure.html src="placeholder_00.png" caption="." %}
 

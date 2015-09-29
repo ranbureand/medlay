@@ -4,7 +4,7 @@ title: "What is Medlay?"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
 categories: hello world
-intro: "A Hybrid Media Form"
+intro: "Hybrid Media Form"
 ---
 
 **Medlay**[^origin] is a **hybrid media form concept** for crafting a **multimedia artefact**[^form-artefact] to narrate a story and/or communicate an idea on the Web.
@@ -15,7 +15,7 @@ It is **hybrid** because it combines the strenght[^strength] of two popular medi
 
 {% include figure.html src="placeholder_00.png" caption="." %}
 
-Two **proof of concept prototypes** have been created to explore and test the possibilities of Medlay: ***The Last Dispatch*** and ***Ubik Chap. 6***. They both narrate a short story.
+Two **[proof of concept prototypes]({{ site.baseurl }}/chapters/proofs-of-concept.html)** have been created to demostrate the possibilities of use of Medlay: ***The Last Dispatch*** and ***Ubik Chap. 6***. They both narrate a short story.
 
 {% include figure.html src="placeholder_00.png" caption="." %}
 

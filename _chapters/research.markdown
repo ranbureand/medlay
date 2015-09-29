@@ -7,9 +7,9 @@ categories: hello world
 intro: "Juxtaposition in Space of Pieces, Spatial Montage"
 ---
 
-I was able to work on **Medlay** as my **thesis subject**: such opportunity allowed me to refine its concept while further researching and understanding the way the cinema and comics media form work.
+I was able to work and further refine the concept of **Medlay** in occasion of my graduate **thesis**, which aim was first to compare the way the **cinema** and **comics media form** work and then formulate a new creative way to **crossbreed** them on the Web.
 
-Here follows the main reasoning behind my thesis, which main aim was formulate a new creative way to crossbreed cinema and comics on the Web.
+Here follows the main reasoning behind my thesis:
 
 + Will be replaced with the ToC, excluding the "Contents" header
 {:toc #toc}
@@ -70,7 +70,7 @@ The **comparison** analyzes the following points:
 
 The consequences of the mid-1980s **digital revolution**[^digital-revolution], the birth of the **new digital media** and their characteristics, the **new possibilities** of **production** of the dynamic images given by the computer and the **Web** have been subsequently examined.
 
-In the end a new **hybrid media form** that integrated both cinema and comics has been proposed and shown: Medlay.
+In the end a new **hybrid media form** that integrated both cinema and comics has been proposed and shown: **Medlay**.
 
 Such a hybridization has been made possible by the mid-1980s digital revolution and by the **ever-growing**, **eclectic** and **inclusive Web** environment, which potentially serves as a **melting pot** for various old media forms and which nowadays has progressively become more and more important as a **distribution channel**.
 
