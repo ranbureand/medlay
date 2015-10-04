@@ -7,8 +7,4 @@ categories: hello world
 intro: "Voices, Noises and Musics"
 ---
 
-This text[^mandarino] has a footnote.
-
-[^mandarino]: And that's the footnote.
-
-    That's the second paragraph.
+I haven't written this chapter yet. It will be coming soon, hopefully, so stay tuned!
