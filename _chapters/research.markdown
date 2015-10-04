@@ -8,7 +8,7 @@ intro: "Hybridization of Cinema and Comics"
 description: "Is it possible to create a new hybrid media form which integrates those characteristics of cinema and comics that seemed incompatible in the past, now that the two media forms potentially differ only in their respective procedures?"
 ---
 
-I was able to work and further refine the concept of **Medlay** in occasion of my graduate **thesis**, which aim was first to compare the way the **cinema** and **comics media form** work and then formulate a new creative way to **crossbreed** them on the Web.
+I was able to work and further refine the concept of **Medlay** in occasion of my graduate **thesis**[^thanks], which aim was first to compare the way the **cinema** and **comics media form** work and then formulate a new creative way to **crossbreed** them on the Web.
 
 Here follows the main reasoning behind my thesis:
 
@@ -77,6 +77,9 @@ Such a hybridization has been made possible by the mid-1980s digital revolution 
 
 
 
+
+
+[^thanks]: A huge thanks to Massimo Magrì and Nicolò Scibilia for having given me such opportunity as well as a lot of help.
 
 [^remediation]: Jay David Bolter + Richard Grusin, ***Remediation***.
 
