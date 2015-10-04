@@ -163,6 +163,9 @@
 		@include rhythm-margins($m-medium-line/2, $m-medium-line/2);
 		@include leading-border($border-width/2, $m-medium-line);
 	}
+	.source {
+		@include adjust-font-size-to($m-small-size, $m-medium-line, $m-medium-size);
+	}
 	@include min-screen(col(8)) {
 		h1, h2 {
 			margin-bottom: rhythm($d-extra-large-line/2, $d-extra-large-size);
@@ -225,6 +228,9 @@
 		hr {
 			@include rhythm-margins($d-medium-line/2, $d-medium-line/2);
 			@include leading-border($border-width/2, $d-medium-line);
+		}
+		.source {
+			@include adjust-font-size-to($d-small-size, $d-medium-line, $d-medium-size);
 		}
 	}
 }

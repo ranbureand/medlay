@@ -30,7 +30,7 @@ As American cartoonist and comics theorist **Scott McCloud** theorized by his **
 >
 > Print cartoonists (myself included) make a constant series of **compromises in pacing** and design to stuff out stories into pages. We add and subtract panels, restrict size variation, break reading flow, and rarely if ever vary the distance between panels for fear of wasting paper. Without such **restrictions**, though, every one of those choices can be made exclusively on behalf of the needs of the story.
 >
-> Scott McCloud, [Infinite Canvas](http://scottmccloud.com/4-inventions/canvas/ "The "Infinite Canvas"")
+> <cite class="source">Scott McCloud, *[Infinite Canvas](http://scottmccloud.com/4-inventions/canvas/ "The "Infinite Canvas"")*</cite>
 
 By embracing the concept of the infinite canvas, the narrative pace of a medlay sequence has **no space boundaries or restrictions** and is free to extend on behalf of the **needs** of the **story**.
 

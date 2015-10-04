@@ -27,7 +27,7 @@ A practical **example of** a **remediation** is the way the movie ***Sin City***
 
 > Through "splash pages" [...] comics have the distinctive potential to convey in purely **graphic** terms the **importance** of a (literally) "big" moment in the story.
 >
-> <cite>Greg M. Smith, *Shaping The Maxx: adapting the comic book frame to television*</cite>
+> <cite class="source">Greg M. Smith, *Shaping The Maxx: adapting the comic book frame to television*</cite>
 
 Restricted by the <quote>film's seemingly fixed, invisible frame</quote> the movie remediates and reshapes the "splash page" device by means of the camera movement and of the artificial frozen pose adopted by the jumping character.
 
