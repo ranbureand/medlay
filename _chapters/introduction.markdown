@@ -5,6 +5,7 @@ author: "Andrea Buran"
 date: 2015-02-03 11:16:00
 categories: hello world
 intro: "Hybrid Media Form"
+description: "Medlay is a hybrid media form concept for crafting multimedia artefacts to narrate a story and/or communicate an idea on the Web."
 ---
 
 **Medlay**[^origin] is a **hybrid media form concept** for crafting a **multimedia artefact**[^form-artefact] to narrate a story and/or communicate an idea on the Web.

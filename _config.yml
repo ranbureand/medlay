@@ -1,7 +1,7 @@
 # Site settings
 title: "Medlay"
 subtitle: A New Hybrid Media Form
-description: Bibbidi Bobbidi Bu.
+description: "Medlay is a new concept for crafting multimedia artefacts on the Web."
 author: Andrea Buran
 exclude: ['README.md']
 

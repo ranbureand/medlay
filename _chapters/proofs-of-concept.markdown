@@ -4,7 +4,8 @@ title: "Proofs of Concept"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
 categories: hello world
-intro: "Juxtaposition in Space of Pieces, Spatial Montage"
+intro: "Validation by Prototype"
+description: "The principles at the basis of the Medlay concept have been validated in two proof of concept prototypes: The Last Dispatch and Ubik Chap. 6."
 ---
 
 Two proof of concept **prototypes** have been created to explore and test the possibilities of Medlay: ***The Last Dispatch*** and ***Ubik Chap. 6***.

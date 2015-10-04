@@ -1,10 +1,10 @@
 ---
 layout: chapter
-title: "What is Next?"
+title: "Words & Sounds"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
 categories: hello world
-intro: "Looking to the Future"
+intro: "Voices, Noises and Musics"
 ---
 
 This text[^mandarino] has a footnote.

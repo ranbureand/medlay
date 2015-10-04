@@ -5,9 +5,10 @@ author: "Andrea Buran"
 date: 2015-02-03 11:16:00
 categories: hello world
 intro: "Juxtaposition in Time of Series of Images, Temporal Montage"
+description: "Pieces are the basic building blocks of a Medlay artefact and they start as a mix/hybridization between the cinematographic shot and the comic panel."
 ---
 
-A piece is the **basic building block** of a medlay.
+A piece is the **basic building block** of a Medlay artefact.
 
 It is a **mix**/**hybridization** between the cinematographic shot and the comic panel and, as its precursors, it becomes significant when placed in context with other pieces, that is if it is **spatially juxtaposed in a sequence**[^sequences] of pieces.
 
