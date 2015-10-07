@@ -21,7 +21,7 @@ A piece constitutes of one or more dynamic **series of images**[^shot] sequentia
 
 Each piece is **formed into a loop**, which allows for the content represented to be repetitive in time, and thus always accessible to viewers.
 
-{% include figure.html src="placeholder_00.png" caption="Non-loop vs loop." %}
+{% include figure-2.html src-1="batman_300_00.jpg" alt-1="Alternative description 1." src-2="batman_poster_00.jpg" alt-2="Alternative description 2." caption="Non-loop vs loop." %}
 
 ### Different Types of Pieces
 
@@ -29,19 +29,19 @@ A piece being formed into a loop entails that the one or more series it is compo
 
 The **splicing** can be either **continuous**[^continuity-editing], by means of a smooth [transition](https://en.wikipedia.org/wiki/Film_transition "Film Transition in Wikipedia") of time and space, or **discontinuous**, by the lack of it.
 
-{% include figure.html src="placeholder_00.png" caption="Continuous piace vs discontinuous piece." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Continuous piace vs discontinuous piece." %}
 
 In the case in which a piece constitutes of a sequence of a **single series**, at the end of the piece the last and the first images of the series are spliced together: that is the series[^coincidence] is juxtaposed in time with itself.
 
-{% include figure.html src="placeholder_00.png" caption="Single series." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Single series." %}
 
 In the case in which a piece constitutes of a sequence of **multiple series**, at the end of the piece the last image of the last series and the first one of the first series are spliced together: that is the last series is juxtaposed in time with the first one.
 
-{% include figure.html src="placeholder_00.png" caption="Multiple series." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Multiple series." %}
 
 A **particular case** of multiple series piece is when the piece constitutes of a sequence of two series of images where the second of the twos it is none other than the first one **time reversed** and **played back**.
 
-{% include figure.html src="placeholder_00.png" caption="Multiple series back and forth." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Multiple series back and forth." %}
 
 ### Length of Time
 
@@ -55,17 +55,17 @@ A piece can be programmed to respond to **viewers' interaction** and/or **focus 
 
 For **example**, a piece constituted of a single series changes state and passes[^transition] to a second different single series in response to viewers' tapping of the piece or scrolling of the canvas into a certain area of focus.
 
-{% include figure.html src="placeholder_00.png" caption="Multiple series 1-2-1 and 1-2-3 on tap." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Multiple series 1-2-1 and 1-2-3 on tap." %}
 
-{% include figure.html src="placeholder_00.png" caption="Single series 1-2 on canvas scroll." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Single series 1-2 on canvas scroll." %}
 
 ### Frame
 
 Since a piece is spatially juxtaposed on a canvas, its frame is directly visible[^cinematographic-frame] to viewers: frame **size**, **shape** and **borders** become **significant** and can be shaped to express or reinforce the meaning of the piece.
 
-{% include figure.html src="placeholder_00.png" caption="Significant sizes and shapes." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Significant sizes and shapes." %}
 
-{% include figure.html src="placeholder_00.png" caption="Significant borders." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Significant borders." %}
 
 [^sequences]: More on sequences of pieces in the next chapter, *[Sequences]({{ site.baseurl }}/chapters/sequences.html)*.
 

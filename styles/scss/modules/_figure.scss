@@ -4,7 +4,7 @@
 ** Figure
 */
 
-.figure {
+[class*="figure"] {
 	position: relative;
 
 	margin: rhythm($m-medium-line) 0 rhythm($m-medium-line) 0;
@@ -70,6 +70,23 @@
 				padding-left: em($d-gut/2, $d-small-size);
 
 				content: "[ " counter(figures);
+			}
+		}
+	}
+}
+
+.figure-2 {
+	a {
+
+	}
+	@include min-screen(col(8)) {
+		a {
+			width: 50%;
+			&:nth-child(1) {
+				padding-left: em($d-gut/2);
+			}
+			&:nth-child(2) {
+				padding-right: em($d-gut/2);
 			}
 		}
 	}

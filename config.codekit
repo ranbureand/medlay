@@ -29,6 +29,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/figure-2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/figure-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/figure.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -209,6 +218,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/images\/batman_300_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81494,
+		"inputAbbreviatedPath": "\/_site\/images\/batman_300_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/batman_300_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/batman_poster_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29747,
+		"inputAbbreviatedPath": "\/_site\/images\/batman_poster_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/batman_poster_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/placeholder_00.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -216,6 +247,17 @@
 		"initialSize": 17697,
 		"inputAbbreviatedPath": "\/_site\/images\/placeholder_00.png",
 		"outputAbbreviatedPath": "\/_site\/images\/placeholder_00.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/placeholder_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17699,
+		"inputAbbreviatedPath": "\/_site\/images\/placeholder_01.png",
+		"outputAbbreviatedPath": "\/_site\/images\/placeholder_01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -428,6 +470,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/batman_300_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81494,
+		"inputAbbreviatedPath": "\/images\/batman_300_00.jpg",
+		"outputAbbreviatedPath": "\/images\/batman_300_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/batman_poster_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29747,
+		"inputAbbreviatedPath": "\/images\/batman_poster_00.jpg",
+		"outputAbbreviatedPath": "\/images\/batman_poster_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/placeholder_00.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -435,6 +499,17 @@
 		"initialSize": 17697,
 		"inputAbbreviatedPath": "\/images\/placeholder_00.png",
 		"outputAbbreviatedPath": "\/images\/placeholder_00.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholder_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17699,
+		"inputAbbreviatedPath": "\/images\/placeholder_01.png",
+		"outputAbbreviatedPath": "\/images\/placeholder_01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

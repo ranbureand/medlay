@@ -21,7 +21,7 @@ That of the two media of cinema and comics is a long story of competition and re
 
 The term remediation is **not** meant to refer to the **transposition of contents**[^transposition] among cinema and comics but instead to the reciprocal borrowing and reshaping of their media forms carried out by both of them.
 
-{% include figure.html src="placeholder_00.png" caption="For example, the 1960s TV series ***Batman*** transposed the imagery and characters of the homonymous comic book." %}
+{% include figure-2.html src-1="batman_poster_00.jpg" alt-1="Alternative description 1." src-2="batman_300_00.jpg" alt-2="Alternative description 2." caption="For example, the 1960s TV series ***Batman*** transposed the imagery and characters of the homonymous comic book." %}
 
 A practical **example of** a **remediation** is the way the movie ***Sin City*** --- which is a transposition of the homonymous graphic novel --- has remediated a typical device of the comics media form, that is the ***splash page***.
 
@@ -39,7 +39,7 @@ Restricted by the <quote>film's seemingly fixed, invisible frame</quote> the mov
 
 Is it possible to create a new **hybrid media form** which integrates those characteristics of cinema and comics that seemed incompatible in the past, now that the two media forms potentially differ only in their respective procedures?
 
-{% include figure.html src="placeholder_00.png" caption="In my opinion ***Marvel Motion Comics*** are **not comics**: actually their media form is the cartoon cinema one through and through." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="In my opinion ***Marvel Motion Comics*** are **not comics**: actually their media form is the cartoon cinema one through and through." %}
 
 ### Sequential Art
 
@@ -49,23 +49,23 @@ The **comparison** analyzes the following points:
 
 + the respective procedures with which cinema and comics represent **time** and **space**, both at the level of the cinema shot and that of the comics panel and at the level of the sequence of shots and panels;
 
-{% include figure.html src="placeholder_00.png" caption="." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
 
 + the differences between the cinema **split screen** and the comics **layout**;
 
-{% include figure.html src="placeholder_00.png" caption="." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
 
 + the differences between the **format** of the cinema **shot** and the one of the comics **panel**;
 
-{% include figure.html src="placeholder_00.png" caption="." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
 
 + the respective procedures with which cinema and comics represent **voice**, **noise** and **music**;
 
-{% include figure.html src="placeholder_00.png" caption="." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
 
 + the respective procedures of **interpretation**.
 
-{% include figure.html src="placeholder_00.png" caption="." %}
+{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
 
 ### Hybrid Media Form
 
