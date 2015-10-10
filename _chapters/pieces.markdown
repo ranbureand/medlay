@@ -21,6 +21,8 @@ A piece constitutes of one or more dynamic **series of images**[^shot] sequentia
 
 Each piece is **formed into a loop**, which allows for the content represented to be repetitive in time, and thus always accessible to viewers.
 
+{% include video.html src="piece_00" caption="Non-loop vs loop." %}
+
 {% include figure-2.html src-1="batman_300_00.jpg" alt-1="Alternative description 1." src-2="batman_poster_00.jpg" alt-2="Alternative description 2." caption="Non-loop vs loop." %}
 
 ### Different Types of Pieces

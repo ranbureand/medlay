@@ -1,0 +1,14 @@
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure class="figure">
+	<a href="../videos/{{ include.src }}.mp4">
+		<video autoplay="autoplay" loop="loop">
+			<source src="../videos/{{ include.src }}.webm" type="video/webm"/>
+			<source src="../videos/{{ include.src }}.mp4" type="video/mp4"/>
+			<source src="../videos/{{ include.src }}.ogv" type="video/ogv"/>
+		</video>
+	</a>
+	<figcaption class="caption typo-s">
+		{{ include.caption | markdownify }}
+	</figcaption>
+</figure>

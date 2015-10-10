@@ -79,9 +79,20 @@
 	a {
 
 	}
+	@include min-screen(em(480)) {
+		a {
+			float: right;
+			width: 50%;
+			&:nth-child(1) {
+				padding-left: em($m-gut/2);
+			}
+			&:nth-child(2) {
+				padding-right: em($m-gut/2);
+			}
+		}
+	}
 	@include min-screen(col(8)) {
 		a {
-			width: 50%;
 			&:nth-child(1) {
 				padding-left: em($d-gut/2);
 			}
