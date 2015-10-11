@@ -1,9 +1,26 @@
 <!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
 
 <figure class="figure">
-	<a class="media" href="../images/{{ include.src-1 }}" target="_blank">
-		<img src="../images/{{ include.src-1 }}" alt="{{ include.alt-1 }}"/>
-	</a>
+	<div class="media">
+		{% if include.type-1 == "video" %}
+			<a href="../videos/{{ include.src-1 }}.mp4" target="_blank">
+				<video autoplay="autoplay" loop="loop" poster="../videos/{{ include.src-1 }}.jpg">
+					<source src="../videos/{{ include.src-1 }}.webm" type="video/webm"/>
+					<source src="../videos/{{ include.src-1 }}.mp4" type="video/mp4"/>
+					<source src="../videos/{{ include.src-1 }}.ogv" type="video/ogv"/>
+				</video>
+			</a>
+		{% else %}
+			<a href="../images/{{ include.src-1 }}" target="_blank">
+				<img src="../images/{{ include.src-1 }}" alt="{{ include.alt-1 }}"/>
+			</a>
+		{% endif %}
+		{% if include.from-1 %}
+			<div class="from typo-s">
+				{{ include.from-1 | markdownify }}
+			</div>
+		{% endif %}
+	</div>
 	{% if include.caption %}
 		<figcaption class="caption typo-s">
 			{{ include.caption | markdownify }}

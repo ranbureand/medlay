@@ -21,7 +21,7 @@ A piece constitutes of one or more dynamic **series of images**[^shot] sequentia
 
 Each piece is **formed into a loop**, which allows for the content represented to be repetitive in time, and thus always accessible to viewers.
 
-{% include video.html src="piece_00" caption="Non-loop vs loop." %}
+{% include figure.html type-1="video" src-1="piece_00" caption="Non-loop vs loop." %}
 
 {% include figure-2.html src-1="batman_300_00.jpg" alt-1="Alternative description 1." src-2="batman_poster_00.jpg" alt-2="Alternative description 2." caption="Non-loop vs loop." %}
 
@@ -31,7 +31,7 @@ A piece being formed into a loop entails that the one or more series it is compo
 
 The **splicing** can be either **continuous**[^continuity-editing], by means of a smooth [transition](https://en.wikipedia.org/wiki/Film_transition "Film Transition in Wikipedia") of time and space, or **discontinuous**, by the lack of it.
 
-{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Continuous piace vs discontinuous piece." %}
+{% include figure.html type-1="image" src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Continuous piace vs discontinuous piece." %}
 
 In the case in which a piece constitutes of a sequence of a **single series**, at the end of the piece the last and the first images of the series are spliced together: that is the series[^coincidence] is juxtaposed in time with itself.
 

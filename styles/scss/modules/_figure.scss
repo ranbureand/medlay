@@ -7,19 +7,22 @@
 [class*="figure"] {
 	position: relative;
 
-	margin: rhythm($m-medium-line) 0 rhythm($m-medium-line) 0;
+	margin: rhythm($m-medium-line) em(-$m-gut/2);
 
 	counter-increment: figures;
 
 	@include clearfix();
 	.media {
 		position: relative;
+
 		display: block;
 
 		width: 100%;
+		margin-bottom: rhythm($m-small-line/2);
+		padding-right: em($m-gut/2);
+		padding-left: em($m-gut/2);
 
 		@include link(none);
-		margin-bottom: rhythm($m-small-line/2);
 		.from {
 			opacity: 0;
 		}
@@ -33,14 +36,20 @@
 		margin: 0 auto 0 auto;
 	}
 	.from {
-		@include transition-property(opacity);
-		@include transition-duration(0.2s);
-		@include transition-timing-function(ease-in-out);
 		position: absolute;
 		top: 0;
 		left: 0;
-		padding: rhythm($m-small-line/4) em($m-gut/4);
-		background-color: $nd-color;
+
+		padding: rhythm($m-small-line/4) em($m-gut/2);
+
+		background-color: $background-color;
+
+		@include transition-property(opacity);
+		@include transition-duration(0.2s);
+		@include transition-timing-function(ease-in-out);
+		em {
+			color: $strong-type-color;
+		}
 	}
 	.caption {
 		width: 100%;
@@ -57,10 +66,14 @@
 		}
 	}
 	@include min-screen(col(8)) {
-		margin-top: rhythm($d-medium-line);
-		margin-bottom: rhythm($d-medium-line);
+		margin: rhythm($d-medium-line) em(-$d-gut/2);
 		.media {
 			margin-bottom: rhythm($d-small-line/2);
+			padding-right: em($d-gut/2);
+			padding-left: em($d-gut/2);
+		}
+		.from {
+			padding: rhythm($d-small-line/4) em($d-gut);
 		}
 		.caption {
 			&:before {
@@ -73,8 +86,9 @@
 	@include min-screen(col(12)) {
 		.media {
 			float: left;
-			margin-left: 0;
+
 			margin-right: -100%;
+			margin-left: 0;
 		}
 		.caption {
 			float: left;
@@ -103,30 +117,19 @@
 	@include min-screen(em(480)) {
 		.media {
 			float: left;
+
 			width: 50%;
 			&:nth-child(1) {
 				margin-right: -100%;
 				margin-left: 0;
-				padding-right: em($m-gut/2);
 			}
 			&:nth-child(2) {
 				margin-right: -100%;
 				margin-left: 50%;
-				padding-left: em($m-gut/2);
 			}
 		}
 		.caption {
 			clear: left;
-		}
-	}
-	@include min-screen(col(8)) {
-		.media {
-			&:nth-child(1) {
-				padding-right: em($d-gut/2);
-			}
-			&:nth-child(2) {
-				padding-left: em($d-gut/2);
-			}
 		}
 	}
 	@include min-screen(col(12)) {
