@@ -12,18 +12,38 @@
 	counter-increment: figures;
 
 	@include clearfix();
-	a {
+	.media {
+		position: relative;
 		display: block;
 
 		width: 100%;
 
 		@include link(none);
+		margin-bottom: rhythm($m-small-line/2);
+		.from {
+			opacity: 0;
+		}
+		&:hover {
+			.from {
+				opacity: 1.0;
+			}
+		}
 	}
-	img {
+	img, video {
 		margin: 0 auto 0 auto;
 	}
+	.from {
+		@include transition-property(opacity);
+		@include transition-duration(0.2s);
+		@include transition-timing-function(ease-in-out);
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: rhythm($m-small-line/4) em($m-gut/4);
+		background-color: $nd-color;
+	}
 	.caption {
-		margin-top: rhythm($m-small-line/2);
+		width: 100%;
 		&:before {
 			float: left;
 
@@ -39,8 +59,10 @@
 	@include min-screen(col(8)) {
 		margin-top: rhythm($d-medium-line);
 		margin-bottom: rhythm($d-medium-line);
+		.media {
+			margin-bottom: rhythm($d-small-line/2);
+		}
 		.caption {
-			margin-top: rhythm($d-small-line/2);
 			&:before {
 				padding-right: em($d-gut/2, $d-small-size);
 
@@ -49,15 +71,17 @@
 		}
 	}
 	@include min-screen(col(12)) {
-		a {
-			float: right;
+		.media {
+			float: left;
+			margin-left: 0;
+			margin-right: -100%;
 		}
 		.caption {
 			float: left;
-			clear: left;
 
 			width: col(4);
 			margin-top: rhythm($d-small-line/4);
+			margin-right: -100%;
 			margin-left: em(-$column-width*4 -$d-gut/2);
 			padding-right: em($d-gut/2);
 			padding-left: em($d-gut/2);
@@ -76,29 +100,38 @@
 }
 
 .figure-2 {
-	a {
-
-	}
 	@include min-screen(em(480)) {
-		a {
-			float: right;
+		.media {
+			float: left;
 			width: 50%;
 			&:nth-child(1) {
-				padding-left: em($m-gut/2);
-			}
-			&:nth-child(2) {
+				margin-right: -100%;
+				margin-left: 0;
 				padding-right: em($m-gut/2);
 			}
+			&:nth-child(2) {
+				margin-right: -100%;
+				margin-left: 50%;
+				padding-left: em($m-gut/2);
+			}
+		}
+		.caption {
+			clear: left;
 		}
 	}
 	@include min-screen(col(8)) {
-		a {
+		.media {
 			&:nth-child(1) {
-				padding-left: em($d-gut/2);
-			}
-			&:nth-child(2) {
 				padding-right: em($d-gut/2);
 			}
+			&:nth-child(2) {
+				padding-left: em($d-gut/2);
+			}
+		}
+	}
+	@include min-screen(col(12)) {
+		.caption {
+			clear: none;
 		}
 	}
 }

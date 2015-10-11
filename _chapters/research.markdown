@@ -8,7 +8,7 @@ intro: "Hybridization of Cinema and Comics"
 description: "Is it possible to create a new hybrid media form which integrates those characteristics of cinema and comics that seemed incompatible in the past, now that the two media forms potentially differ only in their respective procedures?"
 ---
 
-I was able to work and further refine the concept of **Medlay** in occasion of my graduate **thesis**[^thanks], which aim was first to compare the way the **cinema** and **comics media form** work and then formulate a new creative way to **crossbreed** them on the Web.
+I was able to work and further refine the concept of **Medlay** in occasion of my graduate **thesis**[^thanks], which aim was to compare the **cinema** and **comics media forms** and formulate a new creative way to **crossbreed** them on the Web.
 
 Here follows the main reasoning behind my thesis:
 
@@ -21,7 +21,7 @@ That of the two media of cinema and comics is a long story of competition and re
 
 The term remediation is **not** meant to refer to the **transposition of contents**[^transposition] among cinema and comics but instead to the reciprocal borrowing and reshaping of their media forms carried out by both of them.
 
-{% include figure-2.html src-1="batman_poster_00.jpg" alt-1="Alternative description 1." src-2="batman_300_00.jpg" alt-2="Alternative description 2." caption="For example, the 1960s TV series ***Batman*** transposed the imagery and characters of the homonymous comic book." %}
+{% include figure-2.html src-1="batman_poster_00.jpg" alt-1="Alternative description 1." from-1="Roger Sabin, *Comics, Comix and Graphic Novels --- A History Of Comic Art*" src-2="batman_300_00.jpg" alt-2="Alternative description 2." caption="For example, the 1960s TV series ***Batman*** transposed the imagery and characters of the homonymous comic book." %}
 
 A practical **example of** a **remediation** is the way the movie ***Sin City*** --- which is a transposition of the homonymous graphic novel --- has remediated a typical device of the comics media form, that is the ***splash page***.
 
@@ -79,7 +79,7 @@ Such a hybridization has been made possible by the mid-1980s digital revolution 
 
 
 
-[^thanks]: A huge thanks to Massimo Magrì and Nicolò Scibilia for having given me such opportunity as well as a lot of help.
+[^thanks]: A huge thanks to Massimo Magrì and Nicolò Scibilia for having given me such opportunity and helped me out during the process.
 
 [^remediation]: Jay David Bolter + Richard Grusin, ***Remediation***.
 

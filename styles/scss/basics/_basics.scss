@@ -328,6 +328,14 @@ img, iframe {
 	background-color: $picture-background-color;
 }
 
+video {
+	display: block;
+
+	width: 100%;
+	@include box-shadow($picture-shadow-color 0 1px 2px);
+	background-color: $picture-background-color;
+}
+
 img {
 	border: 0; // normalize.css
 

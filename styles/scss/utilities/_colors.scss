@@ -9,7 +9,7 @@ $white: #fff;
 
 //$st-color: hsl(240, 100, 80);
 $st-color: hsl(345, 100, 65);
-//$st-color: hsl(165, 100, 60);
+$nd-color: hsl(165, 100, 60);
 
 $canvas: #222;
 
@@ -18,8 +18,8 @@ $canvas: #222;
 */
 
 $strong-type-color: rgba($white, 0.9);
-$type-color: rgba($white, 0.6);
-$light-type-color: rgba($white, 0.4);
+$type-color: rgba($white, 0.65);
+$light-type-color: rgba($white, 0.40);
 
 $st-type-color: rgba($st-color, 0.9);
 $st-light-type-color: rgba($st-color, 0.5);
