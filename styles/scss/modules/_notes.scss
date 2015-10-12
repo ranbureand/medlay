@@ -69,7 +69,7 @@
 	.ref-mark {
 		float: left;
 
-		padding-right: em($m-gut/2, $m-small-size);
+		padding-right: em($m-gut/4, $m-small-size);
 		&:after {
 			content: " )";
 		}

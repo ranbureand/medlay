@@ -52,6 +52,8 @@
 		}
 	}
 	.caption {
+		padding-right: em($m-gut/2);
+		padding-left: em($m-gut/2);
 		width: 100%;
 		&:before {
 			float: left;
@@ -76,6 +78,8 @@
 			padding: rhythm($d-small-line/4) em($d-gut);
 		}
 		.caption {
+			padding-right: em($d-gut/2);
+			padding-left: em($d-gut/2);
 			&:before {
 				padding-right: em($d-gut/2, $d-small-size);
 
@@ -96,9 +100,7 @@
 			width: col(4);
 			margin-top: rhythm($d-small-line/4);
 			margin-right: -100%;
-			margin-left: em(-$column-width*4 -$d-gut/2);
-			padding-right: em($d-gut/2);
-			padding-left: em($d-gut/2);
+			margin-left: em(-$column-width*4);
 
 			text-align: right;
 			&:before {

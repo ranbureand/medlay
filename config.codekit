@@ -101,15 +101,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/video.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/video.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_layouts\/404.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -271,6 +262,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/sin_city_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48094,
+		"inputAbbreviatedPath": "\/_site\/images\/sin_city_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/sin_city_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/the_last_dispatch_2_browser_620_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -293,7 +295,7 @@
 		},
 	"\/_site\/scripts\/js\/jquery-2.1.3.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scripts\/js\/jquery-2.1.3.js",
 		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/jquery-2.1.3-min.js",
@@ -470,6 +472,28 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/videos\/batman_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29747,
+		"inputAbbreviatedPath": "\/_site\/videos\/batman_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/batman_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/videos\/sin_city_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14291,
+		"inputAbbreviatedPath": "\/_site\/videos\/sin_city_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/sin_city_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
@@ -519,6 +543,17 @@
 		"initialSize": 17699,
 		"inputAbbreviatedPath": "\/images\/placeholder_01.png",
 		"outputAbbreviatedPath": "\/images\/placeholder_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sin_city_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48094,
+		"inputAbbreviatedPath": "\/images\/sin_city_00.jpg",
+		"outputAbbreviatedPath": "\/images\/sin_city_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -989,6 +1024,28 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/videos\/batman_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29747,
+		"inputAbbreviatedPath": "\/videos\/batman_00.jpg",
+		"outputAbbreviatedPath": "\/videos\/batman_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/videos\/sin_city_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14291,
+		"inputAbbreviatedPath": "\/videos\/sin_city_00.jpg",
+		"outputAbbreviatedPath": "\/videos\/sin_city_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [
