@@ -324,7 +324,7 @@ img, iframe {
 	display: block;
 
 	max-width: 100%;
-	@include box-shadow($picture-shadow-color 0 1px 2px);
+	//@include box-shadow($picture-shadow-color 0 1px 2px);
 	background-color: $picture-background-color;
 }
 
@@ -332,7 +332,7 @@ video {
 	display: block;
 
 	width: 100%;
-	@include box-shadow($picture-shadow-color 0 1px 2px);
+	//@include box-shadow($picture-shadow-color 0 1px 2px);
 	background-color: $picture-background-color;
 }
 
