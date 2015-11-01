@@ -21,7 +21,7 @@ That of the two media of cinema and comics is a long story of competition and re
 
 The term remediation is **not** meant to refer to the **transposition of contents**[^transposition] among cinema and comics but instead to the reciprocal borrowing and reshaping of their media forms carried out by both of them.
 
-{% include figure-2.html src-1="batman_300_00.jpg" alt-1="Cover Detective Comics, DC Comics, 1940." from-1="Roger Sabin, *Comics, Comix and Graphic Novels --- A History Of Comic Art*" type-2="video" src-2="batman_00" from-2="*Batman*, 1960s TV series" caption="For example, the 1960s TV series ***Batman*** transposed the imagery and characters of the homonymous comic book." %}
+{% include figure-2.html src-1="batman_00.jpg" alt-1="A cover of Detective Comics featuring Batman and Robin, DC Comics, 1940." from-1="Roger Sabin, *Comics, Comix and Graphic Novels — A History Of Comic Art*" type-2="video" src-2="batman_00" from-2="*Batman*, 1960s TV series" caption="For example, the 1960s TV series ***Batman*** transposed the imagery and characters of the homonymous comic book." %}
 
 A practical **example of** a **remediation** is the way the movie ***Sin City*** --- which is a transposition of the homonymous graphic novel --- has remediated a typical device of the comics media form, that is the ***splash page***.
 
@@ -29,7 +29,7 @@ A practical **example of** a **remediation** is the way the movie ***Sin City***
 >
 > <cite class="source">Greg M. Smith, *Shaping The Maxx: adapting the comic book frame to television*</cite>
 
-{% include figure-2.html src-1="sin_city_00.jpg" alt-1="A splash screen taken from the graphic novel Sin City." from-1="Frank Miller, *Sin City*" type-2="video" src-2="sin_city_00" from-2="Robert Rodríguez & Frank Miller, *Sin City*" %}
+{% include figure-2.html src-1="sin_city_00.jpg" alt-1="A splash page taken from the graphic novel Sin City." from-1="Frank Miller, *Sin City*" type-2="video" src-2="sin_city_00" from-2="Robert Rodríguez & Frank Miller, *Sin City*" %}
 
 Restricted by the <quote>film's seemingly fixed, invisible frame</quote> the movie remediates and reshapes the "splash page" device by means of the camera movement and of the artificial frozen pose adopted by the jumping character.
 
@@ -37,41 +37,55 @@ Restricted by the <quote>film's seemingly fixed, invisible frame</quote> the mov
 
 **Before** the **digital revolution** these reciprocal remediations have always been **limited by different production**, **recording**, **transmission** and **reproduction technologies**.
 
+{% include figure-2.html src-1="cinema_technology_00" type-1="video" src-2="comics_technology_00" type-2="video" %}
+
 **After** the **digital revolution**, the **technological differences** between the two cultural forms --- taken and included by the World Wide Web --- have been **reset**: in most cases cinema and comics have nonetheless continued to be considered and **remediated separately**.
+
+{% include figure-2.html src-1="vimeo_00" type-1="video" src-2="beartato_00.jpg" alt-2="A strip of the web comic NEDROID." from-2="Anthony Clark, *NEDROID* web comic" %}
 
 Is it possible to create a new **hybrid media form** which integrates those characteristics of cinema and comics that seemed incompatible in the past, now that the two media forms potentially differ only in their respective procedures?
 
-{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="In my opinion ***Marvel Motion Comics*** are **not comics**: actually their media form is the cartoon cinema one through and through." %}
+{% include figure.html src-1="motion_comics_00.jpg" alt-1="A screenshot taken from a Marvel motion comic." caption="In my opinion ***Marvel Motion Comics*** are **not comics**: actually their media form is the cartoon cinema one through and through." from-1="Marvel Motion Comics, *Spider Woman*" %}
+
+{% include figure.html src-1="motion_comics_01.jpg" alt-1="A screenshot taken from a Marvel motion comic." from-1="Marvel Motion Comics, *Spider Woman*" %}
 
 ### Sequential Art
 
 To value the actual possibility of an interbreeding between the two cultural forms, cinema and comics have been subsumed under the more general concept of **sequential art**: <quote>the arrangement of pictures or images and words to narrate a story or dramatize an idea</quote> --- a definition created in 1985 by **Will Eisner**[^source-1] and expanded in 1994 by **Scott McCloud**[^source-2] --- and compared to highlight some of their affinities and some of their differences.
 
+{% include figure.html src-1="understanding_comics_00.jpg" alt-1="An excerpt taken from the non-fiction work of comics Understanding Comics." from-1="Scott McCloud, *Understanding Comics*" %}
+
 The **comparison** analyzes the following points:
 
 + the respective procedures with which cinema and comics represent **time** and **space**, both at the level of the cinema shot and that of the comics panel and at the level of the sequence of shots and panels;
 
-{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
+{% include figure-2.html src-1="cinema_01" type-1="video" src-2="comics_time_space_00" from-2="Carlos Trillo & Enrique Breccia, *Alvar Mayor*" type-2="video" %}
 
 + the differences between the cinema **split screen** and the comics **layout**;
 
-{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
+{% include figure.html src-1="conversation_with_other_women_00.jpg" alt-1="A screenshot taken from Conversation with Other Women." from-1="Hans Canosa, *Conversation with Other Women*" %}
+
+{% include figure.html src-1="jojo_00.jpg" alt-1="A double page taken from the manga Jojo’s Bizarre Adventure." from-1="Hirohiko Araki, *Jojo’s Bizarre Adventure*" %}
 
 + the differences between the **format** of the cinema **shot** and the one of the comics **panel**;
 
-{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
+{% include figure-2.html src-1="cinema_format_00.gif" alt-1="The format of a cinema shot." src-2="blame_00.jpg" alt-2="A page taken from the manga Blame!" from-2="Tsutomu Nihei, *Blame!*" %}
 
 + the respective procedures with which cinema and comics represent **voice**, **noise** and **music**;
 
-{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
+{% include figure-2.html src-1="cinema_sound_00" type-1="video" src-2="comics_voice_00.jpg" alt-2="Scott McCloud speaking out loud in Making Comics." from-2="Scott McCloud, *Making Comics*" %}
 
 + the respective procedures of **interpretation**.
 
-{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
+{% include figure-2.html src-1="viewing_00.jpg" alt-1="Spectators looking at a cinema screen in a theatre." src-2="reading_comics_00.jpg" alt-2="Children reading comics." from-2="Roger Sabin, *Comics, Comix & Graphic Novels – A History Of Comic Art*" %}
 
 ### Hybrid Media Form
 
 The consequences of the mid-1980s **digital revolution**[^digital-revolution], the birth of the **new digital media** and their characteristics, the **new possibilities** of **production** of the dynamic images given by the computer and the **Web** have been subsequently examined.
+
+{% include figure.html src-1="sin_city_01.jpg" alt-1="A screenshot taken from the making of the movie Sin City." from-1="Robert Rodríguez & Frank Miller, *Sin City* making of" %}
+
+{% include figure.html src-1="sin_city_02.jpg" alt-1="A screenshot taken from the movie Sin City." from-1="Robert Rodríguez & Frank Miller, *Sin City*" %}
 
 In the end a new **hybrid media form** that integrated both cinema and comics has been proposed and shown: **Medlay**.
 
@@ -81,7 +95,7 @@ Such a hybridization has been made possible by the mid-1980s digital revolution 
 
 
 
-[^thanks]: A huge thanks to Massimo Magrì and Nicolò Scibilia for having given me such opportunity and helped me out during the process.
+[^thanks]: A huge thank-you to Massimo Magrì and Nicolò Scibilia for having given me such opportunity and helped me out during the process.
 
 [^remediation]: Jay David Bolter + Richard Grusin, ***Remediation***.
 
