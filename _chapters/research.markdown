@@ -21,7 +21,9 @@ That of the two media of cinema and comics is a long story of competition and re
 
 The term remediation is **not** meant to refer to the **transposition of contents**[^transposition] among cinema and comics but instead to the reciprocal borrowing and reshaping of their media forms carried out by both of them.
 
-{% include figure-2.html src-1="batman_00.jpg" alt-1="A cover of Detective Comics featuring Batman and Robin, DC Comics, 1940." from-1="Roger Sabin, *Comics, Comix and Graphic Novels — A History Of Comic Art*" type-2="video" src-2="batman_00" from-2="*Batman*, 1960s TV series" caption="For example, the 1960s TV series ***Batman*** transposed the imagery and characters of the homonymous comic book." %}
+{% include figure.html type-1="video" src-1="batman_00" from-1="*Batman*, 1960s TV series" caption="For example, the 1960s TV series ***Batman*** transposed the imagery and characters of the homonymous comic book." %}
+
+{% include figure.html src-1="batman_00.jpg" alt-1="A cover of Detective Comics featuring Batman and Robin, DC Comics, 1940." from-1="Roger Sabin, *Comics, Comix and Graphic Novels — A History Of Comic Art*" %}
 
 A practical **example of** a **remediation** is the way the movie ***Sin City*** --- which is a transposition of the homonymous graphic novel --- has remediated a typical device of the comics media form, that is the ***splash page***.
 
@@ -29,19 +31,23 @@ A practical **example of** a **remediation** is the way the movie ***Sin City***
 >
 > <cite class="source">Greg M. Smith, *Shaping The Maxx: adapting the comic book frame to television*</cite>
 
-{% include figure-2.html src-1="sin_city_00.jpg" alt-1="A splash page taken from the graphic novel Sin City." from-1="Frank Miller, *Sin City*" type-2="video" src-2="sin_city_00" from-2="Robert Rodríguez & Frank Miller, *Sin City*" %}
+{% include figure.html src-1="sin_city_00.jpg" alt-1="A splash page taken from the graphic novel Sin City." from-1="Frank Miller, *Sin City*" %}
 
 Restricted by the <quote>film's seemingly fixed, invisible frame</quote> the movie remediates and reshapes the "splash page" device by means of the camera movement and of the artificial frozen pose adopted by the jumping character.
+
+{% include figure.html type-1="video" src-1="sin_city_00" from-1="Robert Rodríguez & Frank Miller, *Sin City*" %}
 
 ### Digital Revolution
 
 **Before** the **digital revolution** these reciprocal remediations have always been **limited by different production**, **recording**, **transmission** and **reproduction technologies**.
 
-{% include figure-2.html src-1="cinema_technology_00" type-1="video" src-2="comics_technology_00" type-2="video" %}
+{% include figure.html src-1="cinema_technology_00" type-1="video" %}
+
+{% include figure.html src-1="comics_technology_00" type-1="video" %}
 
 **After** the **digital revolution**, the **technological differences** between the two cultural forms --- taken and included by the World Wide Web --- have been **reset**: in most cases cinema and comics have nonetheless continued to be considered and **remediated separately**.
 
-{% include figure-2.html src-1="vimeo_00" type-1="video" src-2="beartato_00.jpg" alt-2="A strip of the web comic NEDROID." from-2="Anthony Clark, *NEDROID* web comic" %}
+{% include figure.html src-1="beartato_00.jpg" alt-1="A strip of the web comic NEDROID." from-1="Anthony Clark, *NEDROID* web comic" %}
 
 Is it possible to create a new **hybrid media form** which integrates those characteristics of cinema and comics that seemed incompatible in the past, now that the two media forms potentially differ only in their respective procedures?
 
@@ -59,7 +65,9 @@ The **comparison** analyzes the following points:
 
 + the respective procedures with which cinema and comics represent **time** and **space**, both at the level of the cinema shot and that of the comics panel and at the level of the sequence of shots and panels;
 
-{% include figure-2.html src-1="cinema_01" type-1="video" src-2="comics_time_space_00" from-2="Carlos Trillo & Enrique Breccia, *Alvar Mayor*" type-2="video" %}
+{% include figure.html src-1="cinema_01" type-1="video" caption="In the cinema media form the time is conveyed directly through time." %}
+
+{% include figure.html src-1="comics_time_space_00" from-1="Carlos Trillo & Enrique Breccia, *Alvar Mayor*" type-1="video" caption="In the comic media form the time is conveyed indirectly through space." %}
 
 + the differences between the cinema **split screen** and the comics **layout**;
 
@@ -69,15 +77,19 @@ The **comparison** analyzes the following points:
 
 + the differences between the **format** of the cinema **shot** and the one of the comics **panel**;
 
-{% include figure-2.html src-1="cinema_format_00.gif" alt-1="The format of a cinema shot." src-2="blame_00.jpg" alt-2="A page taken from the manga Blame!" from-2="Tsutomu Nihei, *Blame!*" %}
+{% include figure.html src-1="cinema_format_00.jpg" alt-1="The format of a cinema shot." %}
+
+{% include figure.html src-1="blame_00.jpg" alt-1="A page taken from the manga Blame!" from-1="Tsutomu Nihei, *Blame!*" %}
 
 + the respective procedures with which cinema and comics represent **voice**, **noise** and **music**;
 
-{% include figure-2.html src-1="cinema_sound_00" type-1="video" src-2="comics_voice_00.jpg" alt-2="Scott McCloud speaking out loud in Making Comics." from-2="Scott McCloud, *Making Comics*" %}
+{% include figure.html src-1="comics_voice_00.jpg" alt-1="Scott McCloud speaking out loud in Making Comics." from-1="Scott McCloud, *Making Comics*" %}
 
 + the respective procedures of **interpretation**.
 
-{% include figure-2.html src-1="viewing_00.jpg" alt-1="Spectators looking at a cinema screen in a theatre." src-2="reading_comics_00.jpg" alt-2="Children reading comics." from-2="Roger Sabin, *Comics, Comix & Graphic Novels – A History Of Comic Art*" %}
+{% include figure.html src-1="viewing_00.jpg" alt-1="Spectators looking at a cinema screen in a theatre." %}
+
+{% include figure.html src-1="reading_comics_00.jpg" alt-1="Children reading comics." from-1="Roger Sabin, *Comics, Comix & Graphic Novels – A History Of Comic Art*" %}
 
 ### Hybrid Media Form
 
@@ -90,7 +102,6 @@ The consequences of the mid-1980s **digital revolution**[^digital-revolution], t
 In the end a new **hybrid media form** that integrated both cinema and comics has been proposed and shown: **Medlay**.
 
 Such a hybridization has been made possible by the mid-1980s digital revolution and by the **ever-growing**, **eclectic** and **inclusive Web** environment, which potentially serves as a **melting pot** for various old media forms and which nowadays has progressively become more and more important as a **distribution channel**.
-
 
 
 

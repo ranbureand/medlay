@@ -405,6 +405,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/covers\/placeholder_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17699,
+		"inputAbbreviatedPath": "\/_site\/covers\/placeholder_01.png",
+		"outputAbbreviatedPath": "\/_site\/covers\/placeholder_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/covers\/ubik_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 683273,
+		"inputAbbreviatedPath": "\/_site\/covers\/ubik_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/covers\/ubik_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/favicon-16x16.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -458,7 +480,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/batman_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/batman_poster_00.jpg": {
 		"fileType": 16384,
@@ -469,7 +491,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/batman_poster_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/beartato_00.jpg": {
 		"fileType": 16384,
@@ -480,7 +502,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/beartato_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/blame_00.jpg": {
 		"fileType": 16384,
@@ -489,6 +511,17 @@
 		"initialSize": 303210,
 		"inputAbbreviatedPath": "\/_site\/images\/blame_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/blame_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/cinema_format_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13611,
+		"inputAbbreviatedPath": "\/_site\/images\/cinema_format_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/cinema_format_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -502,13 +535,13 @@
 		"outputAbbreviatedPath": "\/_site\/images\/comics_voice_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/conversation_with_other_women_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 136359,
+		"initialSize": 135450,
 		"inputAbbreviatedPath": "\/_site\/images\/conversation_with_other_women_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/conversation_with_other_women_00.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -524,7 +557,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/jojo_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/motion_comics_00.jpg": {
 		"fileType": 16384,
@@ -535,7 +568,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/motion_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/motion_comics_01.jpg": {
 		"fileType": 16384,
@@ -546,7 +579,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/motion_comics_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/placeholder_00.png": {
 		"fileType": 32768,
@@ -557,7 +590,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/placeholder_00.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/placeholder_01.png": {
 		"fileType": 32768,
@@ -568,7 +601,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/placeholder_01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/reading_comics_00.jpg": {
 		"fileType": 16384,
@@ -579,7 +612,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/reading_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/sin_city_00.jpg": {
 		"fileType": 16384,
@@ -590,7 +623,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/sin_city_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/sin_city_01.jpg": {
 		"fileType": 16384,
@@ -601,7 +634,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/sin_city_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/sin_city_02.jpg": {
 		"fileType": 16384,
@@ -612,7 +645,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/sin_city_02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/the_last_dispatch_2_browser_620_00.jpg": {
 		"fileType": 16384,
@@ -623,7 +656,117 @@
 		"outputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_2_browser_620_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/_site\/images\/the_last_dispatch_6648.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 444844,
+		"inputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6648.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6648.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/the_last_dispatch_6661.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 484726,
+		"inputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6661.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6661.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/the_last_dispatch_6670.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 678744,
+		"inputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6670.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6670.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/the_last_dispatch_6671.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 745145,
+		"inputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6671.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6671.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/the_last_dispatch_6672.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 650467,
+		"inputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6672.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6672.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/the_last_dispatch_6673.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 157934,
+		"inputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6673.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/the_last_dispatch_6673.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/ubik_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 648716,
+		"inputAbbreviatedPath": "\/_site\/images\/ubik_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/ubik_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/ubik_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 585036,
+		"inputAbbreviatedPath": "\/_site\/images\/ubik_02.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/ubik_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/ubik_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 572228,
+		"inputAbbreviatedPath": "\/_site\/images\/ubik_03.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/ubik_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/images\/ubik_6696.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 759475,
+		"inputAbbreviatedPath": "\/_site\/images\/ubik_6696.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/ubik_6696.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/_site\/images\/understanding_comics_00.jpg": {
 		"fileType": 16384,
@@ -634,7 +777,7 @@
 		"outputAbbreviatedPath": "\/_site\/images\/understanding_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/_site\/images\/viewing_00.jpg": {
 		"fileType": 16384,
@@ -645,7 +788,18 @@
 		"outputAbbreviatedPath": "\/_site\/images\/viewing_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/_site\/images\/vimeo_01_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15797,
+		"inputAbbreviatedPath": "\/_site\/images\/vimeo_01_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/vimeo_01_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
@@ -876,6 +1030,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/styles\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/styles\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/styles\/scss\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -891,6 +1054,490 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/_site\/thumbs\/batman_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 237047,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/batman_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/batman_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/beartato_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159746,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/beartato_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/beartato_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/thumbs\/blame_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244270,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/blame_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/blame_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/cinema_format_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14539,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/cinema_format_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/cinema_format_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/comics_voice_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95077,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/comics_voice_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/comics_voice_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/conversation_with_other_women_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45567,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/conversation_with_other_women_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/conversation_with_other_women_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/thumbs\/jojo_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143510,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/jojo_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/jojo_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/motion_comics_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55217,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/motion_comics_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/motion_comics_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/thumbs\/motion_comics_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56179,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/motion_comics_01.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/motion_comics_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/reading_comics_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169889,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/reading_comics_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/reading_comics_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/sin_city_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148196,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/sin_city_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/sin_city_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/sin_city_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56744,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/sin_city_01.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/sin_city_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/thumbs\/sin_city_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44606,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/sin_city_02.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/sin_city_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/thumbs\/the_last_dispatch_6648.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43537,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6648.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6648.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/the_last_dispatch_6661.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62998,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6661.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6661.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/the_last_dispatch_6670.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89083,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6670.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6670.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/the_last_dispatch_6671.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98370,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6671.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6671.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/the_last_dispatch_6672.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88395,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6672.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6672.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/the_last_dispatch_6673.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31341,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6673.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6673.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/ubik_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54771,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/ubik_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/ubik_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/ubik_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47391,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/ubik_02.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/ubik_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/ubik_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44663,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/ubik_03.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/ubik_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/ubik_6696.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98351,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/ubik_6696.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/ubik_6696.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/thumbs\/understanding_comics_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317966,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/understanding_comics_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/understanding_comics_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/thumbs\/viewing_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20179,
+		"inputAbbreviatedPath": "\/_site\/thumbs\/viewing_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/thumbs\/viewing_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/batman_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27561,
+		"inputAbbreviatedPath": "\/_site\/videos\/batman_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/batman_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/cinema_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19259,
+		"inputAbbreviatedPath": "\/_site\/videos\/cinema_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/cinema_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/cinema_01_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12218,
+		"inputAbbreviatedPath": "\/_site\/videos\/cinema_01_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/cinema_01_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/cinema_sound_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18246,
+		"inputAbbreviatedPath": "\/_site\/videos\/cinema_sound_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/cinema_sound_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/cinema_technology_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20647,
+		"inputAbbreviatedPath": "\/_site\/videos\/cinema_technology_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/cinema_technology_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/comics_technology_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28279,
+		"inputAbbreviatedPath": "\/_site\/videos\/comics_technology_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/comics_technology_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/comics_time_space_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27651,
+		"inputAbbreviatedPath": "\/_site\/videos\/comics_time_space_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/comics_time_space_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/piece_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/piece_continuous_series_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_continuous_series_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_continuous_series_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/piece_discontinuous_series_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_discontinuous_series_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_discontinuous_series_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/piece_multiple_series_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/piece_multiple_series_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_01.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/piece_multiple_series_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_02.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/piece_multiple_series_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_03.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/piece_shapes_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_shapes_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_shapes_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/piece_single_series_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_single_series_00.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_single_series_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/sin_city_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10392,
+		"inputAbbreviatedPath": "\/_site\/videos\/sin_city_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/sin_city_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/viewing_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23948,
+		"inputAbbreviatedPath": "\/_site\/videos\/viewing_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/viewing_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/_site\/videos\/vimeo_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15797,
+		"inputAbbreviatedPath": "\/_site\/videos\/vimeo_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/vimeo_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/android-chrome-144x144.png": {
 		"fileType": 32768,
@@ -1088,6 +1735,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/covers\/placeholder_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17699,
+		"inputAbbreviatedPath": "\/covers\/placeholder_01.png",
+		"outputAbbreviatedPath": "\/covers\/placeholder_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/covers\/ubik_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 683273,
+		"inputAbbreviatedPath": "\/covers\/ubik_00.jpg",
+		"outputAbbreviatedPath": "\/covers\/ubik_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/favicon-16x16.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1141,7 +1810,7 @@
 		"outputAbbreviatedPath": "\/images\/batman_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/batman_poster_00.jpg": {
 		"fileType": 16384,
@@ -1152,7 +1821,7 @@
 		"outputAbbreviatedPath": "\/images\/batman_poster_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/beartato_00.jpg": {
 		"fileType": 16384,
@@ -1163,7 +1832,7 @@
 		"outputAbbreviatedPath": "\/images\/beartato_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/blame_00.jpg": {
 		"fileType": 16384,
@@ -1172,6 +1841,17 @@
 		"initialSize": 303210,
 		"inputAbbreviatedPath": "\/images\/blame_00.jpg",
 		"outputAbbreviatedPath": "\/images\/blame_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/cinema_format_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13611,
+		"inputAbbreviatedPath": "\/images\/cinema_format_00.jpg",
+		"outputAbbreviatedPath": "\/images\/cinema_format_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1185,13 +1865,13 @@
 		"outputAbbreviatedPath": "\/images\/comics_voice_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/conversation_with_other_women_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 136359,
+		"initialSize": 135450,
 		"inputAbbreviatedPath": "\/images\/conversation_with_other_women_00.jpg",
 		"outputAbbreviatedPath": "\/images\/conversation_with_other_women_00.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1207,7 +1887,7 @@
 		"outputAbbreviatedPath": "\/images\/jojo_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/motion_comics_00.jpg": {
 		"fileType": 16384,
@@ -1218,7 +1898,7 @@
 		"outputAbbreviatedPath": "\/images\/motion_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/motion_comics_01.jpg": {
 		"fileType": 16384,
@@ -1229,7 +1909,7 @@
 		"outputAbbreviatedPath": "\/images\/motion_comics_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/placeholder_00.png": {
 		"fileType": 32768,
@@ -1240,7 +1920,7 @@
 		"outputAbbreviatedPath": "\/images\/placeholder_00.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/placeholder_01.png": {
 		"fileType": 32768,
@@ -1251,7 +1931,7 @@
 		"outputAbbreviatedPath": "\/images\/placeholder_01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/reading_comics_00.jpg": {
 		"fileType": 16384,
@@ -1262,18 +1942,18 @@
 		"outputAbbreviatedPath": "\/images\/reading_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/sin_city_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 48094,
+		"initialSize": 294237,
 		"inputAbbreviatedPath": "\/images\/sin_city_00.jpg",
 		"outputAbbreviatedPath": "\/images\/sin_city_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/sin_city_01.jpg": {
 		"fileType": 16384,
@@ -1284,7 +1964,7 @@
 		"outputAbbreviatedPath": "\/images\/sin_city_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/sin_city_02.jpg": {
 		"fileType": 16384,
@@ -1295,7 +1975,7 @@
 		"outputAbbreviatedPath": "\/images\/sin_city_02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/the_last_dispatch_2_browser_620_00.jpg": {
 		"fileType": 16384,
@@ -1306,7 +1986,117 @@
 		"outputAbbreviatedPath": "\/images\/the_last_dispatch_2_browser_620_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/the_last_dispatch_6648.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 444844,
+		"inputAbbreviatedPath": "\/images\/the_last_dispatch_6648.jpg",
+		"outputAbbreviatedPath": "\/images\/the_last_dispatch_6648.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/the_last_dispatch_6661.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 484726,
+		"inputAbbreviatedPath": "\/images\/the_last_dispatch_6661.jpg",
+		"outputAbbreviatedPath": "\/images\/the_last_dispatch_6661.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/the_last_dispatch_6670.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 678744,
+		"inputAbbreviatedPath": "\/images\/the_last_dispatch_6670.jpg",
+		"outputAbbreviatedPath": "\/images\/the_last_dispatch_6670.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/the_last_dispatch_6671.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 745145,
+		"inputAbbreviatedPath": "\/images\/the_last_dispatch_6671.jpg",
+		"outputAbbreviatedPath": "\/images\/the_last_dispatch_6671.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/the_last_dispatch_6672.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 650467,
+		"inputAbbreviatedPath": "\/images\/the_last_dispatch_6672.jpg",
+		"outputAbbreviatedPath": "\/images\/the_last_dispatch_6672.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/the_last_dispatch_6673.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 157934,
+		"inputAbbreviatedPath": "\/images\/the_last_dispatch_6673.jpg",
+		"outputAbbreviatedPath": "\/images\/the_last_dispatch_6673.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/ubik_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 648716,
+		"inputAbbreviatedPath": "\/images\/ubik_00.jpg",
+		"outputAbbreviatedPath": "\/images\/ubik_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/ubik_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 585036,
+		"inputAbbreviatedPath": "\/images\/ubik_02.jpg",
+		"outputAbbreviatedPath": "\/images\/ubik_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/ubik_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 572228,
+		"inputAbbreviatedPath": "\/images\/ubik_03.jpg",
+		"outputAbbreviatedPath": "\/images\/ubik_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/ubik_6696.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 759475,
+		"inputAbbreviatedPath": "\/images\/ubik_6696.jpg",
+		"outputAbbreviatedPath": "\/images\/ubik_6696.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/understanding_comics_00.jpg": {
 		"fileType": 16384,
@@ -1317,7 +2107,7 @@
 		"outputAbbreviatedPath": "\/images\/understanding_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/viewing_00.jpg": {
 		"fileType": 16384,
@@ -1328,7 +2118,18 @@
 		"outputAbbreviatedPath": "\/images\/viewing_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/vimeo_01_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/vimeo_01_poster.jpg",
+		"outputAbbreviatedPath": "\/images\/vimeo_01_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/manifest.json": {
 		"fileType": 524288,
@@ -1772,6 +2573,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/styles\/scss\/modules\/_splash.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/scss\/modules\/_splash.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_splash.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/styles\/scss\/modules\/_sundries.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1851,6 +2668,490 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/thumbs\/batman_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/thumbs\/batman_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/batman_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/beartato_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159746,
+		"inputAbbreviatedPath": "\/thumbs\/beartato_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/beartato_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/blame_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/thumbs\/blame_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/blame_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/cinema_format_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/thumbs\/cinema_format_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/cinema_format_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/comics_voice_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/thumbs\/comics_voice_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/comics_voice_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/conversation_with_other_women_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45567,
+		"inputAbbreviatedPath": "\/thumbs\/conversation_with_other_women_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/conversation_with_other_women_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/jojo_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/thumbs\/jojo_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/jojo_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/motion_comics_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55217,
+		"inputAbbreviatedPath": "\/thumbs\/motion_comics_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/motion_comics_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/motion_comics_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/thumbs\/motion_comics_01.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/motion_comics_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/reading_comics_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/thumbs\/reading_comics_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/reading_comics_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/sin_city_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/thumbs\/sin_city_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/sin_city_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/sin_city_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56744,
+		"inputAbbreviatedPath": "\/thumbs\/sin_city_01.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/sin_city_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/sin_city_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44606,
+		"inputAbbreviatedPath": "\/thumbs\/sin_city_02.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/sin_city_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/the_last_dispatch_6648.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43537,
+		"inputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6648.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6648.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/the_last_dispatch_6661.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62998,
+		"inputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6661.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6661.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/the_last_dispatch_6670.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89083,
+		"inputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6670.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6670.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/the_last_dispatch_6671.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98370,
+		"inputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6671.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6671.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/the_last_dispatch_6672.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88395,
+		"inputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6672.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6672.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/the_last_dispatch_6673.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31341,
+		"inputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6673.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/the_last_dispatch_6673.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/ubik_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54771,
+		"inputAbbreviatedPath": "\/thumbs\/ubik_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/ubik_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/ubik_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47391,
+		"inputAbbreviatedPath": "\/thumbs\/ubik_02.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/ubik_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/ubik_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44663,
+		"inputAbbreviatedPath": "\/thumbs\/ubik_03.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/ubik_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/ubik_6696.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98351,
+		"inputAbbreviatedPath": "\/thumbs\/ubik_6696.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/ubik_6696.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/thumbs\/understanding_comics_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317966,
+		"inputAbbreviatedPath": "\/thumbs\/understanding_comics_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/understanding_comics_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/viewing_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/thumbs\/viewing_00.jpg",
+		"outputAbbreviatedPath": "\/thumbs\/viewing_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/batman_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27561,
+		"inputAbbreviatedPath": "\/videos\/batman_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/batman_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/cinema_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19259,
+		"inputAbbreviatedPath": "\/videos\/cinema_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/cinema_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/cinema_01_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12218,
+		"inputAbbreviatedPath": "\/videos\/cinema_01_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/cinema_01_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/cinema_sound_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18246,
+		"inputAbbreviatedPath": "\/videos\/cinema_sound_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/cinema_sound_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/cinema_technology_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20647,
+		"inputAbbreviatedPath": "\/videos\/cinema_technology_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/cinema_technology_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/comics_technology_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28279,
+		"inputAbbreviatedPath": "\/videos\/comics_technology_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/comics_technology_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/comics_time_space_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27651,
+		"inputAbbreviatedPath": "\/videos\/comics_time_space_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/comics_time_space_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/piece_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/videos\/piece_00.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/piece_continuous_series_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/videos\/piece_continuous_series_00.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_continuous_series_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/piece_discontinuous_series_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/videos\/piece_discontinuous_series_00.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_discontinuous_series_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/piece_multiple_series_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_00.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/piece_multiple_series_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_01.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/piece_multiple_series_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_02.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/piece_multiple_series_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_03.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/piece_shapes_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/videos\/piece_shapes_00.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_shapes_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/piece_single_series_00.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/videos\/piece_single_series_00.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_single_series_00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/sin_city_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10392,
+		"inputAbbreviatedPath": "\/videos\/sin_city_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/sin_city_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/viewing_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23948,
+		"inputAbbreviatedPath": "\/videos\/viewing_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/viewing_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/videos\/vimeo_00_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15797,
+		"inputAbbreviatedPath": "\/videos\/vimeo_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/vimeo_00_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		}
 	},
 "hooks": [

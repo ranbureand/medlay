@@ -3,17 +3,17 @@
 <figure class="figure-2">
 	<div class="media">
 		{% if include.type-1 == "video" %}
-			<a href="../videos/{{ include.src-1 }}.mp4" target="_blank">
+			<div href="../videos/{{ include.src-1 }}.mp4" target="_blank">
 				<video autoplay="autoplay" loop="loop" poster="../videos/{{ include.src-1 }}.jpg">
 					<source src="../videos/{{ include.src-1 }}.webm" type="video/webm"/>
 					<source src="../videos/{{ include.src-1 }}.mp4" type="video/mp4"/>
 					<source src="../videos/{{ include.src-1 }}.ogv" type="video/ogv"/>
 					Your browser does not support the HTML5 video tag.
 				</video>
-			</a>
+			</div>
 		{% else %}
 			<a href="../images/{{ include.src-1 }}" target="_blank">
-				<img src="../images/{{ include.src-1 }}" alt="{{ include.alt-1 }}"/>
+				<img src="../thumbs/{{ include.src-1 }}" alt="{{ include.alt-1 }}"/>
 			</a>
 		{% endif %}
 		{% if include.from-1 %}
@@ -24,17 +24,17 @@
 	</div>
 	<div class="media">
 		{% if include.type-2 == "video" %}
-			<a href="../videos/{{ include.src-2 }}.mp4" target="_blank">
+			<div href="../videos/{{ include.src-2 }}.mp4" target="_blank">
 				<video autoplay="autoplay" loop="loop" poster="../videos/{{ include.src-1 }}.jpg">
 					<source src="../videos/{{ include.src-2 }}.webm" type="video/webm"/>
 					<source src="../videos/{{ include.src-2 }}.mp4" type="video/mp4"/>
 					<source src="../videos/{{ include.src-2 }}.ogv" type="video/ogv"/>
 					Your browser does not support the HTML5 video tag.
 				</video>
-			</a>
+			</div>
 		{% else %}
 			<a href="../images/{{ include.src-2 }}" target="_blank">
-				<img src="../images/{{ include.src-2 }}" alt="{{ include.alt-2 }}"/>
+				<img src="../thumbs/{{ include.src-2 }}" alt="{{ include.alt-2 }}"/>
 			</a>
 		{% endif %}
 		{% if include.from-2 %}

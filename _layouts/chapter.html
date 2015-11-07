@@ -7,10 +7,16 @@
 
   {% include browser-upgrade.html %}
 
-   <header class="header">
+  <header class="header">
       <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
       <div>Hybrid Media Form Concept</div>
   </header>
+
+  {% if page.cover %}
+    <div class="cover" style="background-image: url('../covers/{{ page.cover }}');">
+    </div>
+  {% endif %}
+
   <article class="content">
     <div class="body typo-m">
       <h2>{{ page.title }}</h2>

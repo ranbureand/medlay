@@ -10,7 +10,7 @@ description: "Medlay is a hybrid media form concept for crafting multimedia arte
 
 Medlay[^origin] is a **hybrid media form concept** for crafting a multimedia artefact[^form-artefact] to narrate a story and/or communicate an idea on the Web.
 
-{% include figure.html src-1="the_last_dispatch_6648.png" alt-1="A screenshot of the prototype The Last Dispatch." caption="A screenshot of the prototype *The Last Dispatch*." %}
+{% include figure.html src-1="the_last_dispatch_6671.jpg" alt-1="A screenshot of the prototype The Last Dispatch." caption="A screenshot of the prototype *The Last Dispatch*." %}
 
 It is hybrid because it combines the strenght[^strength] of two popular media forms, the **cinema** and **comic** ones. In particular, it fuses the one-image-at-a-time **temporal narration** peculiar to cinema with the multi-images **spatial narration** peculiar to comics.
 
@@ -20,7 +20,7 @@ It is hybrid because it combines the strenght[^strength] of two popular media fo
 
 Two [proof of concept prototypes]({{ site.baseurl }}/chapters/proofs-of-concept.html) have been created to demostrate the possibilities of use of Medlay: ***The Last Dispatch*** and ***Ubik Chap. 6***. They both narrate a short story.
 
-{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="." %}
+{% include figure.html src-1="ubik_6696.jpg" alt-1="A screenshot of the prototype The Last Dispatch." caption="A screenshot of the prototype *Ubik Chap. 6*." %}
 
 Viewers of a Medlay artefact can **explore actively** and **freely**[^exploration] the time and space of a multimedia narration. 
 
