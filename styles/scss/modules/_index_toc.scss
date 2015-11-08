@@ -5,6 +5,8 @@
 */
 
 .toc {
+	margin-top: rhythm($m-medium-line*1.5);
+	margin-bottom: rhythm($m-medium-line*1.5);
 	h6 {
 		margin-top: rhythm($m-medium-line*1.5, $m-small-size);
 	}
@@ -37,6 +39,8 @@
 		@include adjust-font-size-to($m-small-size, $m-small-line, $m-medium-size);
 	}
 	@include min-screen(col(8)) {
+		margin-top: rhythm($d-medium-line*1.5);
+		margin-bottom: rhythm($d-medium-line*1.5);
 		h6 {
 			margin-top: rhythm($d-medium-line*1.5, $d-small-size);
 		}

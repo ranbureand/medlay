@@ -61,12 +61,6 @@
 	};
 })(jQuery);
 
-/*$(".video-content").each(function() {
-	$(this).myVideo();
-});*/
-
-$('.video-content').myControls();
-
-/*$(".video-content").each(function() {
-	$(this).myfunction();
-});*/
+$(".video-content").each(function() {
+	$(this).myControls();
+});
