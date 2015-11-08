@@ -4,6 +4,7 @@
 // @codekit-prepend "jquery.easing.1.3.js"
 // @codekit-prepend "jquery.scrollTo.min.js"
 // @codekit-prepend "jquery.localScroll.min.js"
+// @codekit-append "videos.js"
 
 /*
  * Local scroll
@@ -34,10 +35,6 @@ $.localScroll({
 	onAfter:function( anchor, settings ){
 	}*/
 });
-
-
-//$( ".footnotes > ol > li" ).replaceWith( "<h2>New heading</h2>" );
-
 
 /*
  * Sidenotes

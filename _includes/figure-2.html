@@ -3,7 +3,7 @@
 <figure class="figure-2">
 	<div class="media">
 		{% if include.type-1 == "video" %}
-			<div href="../videos/{{ include.src-1 }}.mp4" target="_blank">
+			<div href="../videos/{{ include.src-1 }}.mp4">
 				<video autoplay="autoplay" loop="loop" poster="../videos/{{ include.src-1 }}.jpg">
 					<source src="../videos/{{ include.src-1 }}.webm" type="video/webm"/>
 					<source src="../videos/{{ include.src-1 }}.mp4" type="video/mp4"/>
@@ -24,7 +24,7 @@
 	</div>
 	<div class="media">
 		{% if include.type-2 == "video" %}
-			<div href="../videos/{{ include.src-2 }}.mp4" target="_blank">
+			<div href="../videos/{{ include.src-2 }}.mp4">
 				<video autoplay="autoplay" loop="loop" poster="../videos/{{ include.src-1 }}.jpg">
 					<source src="../videos/{{ include.src-2 }}.webm" type="video/webm"/>
 					<source src="../videos/{{ include.src-2 }}.mp4" type="video/mp4"/>

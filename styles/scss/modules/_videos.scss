@@ -1,0 +1,80 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+ * Videos
+ */
+
+ .video-container {
+ 	position: relative;
+ }
+
+.video-controls {
+	div {
+		//position: absolute;
+		@include border-radius($border-radius, $border-radius);
+		background-color: $picture-background-color;
+		width: em($m-medium-size*3);
+		height: em($m-medium-size*3);
+		span {
+			opacity: 0.75;
+			width: 100%;
+			height: 100%;
+			display: block;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: em($m-medium-size*2);
+			@include transition-property(opacity);
+			@include transition-duration(0.2s);
+			@include transition-timing-function(ease-in-out);
+		}
+		&:hover {
+			span {
+				opacity: 0.85;
+			}
+		}
+	}
+	.play, .mute {
+		bottom: rhythm($m-medium-line/4);
+	}
+	.play {
+		left: rhythm($m-medium-line/4);
+		span {
+			background-image: url("../../icons/ic_pause_white_24px.svg");
+		}
+	}
+	.mute {
+		right: rhythm($m-medium-line/4);
+		span {
+			background-image: url("../../icons/ic_volume_mute_white_24px.svg");
+		}
+	}
+	.played {
+		span {
+			background-image: url("../../icons/ic_pause_white_24px.svg");
+		}
+	}
+	.paused {
+		span {
+			background-image: url("../../icons/ic_play_arrow_white_24px.svg");
+		}
+	}
+	.muted {
+		span {
+			background-image: url("../../icons/ic_volume_mute_white_24px.svg");
+		}
+	}
+	.unmuted {
+		span {
+			background-image: url("../../icons/ic_volume_up_white_24px.svg");
+		}
+	}
+	@include min-screen(col(8)) {
+		div {
+			width: em($d-small-size*3);
+			height: em($d-small-size*3);
+			span {
+				background-size: em($d-small-size*2);
+			}
+		}
+	}
+}

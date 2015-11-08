@@ -475,45 +475,45 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 268871,
+		"initialSize": 267990,
 		"inputAbbreviatedPath": "\/_site\/images\/batman_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/batman_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/batman_poster_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 29747,
+		"initialSize": 26544,
 		"inputAbbreviatedPath": "\/_site\/images\/batman_poster_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/batman_poster_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/beartato_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 318418,
+		"initialSize": 317557,
 		"inputAbbreviatedPath": "\/_site\/images\/beartato_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/beartato_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/blame_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 303210,
+		"initialSize": 302253,
 		"inputAbbreviatedPath": "\/_site\/images\/blame_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/blame_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/cinema_format_00.jpg": {
 		"fileType": 16384,
@@ -1030,6 +1030,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/scripts\/js\/videos.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/videos.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/videos-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/styles\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1081,34 +1092,34 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 244270,
+		"initialSize": 243176,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/blame_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/blame_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/cinema_format_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 14539,
+		"initialSize": 13611,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/cinema_format_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/cinema_format_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/comics_voice_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 95077,
+		"initialSize": 94110,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/comics_voice_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/comics_voice_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/conversation_with_other_women_00.jpg": {
 		"fileType": 16384,
@@ -1125,12 +1136,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 143510,
+		"initialSize": 142540,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/jojo_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/jojo_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/motion_comics_00.jpg": {
 		"fileType": 16384,
@@ -1147,34 +1158,34 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 56179,
+		"initialSize": 58180,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/motion_comics_01.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/motion_comics_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/reading_comics_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 169889,
+		"initialSize": 168988,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/reading_comics_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/reading_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/sin_city_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 148196,
+		"initialSize": 147181,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/sin_city_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/sin_city_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/sin_city_01.jpg": {
 		"fileType": 16384,
@@ -1202,111 +1213,111 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 43537,
+		"initialSize": 40737,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6648.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6648.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/the_last_dispatch_6661.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 62998,
+		"initialSize": 45196,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6661.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6661.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/the_last_dispatch_6670.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 89083,
+		"initialSize": 89452,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6670.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6670.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/the_last_dispatch_6671.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 98370,
+		"initialSize": 97813,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6671.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6671.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/the_last_dispatch_6672.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 88395,
+		"initialSize": 88829,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6672.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6672.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/the_last_dispatch_6673.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31341,
+		"initialSize": 30221,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6673.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/the_last_dispatch_6673.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/ubik_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 54771,
+		"initialSize": 50799,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/ubik_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/ubik_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/ubik_02.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 47391,
+		"initialSize": 44709,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/ubik_02.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/ubik_02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/ubik_03.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 44663,
+		"initialSize": 40598,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/ubik_03.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/ubik_03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/ubik_6696.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 98351,
+		"initialSize": 97205,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/ubik_6696.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/ubik_6696.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/understanding_comics_00.jpg": {
 		"fileType": 16384,
@@ -1323,221 +1334,221 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 20179,
+		"initialSize": 19241,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/viewing_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/viewing_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/batman_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27561,
+		"initialSize": 26620,
 		"inputAbbreviatedPath": "\/_site\/videos\/batman_00_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/batman_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/cinema_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19259,
+		"initialSize": 18344,
 		"inputAbbreviatedPath": "\/_site\/videos\/cinema_00_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/cinema_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/cinema_01_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 12218,
+		"initialSize": 11291,
 		"inputAbbreviatedPath": "\/_site\/videos\/cinema_01_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/cinema_01_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/cinema_sound_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18246,
+		"initialSize": 17319,
 		"inputAbbreviatedPath": "\/_site\/videos\/cinema_sound_00_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/cinema_sound_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/cinema_technology_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 20647,
+		"initialSize": 19751,
 		"inputAbbreviatedPath": "\/_site\/videos\/cinema_technology_00_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/cinema_technology_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/comics_technology_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28279,
+		"initialSize": 27355,
 		"inputAbbreviatedPath": "\/_site\/videos\/comics_technology_00_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/comics_technology_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/comics_time_space_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27651,
+		"initialSize": 26725,
 		"inputAbbreviatedPath": "\/_site\/videos\/comics_time_space_00_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/comics_time_space_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/piece_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 17357,
 		"inputAbbreviatedPath": "\/_site\/videos\/piece_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/piece_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/piece_continuous_series_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 31142,
 		"inputAbbreviatedPath": "\/_site\/videos\/piece_continuous_series_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/piece_continuous_series_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/piece_discontinuous_series_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 28900,
 		"inputAbbreviatedPath": "\/_site\/videos\/piece_discontinuous_series_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/piece_discontinuous_series_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/piece_multiple_series_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 24544,
 		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/piece_multiple_series_01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 19105,
 		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_01.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/piece_multiple_series_02.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 22519,
 		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_02.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/piece_multiple_series_03.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 23891,
 		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_03.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/piece_shapes_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 25929,
 		"inputAbbreviatedPath": "\/_site\/videos\/piece_shapes_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/piece_shapes_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/piece_single_series_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 30117,
 		"inputAbbreviatedPath": "\/_site\/videos\/piece_single_series_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/piece_single_series_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/sin_city_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10392,
+		"initialSize": 9473,
 		"inputAbbreviatedPath": "\/_site\/videos\/sin_city_00_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/sin_city_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/viewing_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 23948,
+		"initialSize": 23049,
 		"inputAbbreviatedPath": "\/_site\/videos\/viewing_00_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/viewing_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/videos\/vimeo_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15797,
+		"initialSize": 14865,
 		"inputAbbreviatedPath": "\/_site\/videos\/vimeo_00_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/videos\/vimeo_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/android-chrome-144x144.png": {
 		"fileType": 32768,
@@ -2372,6 +2383,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/scripts\/js\/videos.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/js\/videos.js",
+		"outputAbbreviatedPath": "\/scripts\/js\/min\/videos-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/styles\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -2598,6 +2620,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/styles\/scss\/modules\/_sundries.scss",
 		"outputAbbreviatedPath": "\/styles\/css\/_sundries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/styles\/scss\/modules\/_videos.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/scss\/modules\/_videos.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_videos.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

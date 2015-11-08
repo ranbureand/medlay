@@ -83,6 +83,8 @@ The **comparison** analyzes the following points:
 
 + the respective procedures with which cinema and comics represent **voice**, **noise** and **music**;
 
+{% include figure.html src-1="cinema_sound_00" type-1="video" %}
+
 {% include figure.html src-1="comics_voice_00.jpg" alt-1="Scott McCloud speaking out loud in Making Comics." from-1="Scott McCloud, *Making Comics*" %}
 
 + the respective procedures of **interpretation**.
