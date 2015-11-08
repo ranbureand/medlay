@@ -7,8 +7,6 @@
 (function($){
 	$.fn.myControls = function() {
 		var $myVideo = $(this);
-		alert("banana");
-		alert($myVideo.audioTracks.length);
 
 		// Define controls
 		$myVideo.after('\
