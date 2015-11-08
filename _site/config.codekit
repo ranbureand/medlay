@@ -997,6 +997,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/scripts\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/scripts\/js\/response.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1014,6 +1025,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/scripts\/js\/response.min.js",
 		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/response.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/scripts\/js\/videos.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scripts\/js\/videos.js",
+		"outputAbbreviatedPath": "\/_site\/scripts\/js\/min\/videos-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1396,13 +1418,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/videos\/piece_00.jpg": {
+	"\/_site\/videos\/piece_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 17357,
-		"inputAbbreviatedPath": "\/_site\/videos\/piece_00.jpg",
-		"outputAbbreviatedPath": "\/_site\/videos\/piece_00.jpg",
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3037,49 +3059,49 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/videos\/piece_00.jpg": {
+	"\/videos\/piece_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/videos\/piece_00.jpg",
-		"outputAbbreviatedPath": "\/videos\/piece_00.jpg",
+		"initialSize": 17357,
+		"inputAbbreviatedPath": "\/videos\/piece_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/videos\/piece_continuous_series_00.jpg": {
+	"\/videos\/piece_continuous_series_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/videos\/piece_continuous_series_00.jpg",
-		"outputAbbreviatedPath": "\/videos\/piece_continuous_series_00.jpg",
+		"initialSize": 31142,
+		"inputAbbreviatedPath": "\/videos\/piece_continuous_series_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_continuous_series_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/videos\/piece_discontinuous_series_00.jpg": {
+	"\/videos\/piece_discontinuous_series_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/videos\/piece_discontinuous_series_00.jpg",
-		"outputAbbreviatedPath": "\/videos\/piece_discontinuous_series_00.jpg",
+		"initialSize": 28900,
+		"inputAbbreviatedPath": "\/videos\/piece_discontinuous_series_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_discontinuous_series_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/videos\/piece_multiple_series_00.jpg": {
+	"\/videos\/piece_multiple_series_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_00.jpg",
-		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_00.jpg",
+		"initialSize": 24544,
+		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/videos\/piece_multiple_series_01.jpg": {
 		"fileType": 16384,
@@ -3091,6 +3113,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/videos\/piece_multiple_series_01_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19105,
+		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_01_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_01_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/videos\/piece_multiple_series_02.jpg": {
 		"fileType": 16384,

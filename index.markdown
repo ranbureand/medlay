@@ -6,8 +6,6 @@ date: 2015-02-03 11:16:00
 categories: hello world
 ---
 
-{% include figure.html src-1="cinema_sound_00" type-1="video" %}
-
 I am writing these notes to introduce and formalize a new concept for crafting multimedia artefacts on the Web — **Medlay** — in hopes of providing some interesting **food for thought** and pushing the boundaries of the practice further.
 
 {% include index-table-of-content.html %}
