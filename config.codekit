@@ -1429,90 +1429,90 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/videos\/piece_continuous_series_00.jpg": {
+	"\/_site\/videos\/piece_continuous_series_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 31142,
-		"inputAbbreviatedPath": "\/_site\/videos\/piece_continuous_series_00.jpg",
-		"outputAbbreviatedPath": "\/_site\/videos\/piece_continuous_series_00.jpg",
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_continuous_series_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_continuous_series_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/videos\/piece_discontinuous_series_00.jpg": {
+	"\/_site\/videos\/piece_discontinuous_series_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 28900,
-		"inputAbbreviatedPath": "\/_site\/videos\/piece_discontinuous_series_00.jpg",
-		"outputAbbreviatedPath": "\/_site\/videos\/piece_discontinuous_series_00.jpg",
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_discontinuous_series_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_discontinuous_series_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/videos\/piece_multiple_series_00.jpg": {
+	"\/_site\/videos\/piece_multiple_series_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 24544,
-		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_00.jpg",
-		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_00.jpg",
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/videos\/piece_multiple_series_01.jpg": {
+	"\/_site\/videos\/piece_multiple_series_01_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 19105,
-		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_01.jpg",
-		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_01.jpg",
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_01_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_01_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/videos\/piece_multiple_series_02.jpg": {
+	"\/_site\/videos\/piece_multiple_series_02_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 22519,
-		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_02.jpg",
-		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_02.jpg",
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_02_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_02_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/videos\/piece_multiple_series_03.jpg": {
+	"\/_site\/videos\/piece_multiple_series_03_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 23891,
-		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_03.jpg",
-		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_03.jpg",
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_03_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_multiple_series_03_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/videos\/piece_shapes_00.jpg": {
+	"\/_site\/videos\/piece_shapes_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 25929,
-		"inputAbbreviatedPath": "\/_site\/videos\/piece_shapes_00.jpg",
-		"outputAbbreviatedPath": "\/_site\/videos\/piece_shapes_00.jpg",
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_shapes_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_shapes_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/videos\/piece_single_series_00.jpg": {
+	"\/_site\/videos\/piece_single_series_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 30117,
-		"inputAbbreviatedPath": "\/_site\/videos\/piece_single_series_00.jpg",
-		"outputAbbreviatedPath": "\/_site\/videos\/piece_single_series_00.jpg",
+		"inputAbbreviatedPath": "\/_site\/videos\/piece_single_series_00_poster.jpg",
+		"outputAbbreviatedPath": "\/_site\/videos\/piece_single_series_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3103,17 +3103,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/videos\/piece_multiple_series_01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_01.jpg",
-		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/videos\/piece_multiple_series_01_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3125,49 +3114,49 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/videos\/piece_multiple_series_02.jpg": {
+	"\/videos\/piece_multiple_series_02_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_02.jpg",
-		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_02.jpg",
+		"initialSize": 22519,
+		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_02_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_02_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/videos\/piece_multiple_series_03.jpg": {
+	"\/videos\/piece_multiple_series_03_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_03.jpg",
-		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_03.jpg",
+		"initialSize": 23891,
+		"inputAbbreviatedPath": "\/videos\/piece_multiple_series_03_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_multiple_series_03_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/videos\/piece_shapes_00.jpg": {
+	"\/videos\/piece_shapes_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/videos\/piece_shapes_00.jpg",
-		"outputAbbreviatedPath": "\/videos\/piece_shapes_00.jpg",
+		"initialSize": 25929,
+		"inputAbbreviatedPath": "\/videos\/piece_shapes_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_shapes_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
-	"\/videos\/piece_single_series_00.jpg": {
+	"\/videos\/piece_single_series_00_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/videos\/piece_single_series_00.jpg",
-		"outputAbbreviatedPath": "\/videos\/piece_single_series_00.jpg",
+		"initialSize": 30117,
+		"inputAbbreviatedPath": "\/videos\/piece_single_series_00_poster.jpg",
+		"outputAbbreviatedPath": "\/videos\/piece_single_series_00_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/videos\/sin_city_00_poster.jpg": {
 		"fileType": 16384,

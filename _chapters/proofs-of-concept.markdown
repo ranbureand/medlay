@@ -25,11 +25,11 @@ Two proof of concept **prototypes** have been created to explore and test the po
 
 ### *Ubik Chap. 6*
 
-*Ubik Chap. 6* is the second substantial prototype designed following the principles of Medlay and it is based on the very first lines of chapter 6<sup>th</sup> of ***Ubik*** --- a novel by Philp K. Dick:
+*Ubik Chap. 6* is the second substantial prototype designed following the principles of Medlay and it is based on the very first lines of chapter 6<sup>th</sup> of ***Ubik*** — a novel by Philp K. Dick:
 
 {% include figure.html src-1="ubik_00.jpg" alt-1="A screenshot of the prototype Ubik Chap. 6." %}
 
-> We wanted to give you a shave like no other you ever had. We said, it's about time a man's face got a little loving. We said, with Ubik’s self-winding Swiss chromium never-ending blade, the days of scrape-scrape are over. So try Ubik. And be loved.
+> We wanted to give you a shave like no other you ever had. We said, it’s about time a man’s face got a little loving. We said, with Ubik’s self-winding Swiss chromium never-ending blade, the days of scrape-scrape are over. So try Ubik. And be loved.
 > 
 > Warning: use only as directed. And with caution.
 

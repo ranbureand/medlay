@@ -51,7 +51,7 @@ Each series is meant to run for a **short period of time** rather than a long on
 
 The length of time of series needs always to be taken into account for the sake of crafting a **quickly digestible piece**, especially in the case the piece is composed by multiple series in sequence.
 
-### Viewer's Interaction
+### Viewer’s Interaction
 
 A piece can be programmed to respond to viewers‘ interaction and/or focus of attention and thus change from a passive state to an active one if **triggered by an event**[^events].
 
