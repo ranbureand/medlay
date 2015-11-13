@@ -2,6 +2,8 @@
  * HTML5 Video Controls
  */
 
+/* jshint multistr: true */
+
 //alert("banana");
 
 (function($){
@@ -19,8 +21,8 @@
 		//get new elements
 		var $video_container = $myVideo.parent('.video-container');
 		var $video_controls = $('.video-controls', $video_container);
-		var $video_play_button = $('.play', $video_container);
-		var $video_mute_button = $('.mute', $video_container);
+		var $myVideoPlayButton = $('.play', $video_controls);
+		var $video_mute_button = $('.mute', $video_controls);
 
 		//$video_controls.hide(); // keep the controls hidden
 
@@ -32,16 +34,15 @@
 			};
 		};
 
-		$video_play_button.click(playVideo);
+		$myVideoPlayButton.children('span').click(playVideo);
 		$myVideo.click(playVideo);
 
-
 		$myVideo.bind('play', function() {
-			$video_play_button.addClass('played').removeClass('paused');
+			$myVideoPlayButton.addClass('played').removeClass('paused');
 		});
 
 		$myVideo.bind('pause', function() {
-			$video_play_button.addClass('paused').removeClass('played');
+			$myVideoPlayButton.addClass('paused').removeClass('played');
 		});
 
 		var muteVideo = function() {
@@ -54,9 +55,9 @@
 			}
 		};
 
-		$video_mute_button.click(muteVideo);
+		$video_mute_button.children('span').click(muteVideo);
 
-		$myVideo.removeAttr('controls');
+		$myVideo.prop("controls", false);
 		return this;
 	};
 })(jQuery);
@@ -64,3 +65,5 @@
 $(".video-content").each(function() {
 	$(this).myControls();
 });
+
+//$(".video-content").myControls();

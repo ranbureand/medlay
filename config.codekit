@@ -772,34 +772,34 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 543591,
+		"initialSize": 542585,
 		"inputAbbreviatedPath": "\/_site\/images\/understanding_comics_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/understanding_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/viewing_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 20177,
+		"initialSize": 19241,
 		"inputAbbreviatedPath": "\/_site\/images\/viewing_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/viewing_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/vimeo_01_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15797,
+		"initialSize": 14865,
 		"inputAbbreviatedPath": "\/_site\/images\/vimeo_01_poster.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/vimeo_01_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
@@ -1070,12 +1070,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 237047,
+		"initialSize": 236110,
 		"inputAbbreviatedPath": "\/_site\/thumbs\/batman_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/thumbs\/batman_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/thumbs\/beartato_00.jpg": {
 		"fileType": 16384,

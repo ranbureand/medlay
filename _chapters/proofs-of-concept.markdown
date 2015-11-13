@@ -23,6 +23,8 @@ Two proof of concept **prototypes** have been created to explore and test the po
 
 {% include figure.html src-1="the_last_dispatch_6672.jpg" alt-1="A screenshot of the prototype The Last Dispatch." %}
 
+<a href="#">See</a>
+
 ### *Ubik Chap. 6*
 
 *Ubik Chap. 6* is the second substantial prototype designed following the principles of Medlay and it is based on the very first lines of chapter 6<sup>th</sup> of ***Ubik*** — a novel by Philp K. Dick:
