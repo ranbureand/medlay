@@ -1,0 +1,46 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Buttons
+*/
+
+.button {
+	margin-top: rhythm($m-medium-line);
+	margin-bottom: rhythm($m-medium-line);
+
+
+	text-align: center;
+
+	a {
+		@include link(none);
+		font-weight: $normal;
+
+		display: inline-block;
+
+		padding: rhythm($m-medium-line/4 + strip(-$button-medium-border-width/10), $m-medium-size) em($m-gut/2, $m-medium-size) rhythm($m-medium-line/4 + strip(-$button-medium-border-width/10), $m-medium-size) em($m-gut/2, $m-medium-size);
+
+		text-decoration: none;
+
+		color: $strong-type-color;
+		border: $border-width/2 solid $strong-type-color;
+
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+		@include border-radius(5px, 5px);
+		&:focus, &:hover, &:active {
+			color: $st-type-color;
+			border: $border-width/2 solid $st-type-color;
+		}
+	}
+	@include min-screen(col(8)) {
+		margin-top: rhythm($d-medium-line);
+		margin-bottom: rhythm($d-medium-line);
+		a {
+			padding: rhythm($d-medium-line/4 + strip(-$button-medium-border-width/10), $d-medium-size) em($d-gut, $d-medium-size) rhythm($d-medium-line/4 + strip(-$button-medium-border-width/10), $d-medium-size) em($d-gut, $d-medium-size);
+
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
+		}
+	}
+	@include min-screen(col(12)) {
+		text-align: left;
+	}
+}

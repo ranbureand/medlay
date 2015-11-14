@@ -1,7 +1,11 @@
 - title: Foreword
   chapters:
   - introduction
-  - proofs-of-concept
+
+- title: Proofs of Concept
+  chapters:
+  - the-last-dispatch
+  - ubik-chap-6
 
 - title: How It Works
   chapters:

@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Proofs of Concept"
+title: "Ubik Chap. 6"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
 categories: hello world
@@ -8,26 +8,9 @@ intro: "Validation by Prototype"
 description: "The principles at the basis of the Medlay concept have been validated in two proof of concept prototypes: The Last Dispatch and Ubik Chap. 6."
 ---
 
-Two proof of concept **prototypes** have been created to explore and test the possibilities of Medlay: *The Last Dispatch* and *Ubik Chap. 6*.
+*Ubik Chap. 6* is the second proof of concept prototype designed following the principles of Medlay and it is based on the very first lines of chapter 6<sup>th</sup> of ***Ubik*** — a novel by Philp K. Dick:
 
-+ Will be replaced with the ToC, excluding the "Contents" header
-{:toc #toc}
-
-### *The Last Dispatch*
-
-*The Last Dispatch* is the very first substantial prototype designed following the principles of Medlay and it narrates an original short story.
-
-{% include figure.html src-1="the_last_dispatch_6671.jpg" alt-1="A screenshot of the prototype The Last Dispatch." %}
-
-{% include figure.html src-1="the_last_dispatch_6661.jpg" alt-1="A screenshot of the prototype The Last Dispatch." %}
-
-{% include figure.html src-1="the_last_dispatch_6672.jpg" alt-1="A screenshot of the prototype The Last Dispatch." %}
-
-<a href="#">See</a>
-
-### *Ubik Chap. 6*
-
-*Ubik Chap. 6* is the second substantial prototype designed following the principles of Medlay and it is based on the very first lines of chapter 6<sup>th</sup> of ***Ubik*** — a novel by Philp K. Dick:
+{% include button.html name="Ubik Chap. 6." link="#" %}
 
 {% include figure.html src-1="ubik_00.jpg" alt-1="A screenshot of the prototype Ubik Chap. 6." %}
 

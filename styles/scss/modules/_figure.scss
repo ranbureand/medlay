@@ -18,7 +18,7 @@
 		display: block;
 
 		width: 100%;
-		margin-bottom: rhythm($m-small-line/2);
+		//margin-bottom: rhythm($m-small-line/2);
 		padding-right: em($m-gut/2);
 		padding-left: em($m-gut/2);
 
@@ -70,7 +70,7 @@
 	@include min-screen(col(8)) {
 		margin: rhythm($d-medium-line) em(-$d-gut/2);
 		.media {
-			margin-bottom: rhythm($d-small-line/2);
+			//margin-bottom: rhythm($d-small-line/2);
 			padding-right: em($d-gut/2);
 			padding-left: em($d-gut/2);
 		}
