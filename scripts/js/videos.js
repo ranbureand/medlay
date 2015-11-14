@@ -2,10 +2,6 @@
  * HTML5 Video Controls
  */
 
-/* jshint multistr: true */
-
-//alert("banana");
-
 (function($){
 	$.fn.myControls = function() {
 
@@ -14,10 +10,12 @@
 
 			var attrMuted = $myVideo.attr('muted');
 
-			// Insert custom controls after .video-content
+			// Check if .video-content has the muted attribute
 			if (typeof attrMuted !== typeof undefined && attrMuted !== false) {
+				// Insert custom controls after .video-content
 				$myVideo.after('<div class="video-controls"><div class="play" title="Play/Pause"></div><div class="mute" title="Mute/Unmute"></div></div>');
 			} else {
+				// Insert custom controls after .video-content
 				$myVideo.after('<div class="video-controls"><div class="play" title="Play/Pause"></div></div>');
 			};
 
@@ -47,6 +45,7 @@
 			// Play/pause the video on click
 			$myVideoPlayButton.add($myVideo).click(playVideo);
 
+			// Check if .video-content has the muted attribute
 			if (typeof attrMuted !== typeof undefined && attrMuted !== false) {
 				// Create video controls jQuery objects
 				var $myVideoMuteButton = $('.mute', $myVideoControls);
