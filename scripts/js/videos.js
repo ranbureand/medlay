@@ -12,20 +12,25 @@
 		return this.each(function() {
 			var $myVideo = $(this);
 
+			var attrMuted = $myVideo.attr('muted');
+
 			// Insert custom controls after .video-content
-			$myVideo.after('<div class="video-controls"><div class="play" title="Play/Pause"><span></span></div><div class="mute" title="Mute/Unmute"><span></span></div></div>');
+			if (typeof attrMuted !== typeof undefined && attrMuted !== false) {
+				$myVideo.after('<div class="video-controls"><div class="play" title="Play/Pause"></div><div class="mute" title="Mute/Unmute"></div></div>');
+			} else {
+				$myVideo.after('<div class="video-controls"><div class="play" title="Play/Pause"></div></div>');
+			};
 
 			// Create video controls jQuery objects
 			var $myVideoContainer = $myVideo.parent('.video-container');
 			var $myVideoControls = $('.video-controls', $myVideoContainer);
 			var $myVideoPlayButton = $('.play', $myVideoControls);
-			var $myVideoMuteButton = $('.mute', $myVideoControls);
 
 			// Set the status of the play button icon
 			if($myVideo[0].paused || $myVideo[0].ended) {
-				$myVideoPlayButton.addClass('paused');
-			} else {
 				$myVideoPlayButton.addClass('played');
+			} else {
+				$myVideoPlayButton.addClass('paused');
 			};
 
 			// Function to play/pause the video
@@ -40,28 +45,33 @@
 			};
 
 			// Play/pause the video on click
-			$myVideoPlayButton.children('span').add($myVideo).click(playVideo);
+			$myVideoPlayButton.add($myVideo).click(playVideo);
 
-			// Set the status of the mute button icon
-			if($myVideo[0].muted) {
-				$myVideoMuteButton.addClass('muted');
-			} else {
-				$myVideoMuteButton.addClass('unmuted');
-			};
+			if (typeof attrMuted !== typeof undefined && attrMuted !== false) {
+				// Create video controls jQuery objects
+				var $myVideoMuteButton = $('.mute', $myVideoControls);
 
-			// Function to mute/unmute the video
-			var muteVideo = function() {
+				// Set the status of the mute button icon
 				if($myVideo[0].muted) {
-					$myVideo[0].muted = false;
-					$myVideoMuteButton.addClass('unmuted').removeClass('muted');
+					$myVideoMuteButton.addClass('muted');
 				} else {
-					$myVideo[0].muted = true;
-					$myVideoMuteButton.addClass('muted').removeClass('unmuted');
-				}
-			};
+					$myVideoMuteButton.addClass('unmuted');
+				};
 
-			// Mute/unmute the video on click
-			$myVideoMuteButton.children('span').click(muteVideo);
+				// Function to mute/unmute the video
+				var muteVideo = function() {
+					if($myVideo[0].muted) {
+						$myVideo[0].muted = false;
+						$myVideoMuteButton.addClass('unmuted').removeClass('muted');
+					} else {
+						$myVideo[0].muted = true;
+						$myVideoMuteButton.addClass('muted').removeClass('unmuted');
+					}
+				};
+
+				// Mute/unmute the video on click
+				$myVideoMuteButton.click(muteVideo);
+			}
 
 			$myVideo.prop("controls", false);
 
