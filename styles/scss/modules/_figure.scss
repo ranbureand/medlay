@@ -52,6 +52,7 @@
 		}
 	}*/
 	.caption {
+		margin-top: rhythm($m-small-line/2);
 		padding-right: em($m-gut/2);
 		padding-left: em($m-gut/2);
 		width: 100%;
@@ -78,6 +79,7 @@
 			padding: rhythm($d-small-line/4) em($d-gut);
 		}*/
 		.caption {
+			margin-top: rhythm($d-small-line/2);
 			padding-right: em($d-gut/2);
 			padding-left: em($d-gut/2);
 			&:before {
