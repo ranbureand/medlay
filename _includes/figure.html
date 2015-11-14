@@ -4,7 +4,7 @@
 	<div class="media">
 		{% if include.type-1 == "video" %}
 			<div class="video-container" href="../videos/{{ include.src-1 }}.mp4">
-				<video autoplay="true" class="video-content" controls="controls" loop="loop" muted="true" poster="../videos/{{ include.src-1 }}_poster.jpg">
+				<video class="video-content" controls="controls" loop="loop" muted="true" poster="../videos/{{ include.src-1 }}_poster.jpg">
 					<source src="../videos/{{ include.src-1 }}.webm" type="video/webm"/>
 					<source src="../videos/{{ include.src-1 }}.mp4" type="video/mp4"/>
 					<source src="../videos/{{ include.src-1 }}.ogv" type="video/ogv"/>

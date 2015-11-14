@@ -15,6 +15,7 @@
 		width: em($m-medium-size*3);
 		height: em($m-medium-size*3);
 
+		opacity: 0.8;
 		background-color: $picture-background-color;
 
 		@include border-radius($border-radius, $border-radius);
@@ -26,7 +27,7 @@
 
 			cursor: pointer;
 
-			opacity: 0.7;
+			opacity: 0.4;
 			background-repeat: no-repeat;
 			background-position: center;
 			background-size: em($m-medium-size*2);
@@ -35,7 +36,8 @@
 			@include transition-duration(0.2s);
 			@include transition-timing-function(ease-in-out);
 		}
-		&:hover {
+		&:hover, &:active {
+			opacity: 1.0;
 			span {
 				opacity: 0.85;
 			}
@@ -46,15 +48,9 @@
 	}
 	.play {
 		left: rhythm($m-medium-line/4);
-		span {
-			background-image: url("../../icons/ic_pause_white_24px.svg");
-		}
 	}
 	.mute {
 		right: rhythm($m-medium-line/4);
-		span {
-			background-image: url("../../icons/ic_volume_mute_white_24px.svg");
-		}
 	}
 	.played {
 		span {

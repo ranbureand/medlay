@@ -8,62 +8,66 @@
 
 (function($){
 	$.fn.myControls = function() {
-		var $myVideo = $(this);
 
-		// Define controls
-		$myVideo.after('\
-			<div class="video-controls">\
-				<div class="play" title="Play/Pause"><span></span></div>\
-				<div class="mute" title="Mute/Unmute"><span></span></div>\
-			</div>\
-		');
+		return this.each(function() {
+			var $myVideo = $(this);
 
-		//get new elements
-		var $video_container = $myVideo.parent('.video-container');
-		var $video_controls = $('.video-controls', $video_container);
-		var $myVideoPlayButton = $('.play', $video_controls);
-		var $video_mute_button = $('.mute', $video_controls);
+			// Insert custom controls after .video-content
+			$myVideo.after('<div class="video-controls"><div class="play" title="Play/Pause"><span></span></div><div class="mute" title="Mute/Unmute"><span></span></div></div>');
 
-		//$video_controls.hide(); // keep the controls hidden
+			// Create video controls jQuery objects
+			var $myVideoContainer = $myVideo.parent('.video-container');
+			var $myVideoControls = $('.video-controls', $myVideoContainer);
+			var $myVideoPlayButton = $('.play', $myVideoControls);
+			var $myVideoMuteButton = $('.mute', $myVideoControls);
 
-		var playVideo = function() {
+			// Set the status of the play button icon
 			if($myVideo[0].paused || $myVideo[0].ended) {
-				$myVideo[0].play();
+				$myVideoPlayButton.addClass('paused');
 			} else {
-				$myVideo[0].pause();
+				$myVideoPlayButton.addClass('played');
 			};
-		};
 
-		$myVideoPlayButton.children('span').click(playVideo);
-		$myVideo.click(playVideo);
+			// Function to play/pause the video
+			var playVideo = function() {
+				if($myVideo[0].paused || $myVideo[0].ended) {
+					$myVideo[0].play();
+					$myVideoPlayButton.addClass('played').removeClass('paused');
+				} else {
+					$myVideo[0].pause();
+					$myVideoPlayButton.addClass('paused').removeClass('played');
+				};
+			};
 
-		$myVideo.bind('play', function() {
-			$myVideoPlayButton.addClass('played').removeClass('paused');
-		});
+			// Play/pause the video on click
+			$myVideoPlayButton.children('span').add($myVideo).click(playVideo);
 
-		$myVideo.bind('pause', function() {
-			$myVideoPlayButton.addClass('paused').removeClass('played');
-		});
-
-		var muteVideo = function() {
+			// Set the status of the mute button icon
 			if($myVideo[0].muted) {
-				$myVideo[0].muted = false;
-				$video_mute_button.addClass('unmuted').removeClass('muted');
+				$myVideoMuteButton.addClass('muted');
 			} else {
-				$myVideo[0].muted = true;
-				$video_mute_button.addClass('muted').removeClass('unmuted');
-			}
-		};
+				$myVideoMuteButton.addClass('unmuted');
+			};
 
-		$video_mute_button.children('span').click(muteVideo);
+			// Function to mute/unmute the video
+			var muteVideo = function() {
+				if($myVideo[0].muted) {
+					$myVideo[0].muted = false;
+					$myVideoMuteButton.addClass('unmuted').removeClass('muted');
+				} else {
+					$myVideo[0].muted = true;
+					$myVideoMuteButton.addClass('muted').removeClass('unmuted');
+				}
+			};
 
-		$myVideo.prop("controls", false);
-		return this;
+			// Mute/unmute the video on click
+			$myVideoMuteButton.children('span').click(muteVideo);
+
+			$myVideo.prop("controls", false);
+
+			return this;
+		});
 	};
 })(jQuery);
 
-$(".video-content").each(function() {
-	$(this).myControls();
-});
-
-//$(".video-content").myControls();
+$(".video-content").myControls();
