@@ -16,15 +16,20 @@
 				<img src="../thumbs/{{ include.src-1 }}" alt="{{ include.alt-1 }}"/>
 			</a>
 		{% endif %}
-		{% if include.from-1 %}
+		<!--{% if include.from-1 %}
 			<div class="from typo-s">
 				{{ include.from-1 | markdownify }}
 			</div>
-		{% endif %}
+		{% endif %}-->
 	</div>
-	{% if include.caption %}
+	{% if include.caption or include.from-1 %}
 		<figcaption class="caption typo-s">
-			{{ include.caption | markdownify }}
+			{% if include.caption %}
+				{{ include.caption | markdownify }}
+			{% endif %}
+			{% if include.from-1 %}
+				{{ include.from-1 | markdownify }}
+			{% endif %}
 		</figcaption>
 	{% endif %}
 </figure>
