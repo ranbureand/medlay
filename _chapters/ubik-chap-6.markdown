@@ -10,7 +10,7 @@ description: "The principles at the basis of the Medlay concept have been valida
 
 *Ubik Chap. 6* is the second proof of concept prototype designed following the principles of Medlay and it is based on the very first lines of chapter 6<sup>th</sup> of ***Ubik*** — a novel by Philp K. Dick:
 
-{% include button.html name="Ubik Chap. 6." link="#" %}
+{% include button.html name="Ubik Chap. 6" link="http://ranbureand.github.io/ubik-chap-6/" %}
 
 {% include figure.html src-1="ubik_00.jpg" alt-1="A screenshot of the prototype Ubik Chap. 6." %}
 

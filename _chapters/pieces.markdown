@@ -76,7 +76,7 @@ Since a piece is spatially juxtaposed on a canvas, its frame is directly visible
 
 [^sequences]: More on sequences of pieces in the next chapter, *[Sequences]({{ site.baseurl }}/chapters/sequences.html)*.
 
-[^shot]: What in cinematographic language are called [shots](https://en.wikipedia.org/wiki/Shot_%28filmmaking%29 "Shot in Wikipedia")**.
+[^shot]: What in cinematographic language are called [shots](https://en.wikipedia.org/wiki/Shot_%28filmmaking%29 "Shot in Wikipedia").
 
     In this context I prefer using the more generic term ***series***, mainly because the term ***shot*** is too strongly connected to the cinema media form and its mainly photographic footage.
 
