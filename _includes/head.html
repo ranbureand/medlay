@@ -7,6 +7,12 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} / {% endif %}{{ site.title }}">
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+	<meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/images/the_last_dispatch_6670.jpg{% endif %}">
+
 	<link rel="stylesheet" href="{{ site.baseurl }}/styles/css/main.css"/>
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,500italic,500,%7CRoboto+Condensed:300,300italic,700,700italic,%7CRoboto+Mono:300' rel='stylesheet' type='text/css'/>
