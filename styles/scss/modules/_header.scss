@@ -32,12 +32,18 @@
 			width: em(24px, $m-small-size);
 			height: em(24px, $m-small-size);
 			margin-top: em(8px, $m-small-size);
+
 		}
 		svg {
 			fill: $strong-type-color;
 			@include transition-property(fill);
 			@include transition-duration(0.2s);
 			@include transition-timing-function(ease-in-out);
+		}
+		&:hover, &:active {
+			svg {
+				fill: $st-type-color;
+			}
 		}
 	}
 	.title {
@@ -70,11 +76,6 @@
 		margin-left: 80%;
 		.icon {
 			float: right;
-			&:hover, &:active {
-				svg {
-					fill: $st-type-color;
-				}
-			}
 		}
 	}
 	@include min-screen(col(8)) {
