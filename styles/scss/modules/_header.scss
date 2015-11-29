@@ -43,8 +43,8 @@
 	.title {
 		font-weight: $normal;
 
-		width: 50%;
-		margin-left: 25%;
+		width: 60%;
+		margin-left: 20%;
 
 		text-transform: none;
 		a {
@@ -59,15 +59,15 @@
 		}
 	}
 	.flag {
-		width: 25%;
+		width: 20%;
 		margin-left: 0;
 		.icon {
 			float: left;
 		}
 	}
 	.menu {
-		width: 25%;
-		margin-left: 75%;
+		width: 20%;
+		margin-left: 80%;
 		.icon {
 			float: right;
 			&:hover, &:active {
