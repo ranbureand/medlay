@@ -423,13 +423,13 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/covers\/placeholder_01.png": {
-		"fileType": 32768,
+	"\/_site\/covers\/the_last_dispatch_4247.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17699,
-		"inputAbbreviatedPath": "\/_site\/covers\/placeholder_01.png",
-		"outputAbbreviatedPath": "\/_site\/covers\/placeholder_01.png",
+		"initialSize": 331633,
+		"inputAbbreviatedPath": "\/_site\/covers\/the_last_dispatch_4247.jpg",
+		"outputAbbreviatedPath": "\/_site\/covers\/the_last_dispatch_4247.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1771,6 +1771,28 @@
 		"initialSize": 17699,
 		"inputAbbreviatedPath": "\/covers\/placeholder_01.png",
 		"outputAbbreviatedPath": "\/covers\/placeholder_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/covers\/the_last_dispatch_4247.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/covers\/the_last_dispatch_4247.jpg",
+		"outputAbbreviatedPath": "\/covers\/the_last_dispatch_4247.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/covers\/the_last_dispatch_6661.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 483572,
+		"inputAbbreviatedPath": "\/covers\/the_last_dispatch_6661.jpg",
+		"outputAbbreviatedPath": "\/covers\/the_last_dispatch_6661.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
