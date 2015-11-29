@@ -12,10 +12,15 @@
 
 	margin-bottom: rhythm(-$m-medium-line*2);
 
+	border-top: 8px solid rgba($white, 0.40);
+	border-bottom: 8px solid rgba($white, 0.40);
+
 	background-repeat: none;
 	background-position: center center;
 	background-size: cover;
 
+	/* color | offset-x | offset-y | blur-radius | spread-radius */
+	@include box-shadow(rgba($black, 0.4) 0 6px 8px -6px inset, rgba($black, 0.4) 0 -6px 8px -6px inset);
 	@include transition-property(height);
 	@include transition-duration(0.2s);
 	@include transition-timing-function(ease-in-out);
