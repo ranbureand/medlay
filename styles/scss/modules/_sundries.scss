@@ -13,22 +13,35 @@
 }
 
 .content {
-	width: 100%;
-	padding-top: rhythm($m-medium-line*4);
-	padding-bottom: rhythm($m-medium-line*4);
+	position: relative;
+	z-index: 2;
 
-	@include align();
+	padding-top: rhythm($m-medium-line*4);
+
+	background-color: $background-color;
+
+	@extend %shadows;
 	@include clearfix();
+	.aisle {
+		width: 100%;
+
+		@include align();
+	}
 	@include min-screen(col(8)) {
-		width: col(8);
 		padding-top: rhythm($d-medium-line*4);
-		padding-bottom: rhythm($d-medium-line*4);
+		.aisle {
+			width: col(8);
+		}
 	}
 	@include min-screen(col(12)) {
-		width: col(12);
-		padding-left: col(4);
+		.aisle {
+			width: col(12);
+			padding-left: col(4);
+		}
 	}
 	@include min-screen(col(16)) {
-		width: col(16);
+		.aisle {
+			width: col(16);
+		}
 	}
 }

@@ -5,8 +5,9 @@
 */
 
 .nav {
+
 	width: 100%;
-	padding-top: rhythm($m-medium-line*4);
+	padding-bottom: rhythm($m-medium-line*4);
 
 	text-align: center;
 
@@ -38,7 +39,7 @@
 		}
 	}
 	@include min-screen(col(8)) {
-		padding-top: rhythm($d-medium-line*4);
+		padding-bottom: rhythm($d-medium-line*4);
 		h6 {
 			margin-top: rhythm($d-medium-line, $d-medium-size);
 
@@ -63,6 +64,7 @@
 		text-align: left;
 	}
 	@include min-screen(col(16)) {
+		background-color: transparent;
 		float: left;
 		clear: none;
 
@@ -72,7 +74,6 @@
 		margin-right: -100%;
 		margin-left: col(-4);
 		margin-left: col(8);
-		padding-top: 0;
 		h6 {
 			margin-top: rhythm($d-small-line, $d-small-size);
 

@@ -5,16 +5,26 @@
 */
 
 .header {
-	overflow: auto;
+	position: relative;
+	z-index: 4;
 
 	width: 100%;
-	padding-top: rhythm($m-small-line);
-	padding-bottom: rhythm($m-small-line);
 
 	text-align: center;
 
-	@include align(center);
-	.title, .flag, .menu {
+	background-color: $light-background-color;
+
+	@extend %shadows;
+	.aisle {
+		overflow: auto;
+
+		width: 100%;
+		padding-top: rhythm($m-small-line);
+		padding-bottom: rhythm($m-small-line);
+
+		@include align(center);
+	}
+	.title, .menu {
 		float: left;
 
 		margin-right: -100%;
@@ -24,16 +34,30 @@
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 		@include face(sans);
 	}
-	.flag, .menu {
-		height: rhythm($m-small-line*2, $m-small-size);
-		.icon {
+	.title {
+		width: 60%;
+		margin-left: 20%;
+
+		text-transform: none;
+		a {
+			font-weight: $bold;
+
+			display: block;
+			&:hover, &:active, &:focus {
+			}
+		}
+		span {
+			font-weight: $normal;
+
 			display: block;
 
-			width: em(24px, $m-small-size);
-			height: em(24px, $m-small-size);
-			margin-top: em(8px, $m-small-size);
-
+			color: $type-color;
 		}
+	}
+	.menu {
+		width: 20%;
+		height: rhythm($m-small-line*2, $m-small-size);
+		margin-left: 80%;
 		svg {
 			fill: $strong-type-color;
 			@include transition-property(fill);
@@ -46,68 +70,52 @@
 			}
 		}
 	}
-	.title {
-		font-weight: $normal;
+	.menu-icon {
+		display: block;
+		float: right;
 
-		width: 60%;
-		margin-left: 20%;
-
-		text-transform: none;
-		a {
-			font-weight: $bold;
-
-			display: block;
-		}
-		span {
-			display: block;
-
-			color: $type-color;
-		}
-	}
-	.flag {
-		width: 20%;
-		margin-left: 0;
-		.icon {
-			float: left;
-		}
-	}
-	.menu {
-		width: 20%;
-		margin-left: 80%;
-		.icon {
-			float: right;
-		}
+		width: em(24px, $m-small-size);
+		height: em(24px, $m-small-size);
+		margin-top: em(8px, $m-small-size);
 	}
 	@include min-screen(col(8)) {
-		width: col(8);
-		padding-top: rhythm($d-small-line);
-		padding-bottom: rhythm($d-small-line);
-		.title, .flag, .menu {
+		.aisle {
+			width: col(8);
+			padding-top: rhythm($d-small-line);
+			padding-bottom: rhythm($d-small-line);
+		}
+		.title, .menu {
 			padding-right: em($d-gut/2, $d-small-size);
 			padding-left: em($d-gut/2, $d-small-size);
 
 			@include adjust-font-size-to($d-small-size, $d-small-line);
 		}
-		.flag, .menu {
+		.menu {
 			height: rhythm($d-small-line*2, $d-small-size);
-			.icon {
-				width: em(24px, $d-small-size);
-				height: em(24px, $d-small-size);
-				margin-top: em(8px, $d-small-size);
-			}
+		}
+		.menu-icon {
+			width: em(24px, $d-small-size);
+			height: em(24px, $d-small-size);
+			margin-top: em(8px, $d-small-size);
 		}
 	}
 	@include min-screen(col(12)) {
-		width: col(12);
-
 		text-align: left;
-		.flag, .menu {
-			height: rhythm($d-small-line, $d-small-size);
-			.icon {
-				display: block;
+		.aisle {
+			width: col(12);
+		}
+		.menu {
+			float: left;
 
-				margin-top: em(-2px, $d-small-size);
-			}
+			width: col(2, $d-small-size);
+			height: rhythm($d-small-line, $d-small-size);
+			margin-right: -100%;
+			margin-left: col(10, $d-small-size);
+		}
+		.menu-icon {
+			display: block;
+
+			margin-top: em(-2px, $d-small-size);
 		}
 		.title {
 			float: left;
@@ -115,7 +123,7 @@
 			width: col(8, $d-small-size);
 			margin-right: -100%;
 			margin-left: col(4, $d-small-size);
-			a, span {
+			span {
 				display: inline;
 			}
 			span {
@@ -126,34 +134,18 @@
 				}
 			}
 		}
-		.flag {
-			.icon {
-				float: right;
-			}
-		}
-		.menu {
-			float: left;
-
-			width: col(2, $d-small-size);
-			margin-right: -100%;
-			margin-left: col(10, $d-small-size);
-		}
-		.flag {
-			float: left;
-
-			width: col(4, $d-small-size);
-			margin-right: -100%;
-			margin-left: 0;
-		}
 	}
 	@include min-screen(col(16)) {
-		width: col(16);
+		.aisle {
+			width: col(16);
+		}
 		.menu {
 			width: col(4, $d-small-size);
 			margin-left: col(12, $d-small-size);
-			.icon {
-				float: left;
-			}
+		}
+		.menu-icon {
+			display: none;
+			float: left;
 		}
 	}
 }

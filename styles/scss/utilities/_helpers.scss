@@ -15,3 +15,9 @@
 		padding-left: em($d-gut/2);
 	}
 }
+
+%shadows {
+	/* color | offset-x | offset-y | blur-radius | spread-radius */
+	//@include box-shadow(rgba($black, 0.1) 0 2px 2px 2px);
+	color: inherit;
+}

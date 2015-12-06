@@ -5,14 +5,18 @@
 */
 
 .footer {
+	position: relative;
+	z-index: 1;
+
 	overflow: hidden;
 
 	width: 100%;
-	padding-top: rhythm($m-small-line);
+	padding-top: rhythm($m-small-line*3);
 	padding-bottom: rhythm($m-small-line);
 
-	@include align(center);
+	background-color: $strong-background-color;
 
+	@include align(center);
 	div {
 		padding-right: em($m-gut/2, $m-small-size);
 		padding-left: em($m-gut/2, $m-small-size);
@@ -29,7 +33,7 @@
 	}
 	@include min-screen(col(8)) {
 		width: col(8);
-		padding-top: rhythm($d-small-line);
+		padding-top: rhythm($d-small-line*3);
 		padding-bottom: rhythm($d-small-line);
 		div {
 			padding-right: em($d-gut/2, $d-small-size);
@@ -43,6 +47,7 @@
 	}
 	@include min-screen(col(12)) {
 		width: col(12);
+		padding-top: rhythm($d-small-line);
 		div {
 			float: left;
 

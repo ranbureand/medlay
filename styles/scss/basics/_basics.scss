@@ -71,16 +71,19 @@ html {
 }
 
 body {
-	//border-top: 5px solid $st-type-color;
-	counter-reset: footnotes figures ordered-list;
-
 	font-weight: $normal;
+
+	position: relative;
 
 	width: 100%;
 	height: 100%;
 	margin: 0; // normalize.css
+	//border-top: 5px solid $st-type-color;
 
-	background-color: $background-color;
+	counter-reset: footnotes figures ordered-list;
+
+	background-color: $strong-background-color;
+
 	@include min-screen(col(12)) {
 		display: table;
 	}
@@ -148,7 +151,6 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	@include face(condensed);
 	font-size: 1em; // normalize.css
-	letter-spacing: 0.02em;
 	margin: 0;
 
 	color: $strong-type-color;

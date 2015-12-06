@@ -19,11 +19,15 @@ $canvas: #222;
 */
 
 $strong-type-color: rgba($white, 0.85);
-$type-color: rgba($white, 0.7);
+$type-color: rgba($white, 0.70);
 $light-type-color: rgba($white, 0.40);
 
-$st-type-color: rgba($st-color, 0.9);
-$st-light-type-color: rgba($st-color, 0.5);
+$strong-type-inverted-color: rgba($black, 0.80);
+$type-inverted-color: rgba($black, 0.60);
+$light-type-inverted-color: rgba($black, 0.40);
+
+$st-type-color: rgba($st-color, 0.90);
+$st-light-type-color: rgba($st-color, 0.50);
 
 $placeholder-type-color: rgba($st-color, 0.15);
 
@@ -33,7 +37,10 @@ $selected-type-color: $strong-type-color;
 ** Backgrounds
 */
 
+$strong-background-color: darken($canvas, 3%);
 $background-color: $canvas;
+$light-background-color: lighten($canvas, 6%);
+
 $selected-background-color: darken($canvas, 3%);
 $code-background-color: lighten($canvas, 3%);
 
@@ -41,7 +48,7 @@ $code-background-color: lighten($canvas, 3%);
 ** Borders
 */
 
-$border-color: rgba($white, 0.3);
+$border-color: rgba($white, 0.30);
 
 /*
 ** Pictures
