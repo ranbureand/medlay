@@ -18,6 +18,21 @@
 	a {
 		font-weight: $bold;
 	}
+	.planum, .logo {
+		padding-top: rhythm($m-medium-line);
+		padding-right: em($m-gut/2);
+		padding-bottom: rhythm($m-medium-line + $m-medium-line - $m-small-line);
+		padding-left: em($m-gut/2);
+	}
+	.logo {
+		svg {
+			width: em(40px);
+			height: em(40px);
+			display: block;
+			@include align(center);
+			fill: $light-type-color;
+		}
+	}
 	[class*="toe"] {
 		padding-top: rhythm($m-small-line);
 		padding-right: em($m-gut/2);
@@ -26,49 +41,38 @@
 
 		text-align: center;
 		p {
-			margin-bottom: rhythm($m-small-line/4, $m-small-size);
-
 			@include adjust-font-size-to($m-small-size, $m-small-line);
-			&:last-child {
-				margin-bottom: 0;
-			}
 		}
 	}
-	.toe-logo {
-		svg {
-			width: rhythm($m-small-line*2, $m-small-size);
-			height: rhythm($m-small-line*2, $m-small-size);
-
-			fill: $type-color;
-		}
-	}
-	.toe-issues {
-		a {
-			@include link;
-		}
-	}
-	.toe-tools {
+	.toe-credits {
 		margin-top: rhythm(-$m-small-line*2);
 	}
 	@include min-screen(col(8)) {
 		width: col(8);
 		padding-top: rhythm($d-small-line);
 		padding-bottom: rhythm($d-small-line);
+		.planum, .logo {
+			padding-top: rhythm($d-medium-line);
+			padding-right: em($d-gut/2);
+			padding-bottom: rhythm($d-medium-line + $d-medium-line - $d-small-line);
+			padding-left: em($d-gut/2);
+		}
+		.logo {
+			svg {
+				width: em(64px);
+				height: em(64px);
+			}
+		}
 		[class*="toe"] {
 			padding-top: rhythm($d-small-line);
 			padding-right: em($d-gut/2);
 			padding-bottom: rhythm($d-small-line);
 			padding-left: em($d-gut/2);
 			p {
-				margin-bottom: rhythm($d-small-line/4, $d-small-size);
-
 				@include adjust-font-size-to($d-small-size, $d-small-line);
-				&:last-child {
-					margin-bottom: 0;
-				}
 			}
 		}
-		.toe-tools {
+		.toe-credits {
 			margin-top: rhythm(-$d-small-line*2);
 		}
 	}
@@ -80,22 +84,22 @@
 
 			text-align: left;
 		}
-		.toe-issues {
+		.planum {
+			padding-bottom: rhythm($d-medium-line*2);
+			float: left;
 			width: col(8);
 			margin-right: -100%;
 			margin-left: col(4);
 		}
-		.toe-logo {
+		.logo {
+			float: left;
+			padding-bottom: rhythm($d-medium-line*2);
 			width: col(4);
 			margin-right: -100%;
 			margin-left: 0;
-
-			text-align: right;
+			text-align: left;
 			svg {
-				width: rhythm($d-small-line, $m-small-size);
-				height: rhythm($d-small-line, $m-small-size);
-
-				fill: $type-color;
+				margin-left: 0;
 			}
 		}
 		.toe-copy {
@@ -104,10 +108,8 @@
 			width: col(4);
 			margin-right: -100%;
 			margin-left: 0;
-
-			text-align: right;
 		}
-		.toe-tools {
+		.toe-credits {
 			width: col(8);
 			margin-top: 0;
 			margin-right: -100%;
@@ -126,8 +128,6 @@
 		width: col(16);
 		.toe-scroll {
 			margin-left: col(12);
-
-			text-align: left;
 		}
 	}
 }

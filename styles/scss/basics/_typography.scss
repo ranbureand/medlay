@@ -78,7 +78,7 @@
 	> *:last-child {
 		margin-bottom: 0;
 	}
-	@include min-screen(col(12)) {
+	@include min-screen(col(8)) {
 		ul, ol {
 			padding-left: em($d-indent);
 		}
@@ -88,10 +88,11 @@
 		hr {
 			width: em($column-width*4 - $d-indent);
 		}
-	}
-	@include min-screen(col(20)) {
-		hr {
-			@include align(left);
+		> *:first-child {
+			margin-top: 0;
+		}
+		> *:last-child {
+			margin-bottom: 0;
 		}
 	}
 }
