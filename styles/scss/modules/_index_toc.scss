@@ -34,7 +34,7 @@
 
 		//margin-top: rhythm($m-small-line/2, $m-medium-size);
 
-		color: $type-color;
+		color: $light-type-color;
 
 		@include adjust-font-size-to($m-small-size, $m-small-line, $m-medium-size);
 	}

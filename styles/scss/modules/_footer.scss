@@ -26,8 +26,8 @@
 	}
 	.logo {
 		svg {
-			width: em(40px);
-			height: em(40px);
+			width: em(64px);
+			height: em(64px);
 			display: block;
 			@include align(center);
 			fill: $light-type-color;

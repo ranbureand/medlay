@@ -1,0 +1,96 @@
+/* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
+
+/*
+** Chapters Toc
+*/
+
+.pagination {
+	overflow: auto;
+	display: block;
+	clear: both;
+	padding-bottom: rhythm($m-medium-line*4);
+	a {
+		position: relative;
+		width: 50%;
+		display: block;
+		&:hover, &:active {
+			.title, .intro {
+				color: $st-type-color;
+			}
+			.icon {
+				fill: $st-type-color;
+			}
+		}
+	}
+	.prev {
+		float: left;
+		text-align: left;
+		padding-right: em($m-gut/2);
+		padding-left: em($m-gut*2);
+		.icon {
+			float: left;
+			left: em($m-gut/8);
+		}
+	}
+	.next {
+		float: right;
+		text-align: right;
+		padding-left: em($m-gut/2);
+		padding-right: em($m-gut*2);
+		.icon {
+			float: right;
+			right: em($m-gut/8);
+		}
+	}
+	.title, .intro {
+		@include transition-property(color);
+		@include transition-duration(0.2s);
+		@include transition-timing-function(ease-in-out);
+	}
+	.title {
+		border-top: 1px solid $light-border-color;
+		font-weight: $bold;
+		color: $type-color;
+		@include adjust-font-size-to($m-medium-size, $m-medium-line);
+	}
+	.intro {
+		color: $light-type-color;
+		@include adjust-font-size-to($m-small-size, $m-small-line);
+	}
+	.icon {
+		position: absolute;
+		top: 0;
+		fill: $type-color;
+		@include transition-property(fill);
+		@include transition-duration(0.2s);
+		@include transition-timing-function(ease-in-out);
+		height: em(32);
+		width: em(32);
+	}
+	@include min-screen(col(8)) {
+		padding-bottom: rhythm($d-medium-line*4);
+		.prev {
+			padding-right: em($d-gut/2);
+			padding-left: em($d-gut*2);
+			.icon {
+				left: em($d-gut/8);
+			}
+		}
+		.next {
+			padding-left: em($d-gut/2);
+			padding-right: em($d-gut*2);
+			.icon {
+				right: em($d-gut/8);
+			}
+		}
+		.title {
+			@include adjust-font-size-to($d-medium-size, $d-medium-line);
+		}
+		.intro {
+			@include adjust-font-size-to($d-small-size, $d-small-line);
+		}
+	}
+	@include min-screen(col(12)) {
+		width: col(8);
+	}
+}

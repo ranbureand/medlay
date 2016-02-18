@@ -101,6 +101,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/prev-next.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/prev-next.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/scripts.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -570,67 +579,67 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 532300,
+		"initialSize": 531171,
 		"inputAbbreviatedPath": "\/_site\/images\/jojo_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/jojo_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/motion_comics_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 169949,
+		"initialSize": 169009,
 		"inputAbbreviatedPath": "\/_site\/images\/motion_comics_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/motion_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/motion_comics_01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 175852,
+		"initialSize": 174958,
 		"inputAbbreviatedPath": "\/_site\/images\/motion_comics_01.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/motion_comics_01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/placeholder_00.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17697,
+		"initialSize": 973,
 		"inputAbbreviatedPath": "\/_site\/images\/placeholder_00.png",
 		"outputAbbreviatedPath": "\/_site\/images\/placeholder_00.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/placeholder_01.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17699,
+		"initialSize": 3772,
 		"inputAbbreviatedPath": "\/_site\/images\/placeholder_01.png",
 		"outputAbbreviatedPath": "\/_site\/images\/placeholder_01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/reading_comics_00.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 400155,
+		"initialSize": 399334,
 		"inputAbbreviatedPath": "\/_site\/images\/reading_comics_00.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/reading_comics_00.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/_site\/images\/sin_city_00.jpg": {
 		"fileType": 16384,
@@ -2492,6 +2501,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/styles\/scss\/modules\/_arrows.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/styles\/scss\/modules\/_arrows.scss",
+		"outputAbbreviatedPath": "\/styles\/css\/_arrows.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0

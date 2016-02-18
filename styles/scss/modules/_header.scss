@@ -12,39 +12,25 @@
 
 	text-align: center;
 
-	background-color: $light-background-color;
+	background-color: $strong-background-color;
 
 	@extend %shadows;
-	.aisle {
-		overflow: auto;
-
+	.title {
 		width: 100%;
-		padding-top: rhythm($m-small-line);
-		padding-bottom: rhythm($m-small-line);
-
-		@include align(center);
-	}
-	.title, .menu {
-		float: left;
-
-		margin-right: -100%;
+		padding-top: rhythm($m-small-line, $m-small-size);
 		padding-right: em($m-gut/2, $m-small-size);
+		padding-bottom: rhythm($m-small-line, $m-small-size);
 		padding-left: em($m-gut/2, $m-small-size);
 
+		text-transform: none;
+
+		@include align(center);
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 		@include face(sans);
-	}
-	.title {
-		width: 60%;
-		margin-left: 20%;
-
-		text-transform: none;
 		a {
 			font-weight: $bold;
 
 			display: block;
-			&:hover, &:active, &:focus {
-			}
 		}
 		span {
 			font-weight: $normal;
@@ -54,76 +40,24 @@
 			color: $type-color;
 		}
 	}
-	.menu {
-		width: 20%;
-		height: rhythm($m-small-line*2, $m-small-size);
-		margin-left: 0;
-		svg {
-			fill: $strong-type-color;
-			@include transition-property(fill);
-			@include transition-duration(0.2s);
-			@include transition-timing-function(ease-in-out);
-		}
-		&:hover, &:active {
-			svg {
-				fill: $st-type-color;
-			}
-		}
-	}
-	.menu-icon {
-		display: block;
-
-		width: em(24px, $m-small-size);
-		height: em(24px, $m-small-size);
-		margin-top: em(8px, $m-small-size);
-	}
 	@include min-screen(col(8)) {
-		.aisle {
-			width: col(8);
-			padding-top: rhythm($d-small-line);
-			padding-bottom: rhythm($d-small-line);
-		}
-		.title, .menu {
+		.title {
+			width: col(8, $d-small-size);
+			padding-top: rhythm($d-small-line, $d-small-size);
 			padding-right: em($d-gut/2, $d-small-size);
+			padding-bottom: rhythm($d-small-line, $d-small-size);
 			padding-left: em($d-gut/2, $d-small-size);
 
 			@include adjust-font-size-to($d-small-size, $d-small-line);
 		}
-		.menu {
-			height: rhythm($d-small-line*2, $d-small-size);
-		}
-		.menu-icon {
-			width: em(24px, $d-small-size);
-			height: em(24px, $d-small-size);
-			margin-top: em(8px, $d-small-size);
-		}
 	}
 	@include min-screen(col(12)) {
 		text-align: left;
-		.aisle {
-			width: col(12);
-		}
-		.menu {
-			float: left;
-
-			width: col(2, $d-small-size);
-			height: rhythm($d-small-line, $d-small-size);
-			margin-right: -100%;
-			margin-left: 0;
-		}
-		.menu-icon {
-			margin-top: em(-2px, $d-small-size);
-		}
 		.title {
-			float: left;
-
-			width: col(8, $d-small-size);
-			margin-right: -100%;
-			margin-left: col(4, $d-small-size);
+			width: col(12, $d-small-size);
+			padding-left: col(4, $d-small-size) + em($d-gut/2, $d-small-size);
 			span {
 				display: inline;
-			}
-			span {
 				&:before {
 					content: "/ ";
 
@@ -133,15 +67,9 @@
 		}
 	}
 	@include min-screen(col(16)) {
-		.aisle {
-			width: col(16);
+		.title {
+			width: col(8, $d-small-size);
+			padding-left: em($d-gut/2, $d-small-size);
 		}
-		.menu {
-			width: col(4, $d-small-size);
-			margin-left: 0;
-		}
-		/*.menu-icon {
-			display: none;
-		}*/
 	}
 }

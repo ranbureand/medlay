@@ -34,10 +34,6 @@ As American cartoonist and comics theorist Scott McCloud theorized by his **infi
 
 By embracing the concept of the infinite canvas, the narrative pace of a medlay sequence has **no space boundaries or restrictions** and is free to extend on behalf of the needs of the story.
 
-### Static vs Dynamic
-
-
-
 ### Viewers as Motors of the Narration
 
 Since a sequence extends in space and not in time, viewers are completely **free to interact** with and **explore** it at an order and pace of their own choosing[^roll]. In particular, they can:
