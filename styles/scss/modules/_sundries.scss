@@ -28,6 +28,8 @@
 		@include align();
 	}
 	@include min-screen(col(8)) {
+		margin-right: em($d-gut/2);
+		margin-left: em($d-gut/2);
 		padding-top: rhythm($d-medium-line*4);
 		.aisle {
 			width: col(8);

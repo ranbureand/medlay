@@ -3,6 +3,7 @@ layout: chapter
 title: "Pieces"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
+chapter: 4
 categories: hello world
 intro: "Juxtaposition in Time of Series of Images, Temporal Montage"
 description: "Pieces are the basic building blocks of a Medlay artefact and they start as a mix/hybridization between the cinematographic shot and the comic panel."

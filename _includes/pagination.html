@@ -1,6 +1,6 @@
 {% capture chapters %}{{page.collection}}{% endcapture %}
 {% if page.collection %}
-  {% assign document = site[chapters] | sort: "date" | reversed %}
+  {% assign document = site[chapters] | sort: "chapter" | reversed %}
 {% endif %}
 {% for links in document %}
   {% if links.title == page.title %}

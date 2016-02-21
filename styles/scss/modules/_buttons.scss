@@ -22,7 +22,7 @@
 		text-decoration: none;
 
 		color: $strong-type-color;
-		border: $border-width/2 solid $strong-type-color;
+		border: $border-width/2 solid $type-color;
 
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
 		@include border-radius(5px, 5px);

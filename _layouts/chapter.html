@@ -23,11 +23,11 @@
       <div class="body typo-m">
         <h2>{{ page.title }} <span>{{ page.intro }}</span></h2>
         {{ content }}
+
+        {% include pagination.html %}
       </div>
 
       {% include chapters-table-of-content.html %}
-
-      {% include prev-next.html %}
 
     </div>
   </article>

@@ -3,6 +3,7 @@ layout: chapter
 title: "Research"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
+chapter: 7
 categories: hello world
 intro: "Hybridization of Cinema and Comics"
 description: "Is it possible to create a new hybrid media form which integrates those characteristics of cinema and comics that seemed incompatible in the past, now that the two media forms potentially differ only in their respective procedures?"

@@ -3,6 +3,7 @@ layout: chapter
 title: "Sequences"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
+chapter: 5
 categories: hello world
 intro: "Juxtaposition in Space of Pieces, Spatial Montage"
 ---

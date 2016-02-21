@@ -1,18 +1,26 @@
 /* (c) 2015 Andrea Buran [www.andreaburan.com] All rights reserved */
 
 /*
-** Chapters Toc
+** Pagination
 */
 
 .pagination {
-	overflow: auto;
 	display: block;
 	clear: both;
-	padding-bottom: rhythm($m-medium-line*4);
+	overflow: auto;
+
+	margin-right: em(-$m-gut/2);
+	margin-left: em(-$m-gut/2);
+	padding-top: rhythm($m-medium-line*2);
+	//padding-bottom: rhythm($m-medium-line*4);
 	a {
 		position: relative;
-		width: 50%;
+
 		display: block;
+
+		width: 50%;
+
+		@include link(none);
 		&:hover, &:active {
 			.title, .intro {
 				color: $st-type-color;
@@ -21,25 +29,46 @@
 				fill: $st-type-color;
 			}
 		}
+		&:before {
+			display: block;
+
+			margin-bottom: rhythm($m-small-line/2);
+
+			content: "";
+
+			border-top: 1px solid $light-border-color;
+		}
 	}
 	.prev {
 		float: left;
-		text-align: left;
+
 		padding-right: em($m-gut/2);
-		padding-left: em($m-gut*2);
+		padding-left: em($m-gut*7/4);
+
+		text-align: left;
 		.icon {
+			left: em($m-gut/4);
+
 			float: left;
-			left: em($m-gut/8);
+		}
+		&:before {
+			margin-left: em(-$m-gut*5/4);
 		}
 	}
 	.next {
 		float: right;
-		text-align: right;
+
+		padding-right: em($m-gut*7/4);
 		padding-left: em($m-gut/2);
-		padding-right: em($m-gut*2);
+
+		text-align: right;
 		.icon {
+			right: em($m-gut/4);
+
 			float: right;
-			right: em($m-gut/8);
+		}
+		&:before {
+			margin-right: em(-$m-gut*5/4);
 		}
 	}
 	.title, .intro {
@@ -48,39 +77,57 @@
 		@include transition-timing-function(ease-in-out);
 	}
 	.title {
-		border-top: 1px solid $light-border-color;
 		font-weight: $bold;
+
 		color: $type-color;
+
 		@include adjust-font-size-to($m-medium-size, $m-medium-line);
 	}
 	.intro {
 		color: $light-type-color;
+
 		@include adjust-font-size-to($m-small-size, $m-small-line);
 	}
 	.icon {
 		position: absolute;
-		top: 0;
+		top: rhythm($m-small-line/2);
+
+		width: em(32);
+		height: em(32);
+
 		fill: $type-color;
 		@include transition-property(fill);
 		@include transition-duration(0.2s);
 		@include transition-timing-function(ease-in-out);
-		height: em(32);
-		width: em(32);
 	}
 	@include min-screen(col(8)) {
-		padding-bottom: rhythm($d-medium-line*4);
+		margin-right: em(-$d-gut/2);
+		margin-left: em(-$d-gut/2);
+		padding-top: rhythm($d-medium-line*2);
+		//padding-bottom: rhythm($d-medium-line*4);
+		a {
+			&:before {
+				margin-bottom: rhythm($d-small-line/2);
+			}
+		}
 		.prev {
 			padding-right: em($d-gut/2);
-			padding-left: em($d-gut*2);
+			padding-left: em($d-gut*7/4);
 			.icon {
 				left: em($d-gut/8);
 			}
+			&:before {
+				margin-left: em(-$d-gut*5/4);
+			}
 		}
 		.next {
+			padding-right: em($d-gut*7/4);
 			padding-left: em($d-gut/2);
-			padding-right: em($d-gut*2);
 			.icon {
 				right: em($d-gut/8);
+			}
+			&:before {
+				margin-right: em(-$d-gut*5/4);
 			}
 		}
 		.title {
@@ -88,6 +135,9 @@
 		}
 		.intro {
 			@include adjust-font-size-to($d-small-size, $d-small-line);
+		}
+		.icon {
+			top: rhythm($d-small-line*3/4);
 		}
 	}
 	@include min-screen(col(12)) {

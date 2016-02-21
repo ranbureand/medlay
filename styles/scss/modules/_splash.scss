@@ -8,7 +8,7 @@
 	position: relative;
 	z-index: 3;
 
-	width: 100%;
+	//width: 100%;
 	height: 100vh;
 	height: calc(80vh - #{rhythm($m-small-line*3)});
 	margin-bottom: rhythm(-$m-medium-line*2);
@@ -25,6 +25,8 @@
 	@include transition-delay(0s);
 	@include min-screen(col(8)) {
 		height: calc(80vh - #{rhythm($d-small-line*3)});
+		margin-right: em($d-gut/2);
 		margin-bottom: rhythm(-$d-medium-line*2);
+		margin-left: em($d-gut/2);
 	}
 }

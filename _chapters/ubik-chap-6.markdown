@@ -3,6 +3,7 @@ layout: chapter
 title: "Ubik Chap. 6"
 author: "Andrea Buran"
 date: 2015-02-03 11:16:00
+chapter: 3
 categories: hello world
 intro: "Validation by Prototype"
 description: "The principles at the basis of the Medlay concept have been validated in two proof of concept prototypes: The Last Dispatch and Ubik Chap. 6."
