@@ -26,6 +26,7 @@ img::selection {
 ** Focus
 */
 
+::active,
 ::focus {
 	outline-style: none;
 	outline-color: transparent;
