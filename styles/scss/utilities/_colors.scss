@@ -37,8 +37,12 @@ $selected-type-color: $strong-type-color;
 ** Backgrounds
 */
 
-$strong-background-color: darken($canvas, 3%);
+/*$strong-background-color: darken($canvas, 3%);
 $background-color: $canvas;
+$light-background-color: lighten($canvas, 6%);*/
+
+$strong-background-color: darken($canvas, 6%);
+$background-color: darken($canvas, 2%);
 $light-background-color: lighten($canvas, 6%);
 
 $selected-background-color: darken($canvas, 3%);
