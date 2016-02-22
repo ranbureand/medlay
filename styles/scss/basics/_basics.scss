@@ -26,7 +26,6 @@ img::selection {
 ** Focus
 */
 
-::active,
 ::focus {
 	outline-style: none;
 	outline-color: transparent;
@@ -69,6 +68,9 @@ html {
 
 *, *:before, *:after {
 	box-sizing: inherit;
+
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
 }
 
 body {
