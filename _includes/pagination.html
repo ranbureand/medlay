@@ -1,4 +1,4 @@
-{% capture chapters %}{{page.collection}}{% endcapture %}
+{% capture chapters %}{{ page.collection }}{% endcapture %}
 
 {% if page.collection %}
   {% assign document = site[chapters] | sort: "chapter" | reversed %}
