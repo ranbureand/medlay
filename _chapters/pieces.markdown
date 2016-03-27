@@ -68,7 +68,7 @@ Since a piece is spatially juxtaposed on a canvas, its frame is directly visible
 
 {% include figure.html type-1="video" src-1="piece_shapes_00" caption="A vertical or a horizontal shape can better emphasize the content of a piece." %}
 
-{% include figure.html src-1="placeholder_01.png" alt-1="Alternative description 1." caption="Significant sizes and shapes." %}
+{% include figure.html type-1="video" src-1="piece_sizes_00" caption="Significant sizes." %}
 
 {% include figure.html type-1="video" src-1="piece_borders_00" caption="Significant borders." %}
 
