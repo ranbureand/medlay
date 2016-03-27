@@ -13,10 +13,10 @@
 			// Check if .video-content has the muted attribute
 			if (typeof attrMuted !== typeof undefined && attrMuted !== false) {
 				// Insert custom controls after .video-content
-				$myVideo.after('<div class="video-controls"><div class="play" title="Play/Pause"></div><div class="mute" title="Mute/Unmute"></div></div>');
+				$myVideo.after('<div class="video-controls"><div class="play paused" title="Play/Pause"></div><div class="mute" title="Mute/Unmute"></div></div>');
 			} else {
 				// Insert custom controls after .video-content
-				$myVideo.after('<div class="video-controls"><div class="play" title="Play/Pause"></div></div>');
+				$myVideo.after('<div class="video-controls"><div class="play paused" title="Play/Pause"></div></div>');
 			};
 
 			// Create video controls jQuery objects
