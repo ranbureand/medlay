@@ -31,7 +31,7 @@
 		@include transition-property(opacity, background-color);
 		@include transition-duration(0.2s, 0.2s);
 		@include transition-timing-function(ease-in-out, ease-in-out);
-		&:hover {
+		&:hover, &:active {
 			opacity: 0.90;
 			background-color: $background-color;
 		}
