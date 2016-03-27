@@ -30,7 +30,7 @@
 			height: em(64px);
 			display: block;
 			@include align(center);
-			fill: $light-type-color;
+			fill: $type-color;
 		}
 	}
 	[class*="toe"] {

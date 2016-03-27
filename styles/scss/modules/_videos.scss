@@ -10,7 +10,7 @@
 		.video-controls {
 			.played, .paused {
 				opacity: 0.90;
-				background-color: $background-color;
+				background-color: $st-color;
 			}
 		}
 	}
@@ -41,7 +41,7 @@
 		@include transition-timing-function(ease-in-out, ease-in-out);
 		&:hover, &:active {
 			opacity: 0.90;
-			background-color: $background-color;
+			background-color: $st-color;
 		}
 	}
 	.play, .mute {
@@ -59,7 +59,6 @@
 	.paused {
 		opacity: 0.90;
 		background-image: url("../../icons/ic_play_arrow_white_24px.svg");
-		background-color: $st-color;
 	}
 	.unmuted {
 		background-image: url("../../icons/ic_volume_up_white_24px.svg");
@@ -67,7 +66,6 @@
 	.muted {
 		opacity: 0.90;
 		background-image: url("../../icons/ic_volume_mute_white_24px.svg");
-		background-color: $st-color;
 	}
 	@include min-screen(col(8)) {
 		div {
