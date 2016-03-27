@@ -6,6 +6,14 @@
 
 .video-container {
 	position: relative;
+	&:hover, &:active {
+		.video-controls {
+			.played, .paused {
+				opacity: 0.90;
+				background-color: $background-color;
+			}
+		}
+	}
 }
 
 .video-content {
