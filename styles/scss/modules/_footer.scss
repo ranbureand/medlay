@@ -92,11 +92,12 @@
 			margin-left: col(4);
 		}
 		.logo {
+			clear: left;
 			float: left;
 			padding-bottom: rhythm($d-medium-line*2);
-			width: col(4);
+			width: col(8);
 			margin-right: -100%;
-			margin-left: 0;
+			margin-left: col(4);
 			text-align: left;
 			svg {
 				margin-left: 0;
